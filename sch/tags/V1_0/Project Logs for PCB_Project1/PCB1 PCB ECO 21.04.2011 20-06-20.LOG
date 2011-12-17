@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=D_P Pin=J1-3
+Removed Pin From Net: NetName=D_P Pin=R8-2
+Change Net Name : Old Net Name=D_P New Net Name=D1_P
+Added Pin To Net: NetName=D1_N Pin=R5-1
+Added Pin To Net: NetName=D1_N Pin=U2-19
+Added Net: Name=D1_N
+Added Pin To Net: NetName=D2_N Pin=J1-2
+Added Pin To Net: NetName=D2_N Pin=R5-2
+Added Net: Name=D2_N
+Added Pin To Net: NetName=D2_P Pin=J1-3
+Added Pin To Net: NetName=D2_P Pin=R8-2
+Added Net: Name=D2_P
+Added Differential Pair: Name=D1
+Added Differential Pair: Name=D2
+Added Room: Name=Sheet1
+Added Room: Name=Slave_Sheet2

@@ -1,0 +1,11 @@
+Removed Member From Class: ClassName=220V_r Member=NetH3_2
+Removed Member From Class: ClassName=220V_r Member=NetH4_1
+Change Component Footprint: Designator=Y1 Old Footprint=HC-49S New Footprint=HC-49SM
+Change Net Name : Old Net Name=NetH3_2 New Net Name=H3_2
+Change Net Name : Old Net Name=NetH4_1 New Net Name=H4_1
+Added Member To Class: ClassName=220V_r Member=Wire H3_2
+Added Member To Class: ClassName=220V_r Member=Wire H3_2
+Added Member To Class: ClassName=220V_r Member=Wire H3_2
+Added Member To Class: ClassName=220V_r Member=Wire H4_1
+Added Member To Class: ClassName=220V_r Member=Wire H4_1
+Added Member To Class: ClassName=220V_r Member=Wire H4_1

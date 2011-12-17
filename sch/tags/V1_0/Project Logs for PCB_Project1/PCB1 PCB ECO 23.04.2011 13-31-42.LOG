@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=NetH2_4 Pin=R37-1
+Removed Pin From Net: NetName=NetR33_2 Pin=R37-2
+Removed Member From Class: ClassName=Slave_Sheet2 Member=R40
+Change Component Designator: OldDesignator=R40 NewDesignator=R37
+Added Component: Designator=R33(RESC2012M)
+Added Pin To Net: NetName=NetH2_4 Pin=R33-1
+Added Pin To Net: NetName=NetR33_2 Pin=R33-2
+Added Member To Class: ClassName=Sheet1 Member=Component C4 Cap Semi
+Added Member To Class: ClassName=Slave_Sheet2 Member=Component R33 Res Semi
+Added Member To Class: ClassName=Slave_Sheet2 Member=Component R34 Res Semi
+Added Member To Class: ClassName=Slave_Sheet2 Member=Component R35 Res Semi
+Added Member To Class: ClassName=Slave_Sheet2 Member=Component R36 Res Semi
+Added Member To Class: ClassName=Sheet1 Member=Component U5 ADM2483

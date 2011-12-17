@@ -1,0 +1,16 @@
+Added Component: Designator=C27(CAPC1608L)
+Added Component: Designator=C28(CAPC1608L)
+Added Component: Designator=U5(PR35)
+Added Pin To Net: NetName=GND Pin=C27-1
+Added Pin To Net: NetName=VCC33 Pin=C27-2
+Added Pin To Net: NetName=GND Pin=C28-1
+Added Pin To Net: NetName=PIO1_3 Pin=C28-2
+Added Pin To Net: NetName=PIO1_3 Pin=R27-1
+Added Pin To Net: NetName=VCC33 Pin=U5-1
+Added Pin To Net: NetName=GND Pin=U5-3
+Added Pin To Net: NetName=NetR27_2 Pin=R27-2
+Added Pin To Net: NetName=NetR27_2 Pin=U5-2
+Added Net: Name=NetR27_2
+Added Member To Class: ClassName=Sheet1 Member=Component C27 Cap Semi
+Added Member To Class: ClassName=Sheet1 Member=Component C28 Cap Semi
+Added Member To Class: ClassName=Sheet1 Member=Component U5 TMP35

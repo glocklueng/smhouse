@@ -1,0 +1,24 @@
+Removed Member From Class: ClassName=Slave_Sheet2 Member=C1
+Removed Member From Class: ClassName=Slave_Sheet2 Member=C2
+Removed Member From Class: ClassName=Slave_Sheet2 Member=C3
+Removed Member From Class: ClassName=Slave_Sheet2 Member=C4
+Removed Member From Class: ClassName=Slave_Sheet2 Member=C5
+Removed Member From Class: ClassName=Slave_Sheet2 Member=C6
+Change Component Footprint: Designator=C24 Old Footprint=CAPC1608L New Footprint=CAPC4532L
+Change Component Comment : Designator=C24 Old Comment=Cap Semi New Comment=Cap Pol3
+Added Member To Class: ClassName=Slave_Sheet2 Member=Component C8 Cap Semi
+Added Member To Class: ClassName=Slave_Sheet2 Member=Component C9 Cap Semi
+Added Member To Class: ClassName=Slave_Sheet2 Member=Component C10 Cap Semi
+Added Member To Class: ClassName=Slave_Sheet2 Member=Component C11 Cap Semi
+Added Member To Class: ClassName=Slave_Sheet2 Member=Component C12 Cap Semi
+Added Member To Class: ClassName=Slave_Sheet2 Member=Component C13 Cap Semi
+Added Member To Class: ClassName=Slave_Sheet2 Member=Component D5 Bridge1
+Added Member To Class: ClassName=Slave_Sheet2 Member=Component D6 SMBJ5.0CA
+Added Member To Class: ClassName=Sheet1 Member=Component H4 Klemnik4_my
+Added Member To Class: ClassName=Sheet1 Member=Component J2 CON3
+Added Member To Class: ClassName=Sheet1 Member=Component LED5 USB
+Added Member To Class: ClassName=Sheet1 Member=Component R5 Res Semi
+Added Member To Class: ClassName=Sheet1 Member=Component R20 Res Semi
+Added Member To Class: ClassName=Slave_Sheet2 Member=Component R23 Res Semi
+Added Member To Class: ClassName=Slave_Sheet2 Member=Component R32 Res Semi
+Added Member To Class: ClassName=Slave_Sheet2 Member=Component R33 Res Semi

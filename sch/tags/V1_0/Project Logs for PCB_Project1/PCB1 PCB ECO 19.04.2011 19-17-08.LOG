@@ -1,0 +1,50 @@
+Removed Pin From Net: NetName=GND Pin=C16-1
+Removed Pin From Net: NetName=VCC5 Pin=C16-2
+Removed Pin From Net: NetName=GND Pin=C17-1
+Removed Pin From Net: NetName=VCC5 Pin=C17-2
+Removed Pin From Net: NetName=VCC5 Pin=C23-2
+Removed Pin From Net: NetName=VCC5 Pin=C26-2
+Removed Pin From Net: NetName=PIO2_9 Pin=R31-2
+Removed Pin From Net: NetName=NetH2_3 Pin=R32-2
+Removed Pin From Net: NetName=NetH2_4 Pin=R33-2
+Removed Pin From Net: NetName=VCC5 Pin=U6-1
+Removed Pin From Net: NetName=NetR30_1 Pin=U6-2
+Removed Pin From Net: NetName=GND Pin=U6-3
+Removed Pin From Net: NetName=NetH2_1 Pin=U6-4
+Removed Pin From Net: NetName=VCC5 Pin=U7-1
+Removed Pin From Net: NetName=GND Pin=U7-3
+Removed Pin From Net: NetName=NetH2_2 Pin=U7-4
+Removed Pin From Net: NetName=VCC5 Pin=U9-1
+Removed Pin From Net: NetName=PIO2_10 Pin=U9-4
+Removed Pin From Net: NetName=VCC5 Pin=U10-1
+Removed Member From Class: ClassName=Slave_Sheet2 Member=C16
+Removed Member From Class: ClassName=Slave_Sheet2 Member=C17
+Removed Member From Class: ClassName=Slave_Sheet2 Member=C23
+Removed Member From Class: ClassName=Slave_Sheet2 Member=C26
+Removed Member From Class: ClassName=Slave_Sheet2 Member=R31
+Removed Member From Class: ClassName=Slave_Sheet2 Member=R32
+Removed Member From Class: ClassName=Slave_Sheet2 Member=U7
+Removed Member From Class: ClassName=Slave_Sheet2 Member=U9
+Added Component: Designator=D8(DSO-F2/D6.1)
+Added Component: Designator=R39(RESC1608L)
+Added Component: Designator=R40(RESC1608L)
+Added Pin To Net: NetName=PIO2_11 Pin=D8-2
+Added Pin To Net: NetName=NetH2_4 Pin=R33-1
+Added Pin To Net: NetName=VCC5 Pin=R39-1
+Added Pin To Net: NetName=NetH2_2 Pin=R40-2
+Added Pin To Net: NetName=NetR30_1 Pin=U6-1
+Added Pin To Net: NetName=GND Pin=U6-2
+Added Pin To Net: NetName=NetH2_3 Pin=U6-3
+Added Pin To Net: NetName=NetH2_1 Pin=U10-2
+Added Pin To Net: NetName=GND Pin=U10-3
+Added Pin To Net: NetName=NetR33_2 Pin=R33-2
+Added Pin To Net: NetName=NetR33_2 Pin=U6-4
+Added Net: Name=NetR33_2
+Added Pin To Net: NetName=NetR40_1 Pin=R40-1
+Added Pin To Net: NetName=NetR40_1 Pin=U10-1
+Added Net: Name=NetR40_1
+Added Member To Class: ClassName=Slave_Sheet2 Member=Component D8 LED2
+Added Member To Class: ClassName=Slave_Sheet2 Member=Component R39 Res Semi
+Added Member To Class: ClassName=Slave_Sheet2 Member=Component R40 Res Semi
+Added Room: Name=Sheet1
+Added Room: Name=Slave_Sheet2

@@ -1,0 +1,23 @@
+Removed Member From Class: ClassName=Slave_Sheet2 Member=C11
+Removed Member From Class: ClassName=Slave_Sheet2 Member=C12
+Removed Member From Class: ClassName=Slave_Sheet2 Member=R16
+Removed Member From Class: ClassName=Slave_Sheet2 Member=R17
+Removed Member From Class: ClassName=Slave_Sheet2 Member=R19
+Removed Member From Class: ClassName=Slave_Sheet2 Member=R20
+Added Pin To Net: NetName=NetH4_2 Pin=K3-4
+Added Pin To Net: NetName=NetH4_4 Pin=K4-4
+Added Member To Class: ClassName=Sheet1 Member=Component C13 Cap Semi
+Added Member To Class: ClassName=Slave_Sheet2 Member=Component C15 Cap Semi
+Added Member To Class: ClassName=Slave_Sheet2 Member=Component C16 Cap Semi
+Added Member To Class: ClassName=Slave_Sheet2 Member=Component C23 Cap Semi
+Added Member To Class: ClassName=Slave_Sheet2 Member=Component C24 Cap Semi
+Added Member To Class: ClassName=Slave_Sheet2 Member=Component C26 Cap Semi
+Added Member To Class: ClassName=Sheet1 Member=Component R16 Res Semi
+Added Member To Class: ClassName=Sheet1 Member=Component R17 Res Semi
+Added Member To Class: ClassName=Sheet1 Member=Component R20 Res Semi
+Added Member To Class: ClassName=Slave_Sheet2 Member=Component R21 Res Semi
+Added Member To Class: ClassName=Slave_Sheet2 Member=Component R22 Res Semi
+Added Member To Class: ClassName=Slave_Sheet2 Member=Component R23 Res Semi
+Added Member To Class: ClassName=Slave_Sheet2 Member=Component R24 Res Semi
+Added Member To Class: ClassName=Slave_Sheet2 Member=Component R29 Res Semi
+Added Member To Class: ClassName=Slave_Sheet2 Member=Component R30 Res Semi

@@ -1,0 +1,20 @@
+Removed Pin From Net: NetName=NetC20_1 Pin=VR1-1
+Removed Pin From Net: NetName=GND Pin=VR1-2
+Removed Pin From Net: NetName=VCC33 Pin=VR1-3
+Removed Pin From Net: NetName=NetC20_1 Pin=VR2-1
+Removed Pin From Net: NetName=GND Pin=VR2-2
+Removed Pin From Net: NetName=VCC5 Pin=VR2-3
+Change Component DesignItemId : Designator=VR1 Old DesignItemId=Volt Reg New DesignItemId=LM1117IMP-3.3
+Change Component DesignItemId : Designator=VR2 Old DesignItemId=Volt Reg New DesignItemId=LM1117IMP-5.0
+Change Component Footprint: Designator=VR1 Old Footprint=TO254P1510-3_4N New Footprint=MP04A_N
+Change Component Footprint: Designator=VR2 Old Footprint=TO254P1510-3_4N New Footprint=MP04A_N
+Change Component Comment : Designator=VR1 Old Comment=AS1117-3.3 New Comment=LM1117IMP-3.3
+Change Component Comment : Designator=VR2 Old Comment=AS1117-5 New Comment=LM1117IMP-5.0
+Added Pin To Net: NetName=GND Pin=VR1-1
+Added Pin To Net: NetName=VCC33 Pin=VR1-2
+Added Pin To Net: NetName=NetC20_1 Pin=VR1-3
+Added Pin To Net: NetName=VCC33 Pin=VR1-4
+Added Pin To Net: NetName=GND Pin=VR2-1
+Added Pin To Net: NetName=VCC5 Pin=VR2-2
+Added Pin To Net: NetName=NetC20_1 Pin=VR2-3
+Added Pin To Net: NetName=VCC5 Pin=VR2-4
