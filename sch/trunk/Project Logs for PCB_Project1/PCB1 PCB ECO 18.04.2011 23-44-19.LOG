@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=PIO1_3 Pin=R27-1
+Added Component: Designator=R38(RESC1608L)
+Added Pin To Net: NetName=PIO1_2 Pin=R27-1
+Added Pin To Net: NetName=NetH1_4 Pin=R27-2
+Added Pin To Net: NetName=PIO1_3 Pin=R38-1
+Added Pin To Net: NetName=NetR38_2 Pin=R38-2
+Added Pin To Net: NetName=NetR38_2 Pin=U5-2
+Added Net: Name=NetR38_2
+Added Member To Class: ClassName=Sheet1 Member=Component R38 Res Semi

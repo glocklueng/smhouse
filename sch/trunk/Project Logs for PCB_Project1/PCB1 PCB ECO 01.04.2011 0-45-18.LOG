@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=DC-GND Pin=C9-1
+Removed Pin From Net: NetName=+3.3V Pin=C9-2
+Removed Pin From Net: NetName=DC-GND Pin=C12-1
+Removed Pin From Net: NetName=+3.3V Pin=C12-2
+Removed Pin From Net: NetName=DC-GND Pin=C13-1
+Removed Pin From Net: NetName=+3.3V Pin=C13-2
+Removed Member From Class: ClassName=Slave_Sheet2 Member=C9
+Removed Member From Class: ClassName=Slave_Sheet2 Member=C12
+Removed Member From Class: ClassName=Slave_Sheet2 Member=C13

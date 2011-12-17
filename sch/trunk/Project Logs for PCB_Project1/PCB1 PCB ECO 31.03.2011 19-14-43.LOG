@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=GND Pin=S1-2
+Removed Pin From Net: NetName=PIO0_0 Pin=S1-3
+Removed Pin From Net: NetName=PIO0_0 Pin=S1-4
+Removed Pin From Net: NetName=PIO1_4 Pin=S2-1
+Removed Pin From Net: NetName=GND Pin=S2-3
+Removed Member From Class: ClassName=Sheet1 Member=S1
+Removed Member From Class: ClassName=Sheet1 Member=S2
+Added Component: Designator=Reset(BUTTON)
+Added Component: Designator=Wakeup(BUTTON)
+Added Pin To Net: NetName=GND Pin=Reset-2
+Added Pin To Net: NetName=PIO0_0 Pin=Reset-3
+Added Pin To Net: NetName=PIO0_0 Pin=Reset-4
+Added Pin To Net: NetName=PIO1_4 Pin=Wakeup-1
+Added Pin To Net: NetName=GND Pin=Wakeup-3
+Added Member To Class: ClassName=Sheet1 Member=Component Reset
+Added Member To Class: ClassName=Sheet1 Member=Component Wakeup

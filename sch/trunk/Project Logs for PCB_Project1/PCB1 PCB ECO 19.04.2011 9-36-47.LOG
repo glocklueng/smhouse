@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=NetC20_1 Pin=D6-2
+Removed Pin From Net: NetName=NetC20_1 Pin=D7-2
+Removed Pin From Net: NetName=NetJ3_1 Pin=W2-1
+Change Component Comment : Designator=W2 Old Comment=Button_inner New Comment=Power Button
+Added Pin To Net: NetName=NetJ3_1 Pin=D5-2
+Added Pin To Net: NetName=NetC20_1 Pin=W2-2
+Change Net Name : Old Net Name=NetJ3_1 New Net Name=NetD5_2
+Added Pin To Net: NetName=NetD6_2 Pin=D6-2
+Added Pin To Net: NetName=NetD6_2 Pin=D7-2
+Added Pin To Net: NetName=NetD6_2 Pin=W2-1
+Added Net: Name=NetD6_2

@@ -1,0 +1,4 @@
+Added Component: Designator=W2(RAD-0.2)
+Added Pin To Net: NetName=NetJ3_1 Pin=W2-1
+Added Pin To Net: NetName=NetD5_2 Pin=W2-2
+Added Member To Class: ClassName=Slave_Sheet2 Member=Component W2 Button_inner

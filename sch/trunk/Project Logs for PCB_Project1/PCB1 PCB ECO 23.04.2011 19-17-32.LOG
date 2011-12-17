@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=NetD5_2 Pin=J3-1A
+Removed Pin From Net: NetName=NetD5_2 Pin=J3-1B
+Removed Pin From Net: NetName=NetF1_1 Pin=J3-2A
+Removed Pin From Net: NetName=NetF1_1 Pin=J3-2B
+Removed Pin From Net: NetName=NetF1_1 Pin=J3-3A
+Removed Pin From Net: NetName=NetF1_1 Pin=J3-3B
+Change Component Footprint: Designator=J3 Old Footprint= New Footprint=KLD-0202
