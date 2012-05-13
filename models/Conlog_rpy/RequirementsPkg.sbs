@@ -1,0 +1,53 @@
+I-Logix-RPY-Archive version 8.6.0 C 4012249
+{ ISubsystem 
+	- _ownerHandle = { IHandle 
+		- _m2Class = "ISubsystem";
+		- _filename = "RequirementsAnalysisPkg.sbs";
+		- _subsystem = "";
+		- _class = "";
+		- _name = "RequirementsAnalysisPkg";
+		- _id = GUID 22970381-e1bf-4407-a03f-4746da3c9c9f;
+	}
+	- _id = GUID b5e9a598-24fa-44d6-95fc-b3d9cb80c4c5;
+	- _myState = 8192;
+	- _name = "RequirementsPkg";
+	- _lastID = 3;
+	- Declaratives = { IRPYRawContainer 
+		- size = 3;
+		- value = 
+		{ ISubsystem 
+			- fileName = "StakeholderRequirementsPkg";
+			- _id = GUID ae31e5ed-874d-488f-9904-d1c0c344ce8a;
+		}
+		{ ISubsystem 
+			- fileName = "SystemRequirementsPkg";
+			- _id = GUID 779ca470-e8c9-444d-979c-3314f1652a7b;
+		}
+		{ ISubsystem 
+			- fileName = "DerivedRequirementsPkg";
+			- _id = GUID 62d244da-83a5-44c4-9c77-873997d3fdb9;
+		}
+	}
+	- weakCGTime = 5.7.2012::20:18:48;
+	- strongCGTime = 4.7.2012::12:21:2;
+	- _defaultComposite = GUID 7d3ccbc0-4931-4ebb-bb00-f84f0dd75875;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IClass 
+			- _id = GUID 7d3ccbc0-4931-4ebb-bb00-f84f0dd75875;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- weakCGTime = 4.7.2012::13:14:29;
+			- strongCGTime = 4.7.2012::12:21:2;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 1.2.1990::0:0:0;
+}
+

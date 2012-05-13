@@ -1,0 +1,40 @@
+I-Logix-RPY-Archive version 8.6.0 C 4012249
+{ ISubsystem 
+	- _id = GUID 9a581458-0ee7-4ff3-8781-572dc2f0bc65;
+	- _myState = 8192;
+	- _name = "FunctionalAnalysisPkg";
+	- Declaratives = { IRPYRawContainer 
+		- size = 2;
+		- value = 
+		{ ISubsystem 
+			- fileName = "Uc1ArmingLoggerPkg";
+			- _id = GUID 60be33a7-7a09-4597-9abc-caad2ae67578;
+		}
+		{ ISubsystem 
+			- fileName = "Uc2DataLoggingAndIntrusionDetectionPkg";
+			- _id = GUID fdd03621-2b39-41ad-991c-32806549d712;
+		}
+	}
+	- weakCGTime = 5.9.2012::11:50:49;
+	- strongCGTime = 1.2.1990::0:0:0;
+	- _defaultComposite = GUID 1b79b4ff-fde7-449e-818e-895112d70b9d;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IClass 
+			- _id = GUID 1b79b4ff-fde7-449e-818e-895112d70b9d;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- weakCGTime = 5.3.2012::21:25:28;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 1.2.1990::0:0:0;
+}
+

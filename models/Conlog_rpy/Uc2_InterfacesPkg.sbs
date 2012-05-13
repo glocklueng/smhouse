@@ -1,0 +1,433 @@
+I-Logix-RPY-Archive version 8.6.0 C 4012249
+{ ISubsystem 
+	- _ownerHandle = { IHandle 
+		- _m2Class = "ISubsystem";
+		- _filename = "InterfacesPkg.sbs";
+		- _subsystem = "";
+		- _class = "";
+		- _name = "InterfacesPkg";
+		- _id = GUID 9e985f4f-d319-4919-bdac-f32ea101a61d;
+	}
+	- _id = GUID d3b53ff1-cb0d-437c-b560-3a0d9d8be107;
+	- _myState = 8192;
+	- _name = "Uc2_InterfacesPkg";
+	- _lastID = 1;
+	- weakCGTime = 5.10.2012::23:8:6;
+	- strongCGTime = 5.10.2012::17:49:51;
+	- _defaultComposite = GUID 1a2effe4-16d3-4b24-95e4-da2a8a603000;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 6;
+		- value = 
+		{ IClass 
+			- _id = GUID 1a2effe4-16d3-4b24-95e4-da2a8a603000;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- weakCGTime = 5.10.2012::17:50:0;
+			- strongCGTime = 5.10.2012::17:49:51;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 874bdfbc-ec93-4291-af48-3f5e609a3353;
+			- _myState = 8192;
+			- _name = "iUc_Uc2DataLoggingAndIntrusionDetection_Sensors";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "PredefinedTypes.sbs";
+					- _subsystem = "PredefinedTypes";
+					- _class = "";
+					- _name = "Interface";
+					- _id = GUID 2a7b8a63-f54f-4379-bab0-02800a5084e1;
+				}
+			}
+			- weakCGTime = 5.10.2012::23:8:15;
+			- strongCGTime = 5.10.2012::17:50:0;
+			- Operations = { IRPYRawContainer 
+				- size = 6;
+				- value = 
+				{ IReception 
+					- _id = GUID 5c8a2b79-170e-4462-8fb1-6d29daac165f;
+					- _myState = 8192;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _filename = "InterfacesPkg.sbs";
+						- _subsystem = "InterfacesPkg";
+						- _class = "";
+						- _name = "reqTurnOffSensorsPower()";
+						- _id = GUID 6aff6a50-7fd5-40fb-bcf2-d1e31c918da5;
+					}
+				}
+				{ IReception 
+					- _id = GUID 6fe304d1-72e3-4db3-98ba-dee3b09985c9;
+					- _myState = 8192;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _filename = "InterfacesPkg.sbs";
+						- _subsystem = "InterfacesPkg";
+						- _class = "";
+						- _name = "reqTurnOnSensorsPower()";
+						- _id = GUID 39e156e6-ed40-4aab-8b6a-9a06be6382ea;
+					}
+				}
+				{ IReception 
+					- _id = GUID 2e0bbff6-3769-45e8-9980-bdb2a48c6e0c;
+					- _myState = 8192;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _filename = "InterfacesPkg.sbs";
+						- _subsystem = "InterfacesPkg";
+						- _class = "";
+						- _name = "reqCheckSensors()";
+						- _id = GUID 8cf0b110-d918-4cc8-be22-f5de8731f734;
+					}
+				}
+				{ IReception 
+					- _id = GUID 57766a2b-63ed-4036-aeb5-f60ff23194eb;
+					- _myState = 8192;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _filename = "InterfacesPkg.sbs";
+						- _subsystem = "InterfacesPkg";
+						- _class = "";
+						- _name = "reqReadSensors()";
+						- _id = GUID 4272d577-dfe4-4e02-ba2e-83c9aa9489b0;
+					}
+				}
+				{ IReception 
+					- _id = GUID 27d1e12c-601b-485c-b739-6f5702a9e941;
+					- _myState = 8192;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _filename = "InterfacesPkg.sbs";
+						- _subsystem = "InterfacesPkg";
+						- _class = "";
+						- _name = "reqAcquisitionModeActive()";
+						- _id = GUID 5ff50542-fa3b-48de-8c9f-775aa6f22edd;
+					}
+				}
+				{ IReception 
+					- _id = GUID 1e49ff19-a66e-4f4b-9f96-42e09ecbe34f;
+					- _myState = 8192;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _filename = "InterfacesPkg.sbs";
+						- _subsystem = "InterfacesPkg";
+						- _class = "";
+						- _name = "reqIdleModeActive()";
+						- _id = GUID 49c9a367-5e95-4205-97d8-8db8ca499c7d;
+					}
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID ae7f339b-626c-46cb-b588-753b7ef6150c;
+			- _myState = 8192;
+			- _name = "iUc_Uc2DataLoggingAndIntrusionDetection_Scanner";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "PredefinedTypes.sbs";
+					- _subsystem = "PredefinedTypes";
+					- _class = "";
+					- _name = "Interface";
+					- _id = GUID 2a7b8a63-f54f-4379-bab0-02800a5084e1;
+				}
+			}
+			- weakCGTime = 5.10.2012::17:50:0;
+			- strongCGTime = 5.10.2012::17:50:0;
+			- Operations = { IRPYRawContainer 
+				- size = 3;
+				- value = 
+				{ IReception 
+					- _id = GUID 1a2e7561-d33d-42c5-8a04-324dee426396;
+					- _myState = 8192;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _filename = "InterfacesPkg.sbs";
+						- _subsystem = "InterfacesPkg";
+						- _class = "";
+						- _name = "reqReadKey()";
+						- _id = GUID 8ffad32b-cb8b-4ed0-8a5c-108ad303db17;
+					}
+				}
+				{ IReception 
+					- _id = GUID c28af695-f588-4b4b-8559-fb738c1cbd10;
+					- _myState = 8192;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _filename = "InterfacesPkg.sbs";
+						- _subsystem = "InterfacesPkg";
+						- _class = "";
+						- _name = "reqTurnOnScanner()";
+						- _id = GUID d16b3d87-343f-43eb-803e-e4ab41edf1ae;
+					}
+				}
+				{ IReception 
+					- _id = GUID 55ae9c22-c8d7-4b37-b8a4-6f817961b7a0;
+					- _myState = 8192;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _filename = "InterfacesPkg.sbs";
+						- _subsystem = "InterfacesPkg";
+						- _class = "";
+						- _name = "reqTurnOffScanner()";
+						- _id = GUID ed447b7d-6e50-4d29-a92f-1d7d3b0f23e5;
+					}
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 23f038ed-05f0-4f74-8f41-a7c95c9cd24b;
+			- _myState = 8192;
+			- _name = "iSensors_Uc_Uc2DataLoggingAndIntrusionDetection";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "PredefinedTypes.sbs";
+					- _subsystem = "PredefinedTypes";
+					- _class = "";
+					- _name = "Interface";
+					- _id = GUID 2a7b8a63-f54f-4379-bab0-02800a5084e1;
+				}
+			}
+			- weakCGTime = 5.10.2012::17:50:0;
+			- strongCGTime = 5.10.2012::17:50:0;
+			- Operations = { IRPYRawContainer 
+				- size = 4;
+				- value = 
+				{ IReception 
+					- _id = GUID a5eb8d5c-b059-45ca-9705-9d7825570e2d;
+					- _myState = 8192;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _filename = "InterfacesPkg.sbs";
+						- _subsystem = "InterfacesPkg";
+						- _class = "";
+						- _name = "evSensorsReaded()";
+						- _id = GUID 7700676e-03b4-4d4d-8f4c-865cc3c68c12;
+					}
+				}
+				{ IReception 
+					- _id = GUID e122e839-c516-4c15-9a47-9733a43e5ca7;
+					- _myState = 8192;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _filename = "InterfacesPkg.sbs";
+						- _subsystem = "InterfacesPkg";
+						- _class = "";
+						- _name = "evSensorsPoweredUp()";
+						- _id = GUID 98736d66-58c6-4daf-bdab-662104468ec1;
+					}
+				}
+				{ IReception 
+					- _id = GUID 92c9cc7e-848b-4b15-9d69-14ade7d3872b;
+					- _myState = 8192;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _filename = "InterfacesPkg.sbs";
+						- _subsystem = "InterfacesPkg";
+						- _class = "";
+						- _name = "evSensorsStatus(RiCBoolean)";
+						- _id = GUID 9ee865a0-c8e0-4c54-af7d-d7eb05fcc0da;
+					}
+				}
+				{ IReception 
+					- _id = GUID 19173919-fcf5-4dea-9b2b-5b775b964a54;
+					- _myState = 8192;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _filename = "InterfacesPkg.sbs";
+						- _subsystem = "InterfacesPkg";
+						- _class = "";
+						- _name = "evMotionDetected()";
+						- _id = GUID 2f85e622-fafd-4e9c-a937-24e726d9d9c1;
+					}
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 06a3b322-40f1-4bd5-af5d-b99ec001ee7b;
+			- _myState = 8192;
+			- _name = "iDriver_Uc_Uc2DataLoggingAndIntrusionDetection";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "PredefinedTypes.sbs";
+					- _subsystem = "PredefinedTypes";
+					- _class = "";
+					- _name = "Interface";
+					- _id = GUID 2a7b8a63-f54f-4379-bab0-02800a5084e1;
+				}
+			}
+			- weakCGTime = 5.10.2012::17:50:0;
+			- strongCGTime = 5.10.2012::17:50:0;
+			- Operations = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IReception 
+					- _id = GUID 2b31fbe7-0b5e-497e-b7c7-2fb9033ee05a;
+					- _myState = 8192;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _filename = "InterfacesPkg.sbs";
+						- _subsystem = "InterfacesPkg";
+						- _class = "";
+						- _name = "evWakeUpButtonPressed()";
+						- _id = GUID b4179b27-699f-41e1-ba70-3a2bdae233bf;
+					}
+				}
+				{ IReception 
+					- _id = GUID 3cd47489-38ac-4867-8cde-d588815f5420;
+					- _myState = 8192;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _filename = "InterfacesPkg.sbs";
+						- _subsystem = "InterfacesPkg";
+						- _class = "";
+						- _name = "evKeyApplied()";
+						- _id = GUID ddb93fd7-900d-40b7-82c2-44d76463bd85;
+					}
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 67e90d20-308f-444c-93e7-a5efaf42a323;
+			- _myState = 8192;
+			- _name = "iScanner_Uc_Uc2DataLoggingAndIntrusionDetection";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "PredefinedTypes.sbs";
+					- _subsystem = "PredefinedTypes";
+					- _class = "";
+					- _name = "Interface";
+					- _id = GUID 2a7b8a63-f54f-4379-bab0-02800a5084e1;
+				}
+			}
+			- weakCGTime = 5.10.2012::17:50:0;
+			- strongCGTime = 5.10.2012::17:50:0;
+			- Operations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IReception 
+					- _id = GUID d75c7b8a-839f-4116-8940-899b61464e50;
+					- _myState = 8192;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _filename = "InterfacesPkg.sbs";
+						- _subsystem = "InterfacesPkg";
+						- _class = "";
+						- _name = "evKeyReaded(char*)";
+						- _id = GUID af02d4dc-4d63-4578-b3ab-70dd92afc03b;
+					}
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 5.10.2012::23:5:6;
+}
+

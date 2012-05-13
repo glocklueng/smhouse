@@ -1,0 +1,38 @@
+I-Logix-RPY-Archive version 8.6.0 * 4012249
+
+- filesTable = { IRPYRawContainer 
+	- size = 31;
+	- value = "Conlog.rpy" ""
+	"Conlog_rpy\\AccessControlTradeStudy.sbs" "DesignSynthesisPkg::ArchitecturalAnalysisPkg::TradeStudyAnalysisPkg::AccessControlTradeStudy"
+	"Conlog_rpy\\ActorPkg.sbs" "ActorPkg"
+	"Conlog_rpy\\ArchitecturalAnalysisPkg.sbs" "DesignSynthesisPkg::ArchitecturalAnalysisPkg"
+	"Conlog_rpy\\ArchitecturalDesignPkg.sbs" "DesignSynthesisPkg::ArchitecturalDesignPkg"
+	"Conlog_rpy\\DerivedRequirementsPkg.sbs" "RequirementsAnalysisPkg::RequirementsPkg::DerivedRequirementsPkg"
+	"Conlog_rpy\\DesignSynthesisPkg.sbs" "DesignSynthesisPkg"
+	"Conlog_rpy\\FunctionalAnalysisPkg.sbs" "FunctionalAnalysisPkg"
+	"Conlog_rpy\\InterfacesPkg.sbs" "InterfacesPkg"
+	"Conlog_rpy\\ModelExecutionUc1.cmp" "ModelExecutionUc1"
+	"Conlog_rpy\\ModelExecutionUc2.cmp" "ModelExecutionUc2"
+	"Conlog_rpy\\MotionMonitoringTradeStudy.sbs" "DesignSynthesisPkg::ArchitecturalAnalysisPkg::TradeStudyAnalysisPkg::MotionMonitoringTradeStudy"
+	"Conlog_rpy\\RequirementsAnalysisPkg.sbs" "RequirementsAnalysisPkg"
+	"Conlog_rpy\\RequirementsPkg.sbs" "RequirementsAnalysisPkg::RequirementsPkg"
+	"Conlog_rpy\\StakeholderRequirementsPkg.sbs" "RequirementsAnalysisPkg::RequirementsPkg::StakeholderRequirementsPkg"
+	"Conlog_rpy\\SystemRequirementsPkg.sbs" "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirementsPkg"
+	"Conlog_rpy\\TradeStudyAnalysisPkg.sbs" "DesignSynthesisPkg::ArchitecturalAnalysisPkg::TradeStudyAnalysisPkg"
+	"Conlog_rpy\\TypesPkg.sbs" "TypesPkg"
+	"Conlog_rpy\\Uc1ArmingLoggerBBScenariosPkg.sbs" "FunctionalAnalysisPkg::Uc1ArmingLoggerPkg::Uc1ArmingLoggerBBScenariosPkg"
+	"Conlog_rpy\\Uc1ArmingLoggerExecutionScopePkg.sbs" "FunctionalAnalysisPkg::Uc1ArmingLoggerPkg::Uc1ArmingLoggerExecutionScopePkg"
+	"Conlog_rpy\\Uc1ArmingLoggerPkg.sbs" "FunctionalAnalysisPkg::Uc1ArmingLoggerPkg"
+	"Conlog_rpy\\Uc1_InterfacesPkg.sbs" "InterfacesPkg::Uc1_InterfacesPkg"
+	"Conlog_rpy\\Uc1_RequirementsPkg.sbs" "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirementsPkg::Uc1_RequirementsPkg"
+	"Conlog_rpy\\Uc2DataLoggingAndIntrusionDetectionBBScenariosPkg.sbs" "FunctionalAnalysisPkg::Uc2DataLoggingAndIntrusionDetectionPkg::Uc2DataLoggingAndIntrusionDetectionBBScenariosPkg"
+	"Conlog_rpy\\Uc2DataLoggingAndIntrusionDetectionExecutionScopePkg.sbs" "FunctionalAnalysisPkg::Uc2DataLoggingAndIntrusionDetectionPkg::Uc2DataLoggingAndIntrusionDetectionExecutionScopePkg"
+	"Conlog_rpy\\Uc2DataLoggingAndIntrusionDetectionPkg.sbs" "FunctionalAnalysisPkg::Uc2DataLoggingAndIntrusionDetectionPkg"
+	"Conlog_rpy\\Uc2_InterfacesPkg.sbs" "InterfacesPkg::Uc2_InterfacesPkg"
+	"Conlog_rpy\\Uc2_RequirementsPkg.sbs" "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirementsPkg::Uc2_RequirementsPkg"
+	"Conlog_rpy\\Uc3_RequirementsPkg.sbs" "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirementsPkg::Uc3_RequirementsPkg"
+	"Conlog_rpy\\Uc4_RequirementsPkg.sbs" "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirementsPkg::Uc4_RequirementsPkg"
+	"Conlog_rpy\\UseCaseDiagramsPkg.sbs" "RequirementsAnalysisPkg::UseCaseDiagramsPkg"
+	
+}
+

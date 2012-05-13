@@ -1,0 +1,267 @@
+I-Logix-RPY-Archive version 8.6.0 C 4012249
+{ ISubsystem 
+	- _id = GUID 9e985f4f-d319-4919-bdac-f32ea101a61d;
+	- _myState = 8192;
+	- _name = "InterfacesPkg";
+	- _lastID = 14;
+	- Declaratives = { IRPYRawContainer 
+		- size = 2;
+		- value = 
+		{ ISubsystem 
+			- fileName = "Uc1_InterfacesPkg";
+			- _id = GUID e4697786-3bec-4173-a39b-d0f6d25e36d2;
+		}
+		{ ISubsystem 
+			- fileName = "Uc2_InterfacesPkg";
+			- _id = GUID d3b53ff1-cb0d-437c-b560-3a0d9d8be107;
+		}
+	}
+	- weakCGTime = 5.11.2012::12:33:11;
+	- strongCGTime = 1.2.1990::0:0:0;
+	- _defaultComposite = GUID 8f53241a-ed96-46ab-81a8-4ef37184612a;
+	- _eventsBaseID = 24601;
+	- Classes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IClass 
+			- _id = GUID 8f53241a-ed96-46ab-81a8-4ef37184612a;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- weakCGTime = 5.10.2012::17:50:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- Events = { IRPYRawContainer 
+		- size = 18;
+		- value = 
+		{ IEvent 
+			- _id = GUID b4179b27-699f-41e1-ba70-3a2bdae233bf;
+			- _myState = 8192;
+			- _name = "evWakeUpButtonPressed";
+			- _virtual = 0;
+			- Args = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IEvent 
+			- _id = GUID ddb93fd7-900d-40b7-82c2-44d76463bd85;
+			- _myState = 8192;
+			- _name = "evKeyApplied";
+			- _virtual = 0;
+			- Args = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IEvent 
+			- _id = GUID 9ee865a0-c8e0-4c54-af7d-d7eb05fcc0da;
+			- _myState = 8192;
+			- _name = "evSensorsStatus";
+			- _lastID = 1;
+			- _virtual = 0;
+			- Args = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IArgument 
+					- _id = GUID b6c683e4-117d-4b84-870b-f7c5ac6ba1bb;
+					- _name = "Failure";
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC.sbs";
+						- _subsystem = "PredefinedTypesC";
+						- _class = "";
+						- _name = "RiCBoolean";
+						- _id = GUID b8644cfd-526b-4b0e-b2f1-f3f168e7f7cd;
+					}
+					- _isOrdered = 0;
+					- _argumentDirection = In;
+				}
+			}
+		}
+		{ IEvent 
+			- _id = GUID 98736d66-58c6-4daf-bdab-662104468ec1;
+			- _myState = 8192;
+			- _name = "evSensorsPoweredUp";
+			- _virtual = 0;
+			- Args = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IEvent 
+			- _id = GUID 7700676e-03b4-4d4d-8f4c-865cc3c68c12;
+			- _myState = 8192;
+			- _name = "evSensorsReaded";
+			- _virtual = 0;
+			- Args = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IEvent 
+			- _id = GUID af02d4dc-4d63-4578-b3ab-70dd92afc03b;
+			- _myState = 8192;
+			- _name = "evKeyReaded";
+			- _lastID = 1;
+			- _virtual = 0;
+			- Args = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IArgument 
+					- _id = GUID 30070e49-c74c-485c-a7c9-aa1cac389aeb;
+					- _name = "Key";
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC.sbs";
+						- _subsystem = "PredefinedTypesC";
+						- _class = "";
+						- _name = "char*";
+						- _id = GUID 1ae3facb-89cb-11d2-b813-00104b3e6572;
+					}
+					- _isOrdered = 0;
+					- _argumentDirection = In;
+				}
+			}
+		}
+		{ IEvent 
+			- _id = GUID 2f85e622-fafd-4e9c-a937-24e726d9d9c1;
+			- _myState = 8192;
+			- _properties = { IPropertyContainer 
+				- Subjects = { IRPYRawContainer 
+					- size = 1;
+					- value = 
+					{ IPropertySubject 
+						- _Name = "CG";
+						- Metaclasses = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertyMetaclass 
+								- _Name = "Event";
+								- Properties = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IProperty 
+										- _Name = "DeleteAfterConsumption";
+										- _Value = "False";
+										- _Type = Enum;
+										- _ExtraTypeInfo = "True, False, Default";
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			- _name = "evMotionDetected";
+			- _lastID = 1;
+			- _virtual = 0;
+			- Args = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IEvent 
+			- _id = GUID f9b1bdcb-fea9-4023-86e2-8305be99355d;
+			- _myState = 8192;
+			- _name = "evStartScanner";
+			- _lastID = 1;
+			- _virtual = 0;
+			- Args = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IEvent 
+			- _id = GUID 2245b6cd-23ac-4a17-a541-158d74471cd4;
+			- _myState = 8192;
+			- _name = "evScannerPoweredUp";
+			- _virtual = 0;
+			- Args = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IEvent 
+			- _id = GUID 8ffad32b-cb8b-4ed0-8a5c-108ad303db17;
+			- _myState = 8192;
+			- _name = "reqReadKey";
+			- _virtual = 0;
+			- Args = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IEvent 
+			- _id = GUID 39e156e6-ed40-4aab-8b6a-9a06be6382ea;
+			- _myState = 8192;
+			- _name = "reqTurnOnSensorsPower";
+			- _virtual = 0;
+			- Args = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IEvent 
+			- _id = GUID 6aff6a50-7fd5-40fb-bcf2-d1e31c918da5;
+			- _myState = 8192;
+			- _name = "reqTurnOffSensorsPower";
+			- _virtual = 0;
+			- Args = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IEvent 
+			- _id = GUID 8cf0b110-d918-4cc8-be22-f5de8731f734;
+			- _myState = 8192;
+			- _name = "reqCheckSensors";
+			- _virtual = 0;
+			- Args = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IEvent 
+			- _id = GUID 4272d577-dfe4-4e02-ba2e-83c9aa9489b0;
+			- _myState = 8192;
+			- _name = "reqReadSensors";
+			- _virtual = 0;
+			- Args = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IEvent 
+			- _id = GUID d16b3d87-343f-43eb-803e-e4ab41edf1ae;
+			- _myState = 8192;
+			- _name = "reqTurnOnScanner";
+			- _virtual = 0;
+			- Args = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IEvent 
+			- _id = GUID ed447b7d-6e50-4d29-a92f-1d7d3b0f23e5;
+			- _myState = 8192;
+			- _name = "reqTurnOffScanner";
+			- _virtual = 0;
+			- Args = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IEvent 
+			- _id = GUID 5ff50542-fa3b-48de-8c9f-775aa6f22edd;
+			- _myState = 8192;
+			- _name = "reqAcquisitionModeActive";
+			- _virtual = 0;
+			- Args = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IEvent 
+			- _id = GUID 49c9a367-5e95-4205-97d8-8db8ca499c7d;
+			- _myState = 8192;
+			- _name = "reqIdleModeActive";
+			- _virtual = 0;
+			- Args = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+	}
+	- _configurationRelatedTime = 5.11.2012::3:32:9;
+}
+

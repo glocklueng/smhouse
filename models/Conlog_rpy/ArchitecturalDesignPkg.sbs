@@ -1,0 +1,5647 @@
+I-Logix-RPY-Archive version 8.6.0 C 4012249
+{ ISubsystem 
+	- _ownerHandle = { IHandle 
+		- _m2Class = "ISubsystem";
+		- _filename = "DesignSynthesisPkg.sbs";
+		- _subsystem = "";
+		- _class = "";
+		- _name = "DesignSynthesisPkg";
+		- _id = GUID 1e033ad7-3220-469b-9334-1f56eae8d2f6;
+	}
+	- _id = GUID 6873b200-3aef-4a75-a39a-ccdfd6e4910e;
+	- _myState = 8192;
+	- _name = "ArchitecturalDesignPkg";
+	- _lastID = 1;
+	- weakCGTime = 5.12.2012::2:31:54;
+	- strongCGTime = 5.12.2012::1:41:32;
+	- _defaultComposite = GUID e58fe620-9904-46bc-82ab-f4155e612c0d;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 2;
+		- value = 
+		{ IClass 
+			- _id = GUID e58fe620-9904-46bc-82ab-f4155e612c0d;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- weakCGTime = 1.1.1970::4:0:0;
+			- strongCGTime = 1.1.1970::4:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID e12cc832-ae5a-41ed-9f37-53fc80e2e93d;
+			- _myState = 8192;
+			- _properties = { IPropertyContainer 
+				- Subjects = { IRPYRawContainer 
+					- size = 1;
+					- value = 
+					{ IPropertySubject 
+						- _Name = "CG";
+						- Metaclasses = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertyMetaclass 
+								- _Name = "Class";
+								- Properties = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IProperty 
+										- _Name = "OperationsAutoArrange";
+										- _Value = "False";
+										- _Type = Bool;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			- _name = "ConlogSystem";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+					- _subsystem = "SysML::Blocks";
+					- _class = "";
+					- _name = "block";
+					- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
+				}
+			}
+			- Annotations = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IComment 
+					- _id = GUID 6caa1aa6-a205-4b6e-9e86-274f1de7f978;
+					- _name = "DuplicateOperationsFound";
+					- _description = { IDescription 
+						- _text = "The Following Operational Contracts could not be copied because a duplicate already exists in the destination:
+
+Unable to Copy goToSleep from block Uc_Uc2DataLoggingAndIntrusionDetection
+Unable to Copy systemWakeUp from block Uc_Uc2DataLoggingAndIntrusionDetection
+Unable to Copy validateKey from block Uc_Uc2DataLoggingAndIntrusionDetection
+";
+					}
+					- _body = "";
+				}
+				{ IComment 
+					- _id = GUID eb490971-a665-45c7-977e-476638cfbf18;
+					- _name = "DuplicateAttributesFound";
+					- _description = { IDescription 
+						- _text = "The Following Attributes could not be copied because a duplicate already exists in the destination:
+
+Unable to Copy flagSensorsFailure from block Uc_Uc2DataLoggingAndIntrusionDetection
+Unable to Copy keyStatus from block Uc_Uc2DataLoggingAndIntrusionDetection
+Unable to Copy Mode from block Uc_Uc2DataLoggingAndIntrusionDetection
+Unable to Copy Key from block Uc_Uc2DataLoggingAndIntrusionDetection
+";
+					}
+					- _body = "";
+				}
+			}
+			- weakCGTime = 5.12.2012::2:32:21;
+			- strongCGTime = 5.12.2012::2:31:54;
+			- Operations = { IRPYRawContainer 
+				- size = 35;
+				- value = 
+				{ IConstructor 
+					- _id = GUID 586f73f6-ea03-48ad-a14c-568dc11de21f;
+					- _myState = 8192;
+					- Dependencies = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IDependency 
+							- _id = GUID cb1215dc-e8ec-4d46-bf89-171cdb3adebd;
+							- _myState = 2048;
+							- _name = "Init";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IConstructor";
+								- _filename = "Uc1ArmingLoggerPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc1ArmingLoggerPkg";
+								- _class = "Uc_Uc1ArmingLogger";
+								- _name = "Init()";
+								- _id = GUID d92a2ff9-bb97-4d59-89e5-6d46c1dff9d5;
+							}
+						}
+					}
+					- _lastID = 1;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC.sbs";
+						- _subsystem = "PredefinedTypesC";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 1ae3fac8-89cb-11d2-b813-00104b3e6572;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+					- _itsBody = { IBody 
+						- _bodyData = "me->savedKeys[0] = \"myKey1\";
+me->savedKeys[1] = \"myKey2\";
+me->savedKeys[2] = \"myKey3\";
+me->savedKeys[3] = \"myKey4\";
+me->savedKeys[4] = \"myKey5\";
+me->savedKeys[5] = \"myKey6\";
+me->savedKeys[6] = \"myKey7\";
+me->savedKeys[7] = \"myKey8\";";
+					}
+					- _initializer = "";
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID e0ba3967-c939-415d-b853-e22e483c1a33;
+					- _myState = 8192;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "C_CG";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Type";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "In";
+												- _Value = "const $type";
+												- _Type = String;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- _name = "changeMode";
+					- Dependencies = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IDependency 
+							- _id = GUID de9caf3e-d350-4d37-8acc-9c723993d836;
+							- _myState = 2048;
+							- _name = "changeMode";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IPrimitiveOperation";
+								- _filename = "Uc1ArmingLoggerPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc1ArmingLoggerPkg";
+								- _class = "Uc_Uc1ArmingLogger";
+								- _name = "changeMode(int)";
+								- _id = GUID f85cb442-b21e-45c2-851d-1f5b49c67999;
+							}
+						}
+						{ IDependency 
+							- _id = GUID 0364fd86-82e9-4f86-8233-ed545123fa60;
+							- _myState = 2048;
+							- _name = "changeMode";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IPrimitiveOperation";
+								- _filename = "Uc2DataLoggingAndIntrusionDetectionPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc2DataLoggingAndIntrusionDetectionPkg";
+								- _class = "Uc_Uc2DataLoggingAndIntrusionDetection";
+								- _name = "changeMode(int)";
+								- _id = GUID 1545d043-82c2-4060-ac14-02a13cddaf50;
+							}
+						}
+					}
+					- _lastID = 2;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IArgument 
+							- _id = GUID c6e751e9-4d00-4d15-8fe1-6af6aca8b9a4;
+							- _name = "Mode";
+							- ValueSpecifications = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ ILiteralSpecification 
+									- _id = GUID af36b79d-5ec1-4aff-8053-1d1d2112b569;
+									- _value = "IDLE";
+								}
+							}
+							- _typeOf = { IHandle 
+								- _m2Class = "IType";
+								- _filename = "PredefinedTypesC.sbs";
+								- _subsystem = "PredefinedTypesC";
+								- _class = "";
+								- _name = "int";
+								- _id = GUID 1ae3fac5-89cb-11d2-b813-00104b3e6572;
+							}
+							- _isOrdered = 0;
+							- _argumentDirection = In;
+						}
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC.sbs";
+						- _subsystem = "PredefinedTypesC";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 1ae3fac8-89cb-11d2-b813-00104b3e6572;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPrivate;
+					- _static = 0;
+					- _constant = 0;
+					- _itsBody = { IBody 
+						- _bodyData = "me->Mode = Mode;";
+					}
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID dc6202a8-6f26-4e97-9dc4-d532eb05077d;
+					- _myState = 8192;
+					- _name = "checkFreeMemory";
+					- Dependencies = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IDependency 
+							- _id = GUID 01068a85-82a7-46c2-9d23-404e6c92bb9f;
+							- _myState = 2048;
+							- _name = "Memory Monitoring";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+									- _subsystem = "SysML::Requirements";
+									- _class = "";
+									- _name = "satisfy";
+									- _id = GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IRequirement";
+								- _filename = "SystemRequirementsPkg.sbs";
+								- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirementsPkg";
+								- _class = "";
+								- _name = "Memory Monitoring";
+								- _id = GUID bee18ce8-2495-4551-af4e-93e899340856;
+							}
+						}
+						{ IDependency 
+							- _id = GUID 7ad5640f-1236-4a09-9bd4-06fed60af223;
+							- _myState = 2048;
+							- _name = "checkFreeMemory";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IPrimitiveOperation";
+								- _filename = "Uc1ArmingLoggerPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc1ArmingLoggerPkg";
+								- _class = "Uc_Uc1ArmingLogger";
+								- _name = "checkFreeMemory()";
+								- _id = GUID 3e531887-fd99-450f-8d88-55f35591a4d0;
+							}
+						}
+					}
+					- _lastID = 2;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC.sbs";
+						- _subsystem = "PredefinedTypesC";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 1ae3fac8-89cb-11d2-b813-00104b3e6572;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPrivate;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID 256488b4-46e5-4ea8-9d1d-2d2377692635;
+					- _myState = 8192;
+					- _name = "checkSensors";
+					- Dependencies = { IRPYRawContainer 
+						- size = 4;
+						- value = 
+						{ IDependency 
+							- _id = GUID 05a7e98a-6355-4735-8eb2-cf528705c4cb;
+							- _myState = 2048;
+							- _name = "Sensors Check";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+									- _subsystem = "SysML::Requirements";
+									- _class = "";
+									- _name = "satisfy";
+									- _id = GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IRequirement";
+								- _filename = "SystemRequirementsPkg.sbs";
+								- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirementsPkg";
+								- _class = "";
+								- _name = "Sensors Check";
+								- _id = GUID 64b0850c-45c4-44b6-9b83-096636df6407;
+							}
+						}
+						{ IDependency 
+							- _id = GUID 52835266-4412-4f0d-a455-e9b7046449bd;
+							- _name = "Aquisition Mode Block";
+							- _displayName = "{\\rtf1\\ansi\\ansicpg1251\\deff0\\deflang1049{\\fonttbl{\\f0\\fnil\\fcharset204 MS Shell Dlg;}}
+\\viewkind4\\uc1\\pard\\f0\\fs17 A\\'f1quisition Mode Block\\par
+}
+";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+									- _subsystem = "SysML::Requirements";
+									- _class = "";
+									- _name = "satisfy";
+									- _id = GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IRequirement";
+								- _filename = "SystemRequirementsPkg.sbs";
+								- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirementsPkg";
+								- _class = "";
+								- _name = "A\ñquisition Mode Block";
+								- _id = GUID 94c5a49c-5fe3-4e74-bcef-eace436188e9;
+							}
+						}
+						{ IDependency 
+							- _id = GUID 2bf419b5-cb3a-48fc-8ca0-a2a61b3772bc;
+							- _myState = 2048;
+							- _name = "checkSensors";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IPrimitiveOperation";
+								- _filename = "Uc1ArmingLoggerPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc1ArmingLoggerPkg";
+								- _class = "Uc_Uc1ArmingLogger";
+								- _name = "checkSensors(RiCBoolean)";
+								- _id = GUID 3342b5f4-bedd-4d8b-9aba-84548c936263;
+							}
+						}
+						{ IDependency 
+							- _id = GUID 22203a97-47f5-4ba3-befc-4fc093df15d0;
+							- _myState = 2048;
+							- _name = "checkSensors";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IPrimitiveOperation";
+								- _filename = "Uc2DataLoggingAndIntrusionDetectionPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc2DataLoggingAndIntrusionDetectionPkg";
+								- _class = "Uc_Uc2DataLoggingAndIntrusionDetection";
+								- _name = "checkSensors(RiCBoolean)";
+								- _id = GUID 043ce266-c35b-49d6-8eea-1d9cdc3f8e1b;
+							}
+						}
+					}
+					- _lastID = 2;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IArgument 
+							- _id = GUID db182e3c-0918-4e8d-bc32-fe3203afb7e7;
+							- _name = "Status";
+							- _typeOf = { IHandle 
+								- _m2Class = "IType";
+								- _filename = "PredefinedTypesC.sbs";
+								- _subsystem = "PredefinedTypesC";
+								- _class = "";
+								- _name = "RiCBoolean";
+								- _id = GUID b8644cfd-526b-4b0e-b2f1-f3f168e7f7cd;
+							}
+							- _isOrdered = 0;
+							- _argumentDirection = In;
+						}
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC.sbs";
+						- _subsystem = "PredefinedTypesC";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 1ae3fac8-89cb-11d2-b813-00104b3e6572;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPrivate;
+					- _static = 0;
+					- _constant = 0;
+					- _itsBody = { IBody 
+						- _bodyData = "me->flagSensorsFailure = Status;";
+					}
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID d07f043d-fc4b-426c-8743-0399eacd8705;
+					- _myState = 8192;
+					- _name = "checkSensorsData";
+					- Dependencies = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IDependency 
+							- _id = GUID bcdd816f-8e2e-4e53-910d-fa26d5b40995;
+							- _myState = 2048;
+							- _name = "checkSensorsData";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IPrimitiveOperation";
+								- _filename = "Uc2DataLoggingAndIntrusionDetectionPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc2DataLoggingAndIntrusionDetectionPkg";
+								- _class = "Uc_Uc2DataLoggingAndIntrusionDetection";
+								- _name = "checkSensorsData()";
+								- _id = GUID f82376e0-9bf3-4fc8-89e1-aedaafbdb47f;
+							}
+						}
+					}
+					- _lastID = 1;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC.sbs";
+						- _subsystem = "PredefinedTypesC";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 1ae3fac8-89cb-11d2-b813-00104b3e6572;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPrivate;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID f78a7444-7600-4c46-8bf7-009175a2ec63;
+					- _myState = 8192;
+					- _name = "goToSleep";
+					- Dependencies = { IRPYRawContainer 
+						- size = 3;
+						- value = 
+						{ IDependency 
+							- _id = GUID 24e39511-b27c-45fa-9845-12d0827e90da;
+							- _myState = 2048;
+							- _name = "Low Power Modes";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+									- _subsystem = "SysML::Requirements";
+									- _class = "";
+									- _name = "satisfy";
+									- _id = GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IRequirement";
+								- _filename = "SystemRequirementsPkg.sbs";
+								- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirementsPkg";
+								- _class = "";
+								- _name = "Low Power Modes";
+								- _id = GUID eb204624-92b3-4b73-896b-94a2694b88f8;
+							}
+						}
+						{ IDependency 
+							- _id = GUID 239ff1c1-2a5d-4e61-af22-e0a2b862c1ce;
+							- _myState = 2048;
+							- _name = "goToSleep";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IPrimitiveOperation";
+								- _filename = "Uc1ArmingLoggerPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc1ArmingLoggerPkg";
+								- _class = "Uc_Uc1ArmingLogger";
+								- _name = "goToSleep()";
+								- _id = GUID 64195eff-c3f3-4761-93df-ef41c3284432;
+							}
+						}
+						{ IDependency 
+							- _id = GUID 07985a15-8f91-439f-91ae-91ad006789d5;
+							- _myState = 2048;
+							- _name = "goToSleep";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IPrimitiveOperation";
+								- _filename = "Uc2DataLoggingAndIntrusionDetectionPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc2DataLoggingAndIntrusionDetectionPkg";
+								- _class = "Uc_Uc2DataLoggingAndIntrusionDetection";
+								- _name = "goToSleep()";
+								- _id = GUID ef4c7c00-b33c-4b7b-8de5-2655c81e96a5;
+							}
+						}
+					}
+					- _lastID = 3;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC.sbs";
+						- _subsystem = "PredefinedTypesC";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 1ae3fac8-89cb-11d2-b813-00104b3e6572;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPrivate;
+					- _static = 0;
+					- _constant = 0;
+					- _itsBody = { IBody 
+						- _bodyData = "";
+					}
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID 284560f1-7c1e-498a-9134-b389b4ad24f3;
+					- _myState = 8192;
+					- _name = "ledAlarm";
+					- Dependencies = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IDependency 
+							- _id = GUID 7fabe0e1-4edb-4cde-98e4-ef41b528b19a;
+							- _myState = 2048;
+							- _name = "Alarm Check";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+									- _subsystem = "SysML::Requirements";
+									- _class = "";
+									- _name = "satisfy";
+									- _id = GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IRequirement";
+								- _filename = "SystemRequirementsPkg.sbs";
+								- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirementsPkg";
+								- _class = "";
+								- _name = "Alarm Check";
+								- _id = GUID ce7d8327-c1c9-4c7c-b391-c17f03aca961;
+							}
+						}
+						{ IDependency 
+							- _id = GUID 29ed8f44-5635-4cb1-9fae-a2a7da34b84a;
+							- _myState = 2048;
+							- _name = "ledAlarm";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IPrimitiveOperation";
+								- _filename = "Uc1ArmingLoggerPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc1ArmingLoggerPkg";
+								- _class = "Uc_Uc1ArmingLogger";
+								- _name = "ledAlarm()";
+								- _id = GUID 5d1cebe9-1745-41e2-8dc6-0cfb444c6ab7;
+							}
+						}
+					}
+					- _lastID = 2;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC.sbs";
+						- _subsystem = "PredefinedTypesC";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 1ae3fac8-89cb-11d2-b813-00104b3e6572;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPrivate;
+					- _static = 0;
+					- _constant = 0;
+					- _itsBody = { IBody 
+						- _bodyData = "";
+					}
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID 562cf173-058b-4802-8eee-f5219687b597;
+					- _myState = 8192;
+					- _name = "ledBatteryLow";
+					- Dependencies = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IDependency 
+							- _id = GUID a03a53ad-04c8-48ed-a350-f00947b53ec8;
+							- _myState = 2048;
+							- _name = "Low Battery Indicator";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+									- _subsystem = "SysML::Requirements";
+									- _class = "";
+									- _name = "satisfy";
+									- _id = GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IRequirement";
+								- _filename = "SystemRequirementsPkg.sbs";
+								- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirementsPkg";
+								- _class = "";
+								- _name = "Low Battery Indicator";
+								- _id = GUID 738f8d2e-eb7a-4662-99bc-bd90d3a32d57;
+							}
+						}
+						{ IDependency 
+							- _id = GUID 1380ad1c-aa50-4696-a1ee-ee86d65e4c5a;
+							- _myState = 2048;
+							- _name = "ledBatteryLow";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IPrimitiveOperation";
+								- _filename = "Uc1ArmingLoggerPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc1ArmingLoggerPkg";
+								- _class = "Uc_Uc1ArmingLogger";
+								- _name = "ledBatteryLow()";
+								- _id = GUID 044ab5a6-67a2-4234-a7d3-2e19184a0803;
+							}
+						}
+					}
+					- _lastID = 2;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC.sbs";
+						- _subsystem = "PredefinedTypesC";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 1ae3fac8-89cb-11d2-b813-00104b3e6572;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPrivate;
+					- _static = 0;
+					- _constant = 0;
+					- _itsBody = { IBody 
+						- _bodyData = "";
+					}
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID 3161223f-0d84-4595-98c8-24732b94254a;
+					- _myState = 8192;
+					- _name = "ledIdleMode";
+					- Dependencies = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IDependency 
+							- _id = GUID 20128144-1b6e-4074-bcd6-e8eeafd578d4;
+							- _myState = 2048;
+							- _name = "Idle Indicator";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+									- _subsystem = "SysML::Requirements";
+									- _class = "";
+									- _name = "satisfy";
+									- _id = GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IRequirement";
+								- _filename = "DerivedRequirementsPkg.sbs";
+								- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::DerivedRequirementsPkg";
+								- _class = "";
+								- _name = "Idle Indicator";
+								- _id = GUID 4fc6ad71-63b1-4bcb-8d18-95b5a61da970;
+							}
+						}
+						{ IDependency 
+							- _id = GUID 93e8aa3f-fdcb-4e57-bfbb-1f9031cc5942;
+							- _myState = 2048;
+							- _name = "ledIdleMode";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IPrimitiveOperation";
+								- _filename = "Uc1ArmingLoggerPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc1ArmingLoggerPkg";
+								- _class = "Uc_Uc1ArmingLogger";
+								- _name = "ledIdleMode()";
+								- _id = GUID 81b8d4c9-fbd2-4344-8e8e-bf5f35c4a81f;
+							}
+						}
+					}
+					- _lastID = 2;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC.sbs";
+						- _subsystem = "PredefinedTypesC";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 1ae3fac8-89cb-11d2-b813-00104b3e6572;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPrivate;
+					- _static = 0;
+					- _constant = 0;
+					- _itsBody = { IBody 
+						- _bodyData = "";
+					}
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID 7a333048-9820-4a1b-ab2f-a26d0c175b5e;
+					- _myState = 8192;
+					- _name = "ledSystemFailure";
+					- Dependencies = { IRPYRawContainer 
+						- size = 3;
+						- value = 
+						{ IDependency 
+							- _id = GUID 9c3c717a-37d6-4b42-8b12-dd1d4838449b;
+							- _myState = 2048;
+							- _name = "Memory Low Indicator";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+									- _subsystem = "SysML::Requirements";
+									- _class = "";
+									- _name = "satisfy";
+									- _id = GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IRequirement";
+								- _filename = "SystemRequirementsPkg.sbs";
+								- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirementsPkg";
+								- _class = "";
+								- _name = "Memory Low Indicator";
+								- _id = GUID 08c92239-8cf7-414f-81e7-a0b908da00eb;
+							}
+						}
+						{ IDependency 
+							- _id = GUID a96a7192-a4d5-4a91-a907-2d120340621e;
+							- _myState = 2048;
+							- _name = "Sensor Fail Indicator";
+							- _displayName = "{\\rtf1\\fbidis\\ansi\\ansicpg1251\\deff0\\deflang1049{\\fonttbl{\\f0\\fnil\\fcharset204{\\*\\fname Arial;}Arial CYR;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\f0\\fs20 Sensor Fail \\'cc\\'f8\\'fb\\'e3\\'f4\\'e4\\'f8\\'ff\\'f4\\'e5\\'f8\\'f9\\'f2\\par
+}
+";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+									- _subsystem = "SysML::Requirements";
+									- _class = "";
+									- _name = "satisfy";
+									- _id = GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IRequirement";
+								- _filename = "SystemRequirementsPkg.sbs";
+								- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirementsPkg";
+								- _class = "";
+								- _name = "Sensor Fail Indicator";
+								- _id = GUID 39e91af4-529c-4d8a-b6c2-1615a4af7592;
+							}
+						}
+						{ IDependency 
+							- _id = GUID 1dfeea4c-3a76-45c1-a906-b311c2989431;
+							- _myState = 2048;
+							- _name = "ledSystemFailure";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IPrimitiveOperation";
+								- _filename = "Uc1ArmingLoggerPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc1ArmingLoggerPkg";
+								- _class = "Uc_Uc1ArmingLogger";
+								- _name = "ledSystemFailure()";
+								- _id = GUID e74a84ac-9870-478a-84e9-9b7a47db2a34;
+							}
+						}
+					}
+					- _lastID = 3;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC.sbs";
+						- _subsystem = "PredefinedTypesC";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 1ae3fac8-89cb-11d2-b813-00104b3e6572;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPrivate;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID 671a7748-d7f3-4b16-8f48-b3dd13a411c8;
+					- _myState = 8192;
+					- _name = "ledTimeoutMode";
+					- Dependencies = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IDependency 
+							- _id = GUID b4063c3e-821f-499b-b660-c89433c73150;
+							- _myState = 2048;
+							- _name = "Exit Timeout Indicator";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+									- _subsystem = "SysML::Requirements";
+									- _class = "";
+									- _name = "satisfy";
+									- _id = GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IRequirement";
+								- _filename = "DerivedRequirementsPkg.sbs";
+								- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::DerivedRequirementsPkg";
+								- _class = "";
+								- _name = "Exit Timeout Indicator";
+								- _id = GUID b999bd42-b9b8-4102-8562-e6bea3c9ce5b;
+							}
+						}
+						{ IDependency 
+							- _id = GUID 18ff9e79-42ee-4a2f-830b-b10b046e2075;
+							- _myState = 2048;
+							- _name = "ledTimeoutMode";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IPrimitiveOperation";
+								- _filename = "Uc1ArmingLoggerPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc1ArmingLoggerPkg";
+								- _class = "Uc_Uc1ArmingLogger";
+								- _name = "ledTimeoutMode()";
+								- _id = GUID 4da18f23-7a9e-4ad2-b1c7-40513eafddcb;
+							}
+						}
+					}
+					- _lastID = 2;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC.sbs";
+						- _subsystem = "PredefinedTypesC";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 1ae3fac8-89cb-11d2-b813-00104b3e6572;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPrivate;
+					- _static = 0;
+					- _constant = 0;
+					- _itsBody = { IBody 
+						- _bodyData = "";
+					}
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID 12efd649-a0d4-4598-a6be-40eeb8ec771f;
+					- _myState = 8192;
+					- _name = "readKey";
+					- Dependencies = { IRPYRawContainer 
+						- size = 4;
+						- value = 
+						{ IDependency 
+							- _id = GUID acf8dcb6-3485-48bc-8d3c-26131912a66a;
+							- _myState = 2048;
+							- _name = "Acquisition Mode Entry";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+									- _subsystem = "SysML::Requirements";
+									- _class = "";
+									- _name = "satisfy";
+									- _id = GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IRequirement";
+								- _filename = "SystemRequirementsPkg.sbs";
+								- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirementsPkg";
+								- _class = "";
+								- _name = "Acquisition Mode Entry";
+								- _id = GUID 1c46c82e-6f43-42ac-8d0f-d42a6c582952;
+							}
+						}
+						{ IDependency 
+							- _id = GUID acb002c5-0a29-4a55-bda9-263a7037c7fb;
+							- _myState = 2048;
+							- _name = "Acquisition Mode Exit";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+									- _subsystem = "SysML::Requirements";
+									- _class = "";
+									- _name = "satisfy";
+									- _id = GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IRequirement";
+								- _filename = "SystemRequirementsPkg.sbs";
+								- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirementsPkg";
+								- _class = "";
+								- _name = "Acquisition Mode Exit";
+								- _id = GUID ed8fc13c-7d50-4b43-93d3-be72403d24c8;
+							}
+						}
+						{ IDependency 
+							- _id = GUID cee967fa-0ab3-4045-99db-541466cd3f12;
+							- _myState = 2048;
+							- _name = "readKey";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IPrimitiveOperation";
+								- _filename = "Uc1ArmingLoggerPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc1ArmingLoggerPkg";
+								- _class = "Uc_Uc1ArmingLogger";
+								- _name = "readKey(char*)";
+								- _id = GUID d6690597-3527-444b-9065-81e84e6107d5;
+							}
+						}
+						{ IDependency 
+							- _id = GUID 0116e7d3-d49a-404b-8e66-b68f6a8e8d6b;
+							- _myState = 2048;
+							- _name = "readKey";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IPrimitiveOperation";
+								- _filename = "Uc2DataLoggingAndIntrusionDetectionPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc2DataLoggingAndIntrusionDetectionPkg";
+								- _class = "Uc_Uc2DataLoggingAndIntrusionDetection";
+								- _name = "readKey(char*)";
+								- _id = GUID ed74d81c-b9ed-4392-8375-0cd6142c6c03;
+							}
+						}
+					}
+					- _lastID = 4;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IArgument 
+							- _id = GUID 4e9d9665-f9b7-4dad-99d6-b0f49361cb9b;
+							- _name = "Key";
+							- _typeOf = { IHandle 
+								- _m2Class = "IType";
+								- _filename = "PredefinedTypesC.sbs";
+								- _subsystem = "PredefinedTypesC";
+								- _class = "";
+								- _name = "char*";
+								- _id = GUID 1ae3facb-89cb-11d2-b813-00104b3e6572;
+							}
+							- _isOrdered = 0;
+							- _argumentDirection = In;
+						}
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC.sbs";
+						- _subsystem = "PredefinedTypesC";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 1ae3fac8-89cb-11d2-b813-00104b3e6572;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPrivate;
+					- _static = 0;
+					- _constant = 0;
+					- _itsBody = { IBody 
+						- _bodyData = "me->Key = Key;";
+					}
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID 49096af0-c9a4-4d3d-a010-31b5c68340ac;
+					- _myState = 8192;
+					- _name = "resetPSensorFlag";
+					- Dependencies = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IDependency 
+							- _id = GUID 40bdfbb1-4b23-41f4-aa51-32dd14714526;
+							- _myState = 2048;
+							- _name = "resetPSensorFlag";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IPrimitiveOperation";
+								- _filename = "Uc2DataLoggingAndIntrusionDetectionPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc2DataLoggingAndIntrusionDetectionPkg";
+								- _class = "Uc_Uc2DataLoggingAndIntrusionDetection";
+								- _name = "resetPSensorFlag()";
+								- _id = GUID 63e6c63d-b5a7-405b-ae7a-d8cadc995b4d;
+							}
+						}
+					}
+					- _lastID = 1;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC.sbs";
+						- _subsystem = "PredefinedTypesC";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 1ae3fac8-89cb-11d2-b813-00104b3e6572;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPrivate;
+					- _static = 0;
+					- _constant = 0;
+					- _itsBody = { IBody 
+						- _bodyData = "me->flagPSensor = 0;";
+					}
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID a8079bba-72c6-45ab-9593-f7882dc3727a;
+					- _myState = 8192;
+					- _name = "setPSensorFlag";
+					- Dependencies = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IDependency 
+							- _id = GUID 22db0862-9344-412e-ab72-3fce6dac4372;
+							- _myState = 2048;
+							- _name = "setPSensorFlag";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IPrimitiveOperation";
+								- _filename = "Uc2DataLoggingAndIntrusionDetectionPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc2DataLoggingAndIntrusionDetectionPkg";
+								- _class = "Uc_Uc2DataLoggingAndIntrusionDetection";
+								- _name = "setPSensorFlag()";
+								- _id = GUID 43bbdd7b-a247-4ff5-bc46-b1e480e3728c;
+							}
+						}
+					}
+					- _lastID = 1;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC.sbs";
+						- _subsystem = "PredefinedTypesC";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 1ae3fac8-89cb-11d2-b813-00104b3e6572;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPrivate;
+					- _static = 0;
+					- _constant = 0;
+					- _itsBody = { IBody 
+						- _bodyData = "me->flagPSensor = 1;";
+					}
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID ea94faec-8501-4016-86f4-8bcc56f0863b;
+					- _myState = 8192;
+					- _name = "sndKeyValid";
+					- Dependencies = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IDependency 
+							- _id = GUID f6cd1a82-1e4d-43ef-9341-9eddf9a81e80;
+							- _myState = 2048;
+							- _name = "Acquisition Mode Signal";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+									- _subsystem = "SysML::Requirements";
+									- _class = "";
+									- _name = "satisfy";
+									- _id = GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IRequirement";
+								- _filename = "SystemRequirementsPkg.sbs";
+								- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirementsPkg";
+								- _class = "";
+								- _name = "Acquisition Mode Signal";
+								- _id = GUID e1f46424-50d3-427e-8683-b45e8f8a2c05;
+							}
+						}
+						{ IDependency 
+							- _id = GUID 9ae74023-06c6-45bf-9c4b-6d0323c18db3;
+							- _myState = 2048;
+							- _name = "sndKeyValid";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IPrimitiveOperation";
+								- _filename = "Uc1ArmingLoggerPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc1ArmingLoggerPkg";
+								- _class = "Uc_Uc1ArmingLogger";
+								- _name = "sndKeyValid()";
+								- _id = GUID 7bfaa66e-31cc-43ed-ad7d-97ac2c0d1c6b;
+							}
+						}
+					}
+					- _lastID = 3;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC.sbs";
+						- _subsystem = "PredefinedTypesC";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 1ae3fac8-89cb-11d2-b813-00104b3e6572;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPrivate;
+					- _static = 0;
+					- _constant = 0;
+					- _itsBody = { IBody 
+						- _bodyData = "";
+					}
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID fc30ed1e-27ca-4cd3-bf51-7b78ec42c15c;
+					- _myState = 8192;
+					- _name = "systemFailure";
+					- Dependencies = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IDependency 
+							- _id = GUID ecda255a-83bc-44af-b3e6-18bb5dfa1b52;
+							- _myState = 2048;
+							- _name = "systemFailure";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IPrimitiveOperation";
+								- _filename = "Uc2DataLoggingAndIntrusionDetectionPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc2DataLoggingAndIntrusionDetectionPkg";
+								- _class = "Uc_Uc2DataLoggingAndIntrusionDetection";
+								- _name = "systemFailure()";
+								- _id = GUID c9cdee48-8239-44ee-9659-99164d7a2bce;
+							}
+						}
+					}
+					- _lastID = 1;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC.sbs";
+						- _subsystem = "PredefinedTypesC";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 1ae3fac8-89cb-11d2-b813-00104b3e6572;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPrivate;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID c5ee7059-bc85-4bdf-9692-c25eebd120fc;
+					- _myState = 8192;
+					- _name = "systemWakeUp";
+					- Dependencies = { IRPYRawContainer 
+						- size = 3;
+						- value = 
+						{ IDependency 
+							- _id = GUID 1b83e7a4-143e-48f2-b665-7fd7745b2968;
+							- _myState = 2048;
+							- _name = "Power Up Button";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+									- _subsystem = "SysML::Requirements";
+									- _class = "";
+									- _name = "satisfy";
+									- _id = GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IRequirement";
+								- _filename = "DerivedRequirementsPkg.sbs";
+								- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::DerivedRequirementsPkg";
+								- _class = "";
+								- _name = "Power Up Button";
+								- _id = GUID be40920d-ffa3-491d-9ae4-f6ab3e280d0c;
+							}
+						}
+						{ IDependency 
+							- _id = GUID 299141c0-905e-4928-8a18-c5526b698456;
+							- _myState = 2048;
+							- _name = "systemWakeUp";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IPrimitiveOperation";
+								- _filename = "Uc1ArmingLoggerPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc1ArmingLoggerPkg";
+								- _class = "Uc_Uc1ArmingLogger";
+								- _name = "systemWakeUp()";
+								- _id = GUID 4321a110-aa16-4f71-b6e1-1e2bbd419b11;
+							}
+						}
+						{ IDependency 
+							- _id = GUID 6a9aa14d-c05e-49f1-ac13-f1b74b3ed17f;
+							- _myState = 2048;
+							- _name = "systemWakeUp";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IPrimitiveOperation";
+								- _filename = "Uc2DataLoggingAndIntrusionDetectionPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc2DataLoggingAndIntrusionDetectionPkg";
+								- _class = "Uc_Uc2DataLoggingAndIntrusionDetection";
+								- _name = "systemWakeUp()";
+								- _id = GUID 0d9e8e48-200f-4525-a3dd-03558f88d835;
+							}
+						}
+					}
+					- _lastID = 3;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC.sbs";
+						- _subsystem = "PredefinedTypesC";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 1ae3fac8-89cb-11d2-b813-00104b3e6572;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPrivate;
+					- _static = 0;
+					- _constant = 0;
+					- _itsBody = { IBody 
+						- _bodyData = "";
+					}
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID 8f7f6324-4633-4cee-b3d3-8d5d90281924;
+					- _myState = 8192;
+					- _name = "validateKey";
+					- Dependencies = { IRPYRawContainer 
+						- size = 4;
+						- value = 
+						{ IDependency 
+							- _id = GUID ea91d6e5-f239-4964-9ae6-05418dd83109;
+							- _myState = 2048;
+							- _name = "Acquisition Mode Entry";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+									- _subsystem = "SysML::Requirements";
+									- _class = "";
+									- _name = "satisfy";
+									- _id = GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IRequirement";
+								- _filename = "SystemRequirementsPkg.sbs";
+								- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirementsPkg";
+								- _class = "";
+								- _name = "Acquisition Mode Entry";
+								- _id = GUID 1c46c82e-6f43-42ac-8d0f-d42a6c582952;
+							}
+						}
+						{ IDependency 
+							- _id = GUID 3b522a27-4fb3-45ca-b918-ee770fa9a466;
+							- _myState = 2048;
+							- _name = "Acquisition Mode Exit";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+									- _subsystem = "SysML::Requirements";
+									- _class = "";
+									- _name = "satisfy";
+									- _id = GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IRequirement";
+								- _filename = "SystemRequirementsPkg.sbs";
+								- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirementsPkg";
+								- _class = "";
+								- _name = "Acquisition Mode Exit";
+								- _id = GUID ed8fc13c-7d50-4b43-93d3-be72403d24c8;
+							}
+						}
+						{ IDependency 
+							- _id = GUID 3f30d375-23eb-47b2-9896-aa2ffcf1f79d;
+							- _myState = 2048;
+							- _name = "validateKey";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IPrimitiveOperation";
+								- _filename = "Uc1ArmingLoggerPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc1ArmingLoggerPkg";
+								- _class = "Uc_Uc1ArmingLogger";
+								- _name = "validateKey()";
+								- _id = GUID d7c2e146-a9d6-4da1-a7bb-bc1f152c3455;
+							}
+						}
+						{ IDependency 
+							- _id = GUID 8f18d159-6792-4ec3-956e-0f1272fd67a5;
+							- _myState = 2048;
+							- _name = "validateKey";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IPrimitiveOperation";
+								- _filename = "Uc2DataLoggingAndIntrusionDetectionPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc2DataLoggingAndIntrusionDetectionPkg";
+								- _class = "Uc_Uc2DataLoggingAndIntrusionDetection";
+								- _name = "validateKey()";
+								- _id = GUID c7751823-a1b5-43f2-98c4-a948735a7b72;
+							}
+						}
+					}
+					- _lastID = 5;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC.sbs";
+						- _subsystem = "PredefinedTypesC";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 1ae3fac8-89cb-11d2-b813-00104b3e6572;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPrivate;
+					- _static = 0;
+					- _constant = 0;
+					- _itsBody = { IBody 
+						- _bodyData = "";
+					}
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID 690161f7-33d4-49f0-bfdb-803b2dd6e39e;
+					- _myState = 8192;
+					- _name = "writeIntrusion";
+					- Dependencies = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IDependency 
+							- _id = GUID 20a50045-186e-43df-acd9-66d4c2b69933;
+							- _myState = 2048;
+							- _name = "Intrusion Detect";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+									- _subsystem = "SysML::Requirements";
+									- _class = "";
+									- _name = "satisfy";
+									- _id = GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IRequirement";
+								- _filename = "SystemRequirementsPkg.sbs";
+								- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirementsPkg";
+								- _class = "";
+								- _name = "Intrusion Detect";
+								- _id = GUID 75b2226a-b9a2-4b0a-a71f-aed0e5f5211b;
+							}
+						}
+						{ IDependency 
+							- _id = GUID c1c0969c-d019-471c-a57f-20a3817a6b66;
+							- _myState = 2048;
+							- _name = "writeIntrusion";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IPrimitiveOperation";
+								- _filename = "Uc2DataLoggingAndIntrusionDetectionPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc2DataLoggingAndIntrusionDetectionPkg";
+								- _class = "Uc_Uc2DataLoggingAndIntrusionDetection";
+								- _name = "writeIntrusion()";
+								- _id = GUID 6f670a27-40a4-44a3-b79d-398ea090db7a;
+							}
+						}
+					}
+					- _lastID = 2;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC.sbs";
+						- _subsystem = "PredefinedTypesC";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 1ae3fac8-89cb-11d2-b813-00104b3e6572;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPrivate;
+					- _static = 0;
+					- _constant = 0;
+					- _itsBody = { IBody 
+						- _bodyData = "me->intrusionCnt++;";
+					}
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID 0784b832-2d7c-464d-86f7-8debc4b6c908;
+					- _myState = 8192;
+					- _name = "writeSensors";
+					- Dependencies = { IRPYRawContainer 
+						- size = 3;
+						- value = 
+						{ IDependency 
+							- _id = GUID 55700f93-09d8-4845-9eb2-3b51f83063eb;
+							- _myState = 2048;
+							- _name = "Timestamp Recording";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+									- _subsystem = "SysML::Requirements";
+									- _class = "";
+									- _name = "satisfy";
+									- _id = GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IRequirement";
+								- _filename = "SystemRequirementsPkg.sbs";
+								- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirementsPkg";
+								- _class = "";
+								- _name = "Timestamp Recording";
+								- _id = GUID 834db0b2-a3f8-45d1-8226-cfcf121175bb;
+							}
+						}
+						{ IDependency 
+							- _id = GUID 22b2dc8c-900a-4320-80a2-c3e6065b000a;
+							- _myState = 2048;
+							- _name = "Secondary Sensors";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+									- _subsystem = "SysML::Requirements";
+									- _class = "";
+									- _name = "satisfy";
+									- _id = GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IRequirement";
+								- _filename = "SystemRequirementsPkg.sbs";
+								- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirementsPkg";
+								- _class = "";
+								- _name = "Secondary Sensors";
+								- _id = GUID cbbc9bf7-1571-459f-b66a-6bde326a64e5;
+							}
+						}
+						{ IDependency 
+							- _id = GUID 1c3789cb-9f86-414d-8f6f-968bbf222585;
+							- _myState = 2048;
+							- _name = "writeSensors";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IPrimitiveOperation";
+								- _filename = "Uc2DataLoggingAndIntrusionDetectionPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc2DataLoggingAndIntrusionDetectionPkg";
+								- _class = "Uc_Uc2DataLoggingAndIntrusionDetection";
+								- _name = "writeSensors()";
+								- _id = GUID 406aad18-1c87-40a6-9e1e-63bd9f75bcbf;
+							}
+						}
+					}
+					- _lastID = 3;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC.sbs";
+						- _subsystem = "PredefinedTypesC";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 1ae3fac8-89cb-11d2-b813-00104b3e6572;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPrivate;
+					- _static = 0;
+					- _constant = 0;
+					- _itsBody = { IBody 
+						- _bodyData = "me->writesCnt++;";
+					}
+				}
+				{ ITriggered 
+					- _id = GUID 8518a226-fd99-4bcd-8989-2614d0469135;
+					- _myState = 8192;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "WebComponents";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Operation";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "WebManaged";
+												- _Value = "True";
+												- _Type = Bool;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- _name = "evStart";
+					- Dependencies = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IDependency 
+							- _id = GUID 5a3e38e5-ba63-45b7-a929-2e107fe52c48;
+							- _myState = 2048;
+							- _name = "evStart";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "ITriggered";
+								- _filename = "Uc2DataLoggingAndIntrusionDetectionPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc2DataLoggingAndIntrusionDetectionPkg";
+								- _class = "Uc_Uc2DataLoggingAndIntrusionDetection";
+								- _name = "evStart()";
+								- _id = GUID 72593d70-f139-4701-9c6b-0b6fb9437c7d;
+							}
+						}
+					}
+					- _lastID = 1;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC.sbs";
+						- _subsystem = "PredefinedTypesC";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 1ae3fac8-89cb-11d2-b813-00104b3e6572;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+				}
+				{ IReception 
+					- _id = GUID f6fd9284-6fff-4271-954f-010e0842357d;
+					- _myState = 8192;
+					- Dependencies = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IDependency 
+							- _id = GUID 028c07a1-b0ba-4917-ae74-f4ad0225450e;
+							- _myState = 2048;
+							- _name = "evFault";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IReception";
+								- _filename = "Uc1ArmingLoggerPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc1ArmingLoggerPkg";
+								- _class = "Uc_Uc1ArmingLogger";
+								- _name = "evFault()";
+								- _id = GUID 4d77c859-84ac-4ae0-9b22-95a27d054fef;
+							}
+						}
+					}
+					- _lastID = 1;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _filename = "Uc1ArmingLoggerPkg.sbs";
+						- _subsystem = "FunctionalAnalysisPkg::Uc1ArmingLoggerPkg";
+						- _class = "";
+						- _name = "evFault()";
+						- _id = GUID 210085ed-79c4-4c80-abc7-2809a70fbbf9;
+					}
+				}
+				{ IReception 
+					- _id = GUID 4d8f76b3-4466-4ee3-bd98-785ffdbe1fbc;
+					- _myState = 8192;
+					- Dependencies = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IDependency 
+							- _id = GUID 0215dc48-a0e5-420d-8736-627aadc797f5;
+							- _myState = 2048;
+							- _name = "evAcquisitionStart";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IReception";
+								- _filename = "Uc1ArmingLoggerPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc1ArmingLoggerPkg";
+								- _class = "Uc_Uc1ArmingLogger";
+								- _name = "evAcquisitionStart()";
+								- _id = GUID 6b3152e3-da95-4a66-8abc-adc652327540;
+							}
+						}
+					}
+					- _lastID = 1;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _filename = "Uc1ArmingLoggerPkg.sbs";
+						- _subsystem = "FunctionalAnalysisPkg::Uc1ArmingLoggerPkg";
+						- _class = "";
+						- _name = "evAcquisitionStart()";
+						- _id = GUID 286533d8-b3e6-4790-8ba7-7e068050e491;
+					}
+				}
+				{ IReception 
+					- _id = GUID ce34a188-516c-4234-921e-e460595fe3f2;
+					- _myState = 8192;
+					- Dependencies = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IDependency 
+							- _id = GUID f606ecb2-fd89-4131-b202-1641c53bea2c;
+							- _myState = 2048;
+							- _name = "evSensorsPoweredUp";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IReception";
+								- _filename = "Uc1ArmingLoggerPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc1ArmingLoggerPkg";
+								- _class = "Uc_Uc1ArmingLogger";
+								- _name = "evSensorsPoweredUp()";
+								- _id = GUID 46c53af8-dcd6-4084-a4b5-d724889b4790;
+							}
+						}
+						{ IDependency 
+							- _id = GUID 39f2cc39-8847-441e-8167-a3e3c2c47b32;
+							- _myState = 2048;
+							- _name = "evSensorsPoweredUp";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IReception";
+								- _filename = "Uc2DataLoggingAndIntrusionDetectionPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc2DataLoggingAndIntrusionDetectionPkg";
+								- _class = "Uc_Uc2DataLoggingAndIntrusionDetection";
+								- _name = "evSensorsPoweredUp()";
+								- _id = GUID 59ecefca-2cde-4a6e-8616-52e87d2247cd;
+							}
+						}
+					}
+					- _lastID = 1;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _filename = "InterfacesPkg.sbs";
+						- _subsystem = "InterfacesPkg";
+						- _class = "";
+						- _name = "evSensorsPoweredUp()";
+						- _id = GUID 98736d66-58c6-4daf-bdab-662104468ec1;
+					}
+				}
+				{ IReception 
+					- _id = GUID 5179deae-a87a-4859-b21e-87d102567af8;
+					- _myState = 8192;
+					- Dependencies = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IDependency 
+							- _id = GUID ccca61e8-cfa1-4bb4-8308-97ca1d2ca4f8;
+							- _myState = 2048;
+							- _name = "evKeyReaded";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IReception";
+								- _filename = "Uc1ArmingLoggerPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc1ArmingLoggerPkg";
+								- _class = "Uc_Uc1ArmingLogger";
+								- _name = "evKeyReaded()";
+								- _id = GUID 7d21d1d0-8134-44d6-b1f2-d079a07fa7ac;
+							}
+						}
+						{ IDependency 
+							- _id = GUID a44a00aa-c265-49d3-8750-123912af1a67;
+							- _myState = 2048;
+							- _name = "evKeyReaded";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IReception";
+								- _filename = "Uc2DataLoggingAndIntrusionDetectionPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc2DataLoggingAndIntrusionDetectionPkg";
+								- _class = "Uc_Uc2DataLoggingAndIntrusionDetection";
+								- _name = "evKeyReaded()";
+								- _id = GUID a144add9-baee-4e17-a1ee-b1a01f2a56a0;
+							}
+						}
+					}
+					- _lastID = 1;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _filename = "InterfacesPkg.sbs";
+						- _subsystem = "InterfacesPkg";
+						- _class = "";
+						- _name = "evKeyReaded(char*)";
+						- _id = GUID af02d4dc-4d63-4578-b3ab-70dd92afc03b;
+					}
+				}
+				{ IReception 
+					- _id = GUID 9fa49960-bb94-496d-8492-4e18a682f9b4;
+					- _myState = 8192;
+					- Dependencies = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IDependency 
+							- _id = GUID 5041c286-15b1-47cc-ade5-ea09860d4929;
+							- _myState = 2048;
+							- _name = "evKeyApplied";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IReception";
+								- _filename = "Uc1ArmingLoggerPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc1ArmingLoggerPkg";
+								- _class = "Uc_Uc1ArmingLogger";
+								- _name = "evKeyApplied()";
+								- _id = GUID 0af8d9c1-93fe-4a67-b9b1-97e338c36deb;
+							}
+						}
+						{ IDependency 
+							- _id = GUID 56f85a24-d716-4bf9-a248-2a1f5d88af58;
+							- _myState = 2048;
+							- _name = "evKeyApplied";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IReception";
+								- _filename = "Uc2DataLoggingAndIntrusionDetectionPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc2DataLoggingAndIntrusionDetectionPkg";
+								- _class = "Uc_Uc2DataLoggingAndIntrusionDetection";
+								- _name = "evKeyApplied()";
+								- _id = GUID fea6feb5-8338-4a14-a936-8679a49f1d9d;
+							}
+						}
+					}
+					- _lastID = 1;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _filename = "InterfacesPkg.sbs";
+						- _subsystem = "InterfacesPkg";
+						- _class = "";
+						- _name = "evKeyApplied()";
+						- _id = GUID ddb93fd7-900d-40b7-82c2-44d76463bd85;
+					}
+				}
+				{ IReception 
+					- _id = GUID eb558b91-c764-4db4-8388-1aca62debfbb;
+					- _myState = 8192;
+					- Dependencies = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IDependency 
+							- _id = GUID e149a212-7b9a-4624-a25c-89198e0724c6;
+							- _myState = 2048;
+							- _name = "evSensorsStatus";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IReception";
+								- _filename = "Uc1ArmingLoggerPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc1ArmingLoggerPkg";
+								- _class = "Uc_Uc1ArmingLogger";
+								- _name = "evSensorsStatus()";
+								- _id = GUID 9cf06890-c210-47b4-bced-e2b39d2139c0;
+							}
+						}
+						{ IDependency 
+							- _id = GUID 198d8599-871e-4ce2-86ae-0e6a76fe1b29;
+							- _myState = 2048;
+							- _name = "evSensorsStatus";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IReception";
+								- _filename = "Uc2DataLoggingAndIntrusionDetectionPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc2DataLoggingAndIntrusionDetectionPkg";
+								- _class = "Uc_Uc2DataLoggingAndIntrusionDetection";
+								- _name = "evSensorsStatus()";
+								- _id = GUID 9821aef5-be0d-4b41-b3e9-4411de09a099;
+							}
+						}
+					}
+					- _lastID = 1;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _filename = "InterfacesPkg.sbs";
+						- _subsystem = "InterfacesPkg";
+						- _class = "";
+						- _name = "evSensorsStatus(RiCBoolean)";
+						- _id = GUID 9ee865a0-c8e0-4c54-af7d-d7eb05fcc0da;
+					}
+				}
+				{ IReception 
+					- _id = GUID 4372d90f-f041-495f-856c-933ee682dcc8;
+					- _myState = 8192;
+					- Dependencies = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IDependency 
+							- _id = GUID 9796d68d-8fd1-417d-a866-6cc2a29c1aee;
+							- _myState = 2048;
+							- _name = "evWakeUpButtonPressed";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IReception";
+								- _filename = "Uc1ArmingLoggerPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc1ArmingLoggerPkg";
+								- _class = "Uc_Uc1ArmingLogger";
+								- _name = "evWakeUpButtonPressed()";
+								- _id = GUID 0d91ca70-4d65-4908-b86c-7d22e4afccf1;
+							}
+						}
+						{ IDependency 
+							- _id = GUID 536b6dd0-27c8-4b55-907b-5a06be28b2c4;
+							- _myState = 2048;
+							- _name = "evWakeUpButtonPressed";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IReception";
+								- _filename = "Uc2DataLoggingAndIntrusionDetectionPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc2DataLoggingAndIntrusionDetectionPkg";
+								- _class = "Uc_Uc2DataLoggingAndIntrusionDetection";
+								- _name = "evWakeUpButtonPressed()";
+								- _id = GUID 1f317325-49bd-4e6d-9b6c-979e62b6deef;
+							}
+						}
+					}
+					- _lastID = 1;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _filename = "InterfacesPkg.sbs";
+						- _subsystem = "InterfacesPkg";
+						- _class = "";
+						- _name = "evWakeUpButtonPressed()";
+						- _id = GUID b4179b27-699f-41e1-ba70-3a2bdae233bf;
+					}
+				}
+				{ IReception 
+					- _id = GUID 6053288b-2a38-4c02-8e1f-302dc9bd429c;
+					- _myState = 8192;
+					- Dependencies = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IDependency 
+							- _id = GUID 8335e421-6cbb-4930-8411-e93ae1c56787;
+							- _myState = 2048;
+							- _name = "evMotionDetected";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IReception";
+								- _filename = "Uc2DataLoggingAndIntrusionDetectionPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc2DataLoggingAndIntrusionDetectionPkg";
+								- _class = "Uc_Uc2DataLoggingAndIntrusionDetection";
+								- _name = "evMotionDetected()";
+								- _id = GUID 094c7c65-1cd7-4cb2-a34e-520a9c076a41;
+							}
+						}
+					}
+					- _lastID = 1;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _filename = "InterfacesPkg.sbs";
+						- _subsystem = "InterfacesPkg";
+						- _class = "";
+						- _name = "evMotionDetected()";
+						- _id = GUID 2f85e622-fafd-4e9c-a937-24e726d9d9c1;
+					}
+				}
+				{ IReception 
+					- _id = GUID 0dce0ed7-2044-4452-b3ff-4f8025030ec7;
+					- _myState = 8192;
+					- Dependencies = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IDependency 
+							- _id = GUID ccf960e6-c1aa-4872-8c20-4f414ed99900;
+							- _myState = 2048;
+							- _name = "evSensorsReaded";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IReception";
+								- _filename = "Uc2DataLoggingAndIntrusionDetectionPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc2DataLoggingAndIntrusionDetectionPkg";
+								- _class = "Uc_Uc2DataLoggingAndIntrusionDetection";
+								- _name = "evSensorsReaded()";
+								- _id = GUID b6d1d8f6-f6ad-475d-a4b9-38012edf8a1e;
+							}
+						}
+					}
+					- _lastID = 1;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _filename = "InterfacesPkg.sbs";
+						- _subsystem = "InterfacesPkg";
+						- _class = "";
+						- _name = "evSensorsReaded()";
+						- _id = GUID 7700676e-03b4-4d4d-8f4c-865cc3c68c12;
+					}
+				}
+				{ IReception 
+					- _id = GUID e0ffb3ff-4e3c-4f4c-8a57-1556ef6d7fce;
+					- _myState = 8192;
+					- Dependencies = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IDependency 
+							- _id = GUID 58f6d983-1ed9-434d-8b40-affb51e415ce;
+							- _myState = 2048;
+							- _name = "evStartScanner";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IReception";
+								- _filename = "Uc2DataLoggingAndIntrusionDetectionPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc2DataLoggingAndIntrusionDetectionPkg";
+								- _class = "Uc_Uc2DataLoggingAndIntrusionDetection";
+								- _name = "evStartScanner()";
+								- _id = GUID e86c92d7-e6e2-4069-baa5-a11f9e273cc0;
+							}
+						}
+					}
+					- _lastID = 1;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _filename = "InterfacesPkg.sbs";
+						- _subsystem = "InterfacesPkg";
+						- _class = "";
+						- _name = "evStartScanner()";
+						- _id = GUID f9b1bdcb-fea9-4023-86e2-8305be99355d;
+					}
+				}
+				{ IReception 
+					- _id = GUID babeffb3-f86b-4e38-904b-e0c23b7c4815;
+					- _myState = 8192;
+					- Dependencies = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IDependency 
+							- _id = GUID b4d319ac-01c3-46d5-b9c9-849ca8e784b6;
+							- _myState = 2048;
+							- _name = "evScannerPoweredUp";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IReception";
+								- _filename = "Uc1ArmingLoggerPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc1ArmingLoggerPkg";
+								- _class = "Uc_Uc1ArmingLogger";
+								- _name = "evScannerPoweredUp()";
+								- _id = GUID 421521d4-2d87-49fc-948e-823c89e85c9c;
+							}
+						}
+						{ IDependency 
+							- _id = GUID 4b4e2638-a26c-4417-bdb1-5d8c933b84f1;
+							- _myState = 2048;
+							- _name = "evScannerPoweredUp";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IReception";
+								- _filename = "Uc2DataLoggingAndIntrusionDetectionPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc2DataLoggingAndIntrusionDetectionPkg";
+								- _class = "Uc_Uc2DataLoggingAndIntrusionDetection";
+								- _name = "evScannerPoweredUp()";
+								- _id = GUID 2e4b8d0b-1b22-4a42-a6d8-9729d4741130;
+							}
+						}
+					}
+					- _lastID = 1;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _filename = "InterfacesPkg.sbs";
+						- _subsystem = "InterfacesPkg";
+						- _class = "";
+						- _name = "evScannerPoweredUp()";
+						- _id = GUID 2245b6cd-23ac-4a17-a541-158d74471cd4;
+					}
+				}
+				{ IReception 
+					- _id = GUID 4aebef5f-4331-4920-8b1d-a24b187be302;
+					- _myState = 8192;
+					- Dependencies = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IDependency 
+							- _id = GUID 4ff437e0-aadb-45c2-957b-65efd5dbe868;
+							- _myState = 2048;
+							- _name = "evStartIntTimer";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IReception";
+								- _filename = "Uc2DataLoggingAndIntrusionDetectionPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc2DataLoggingAndIntrusionDetectionPkg";
+								- _class = "Uc_Uc2DataLoggingAndIntrusionDetection";
+								- _name = "evStartIntTimer()";
+								- _id = GUID ffb62cac-ed71-4474-94ad-3833ea5e0f81;
+							}
+						}
+					}
+					- _lastID = 1;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _filename = "Uc2DataLoggingAndIntrusionDetectionPkg.sbs";
+						- _subsystem = "FunctionalAnalysisPkg::Uc2DataLoggingAndIntrusionDetectionPkg";
+						- _class = "";
+						- _name = "evStartIntTimer()";
+						- _id = GUID 9af9ce13-28a1-49bd-84c5-955454baf06a;
+					}
+				}
+				{ IReception 
+					- _id = GUID ee63b5f4-d4dd-4d76-926e-d9659c924818;
+					- _myState = 8192;
+					- Dependencies = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IDependency 
+							- _id = GUID 8c6f40fe-0f59-4196-a120-b48e2f401fb5;
+							- _myState = 2048;
+							- _name = "evIntTimerExpired";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IReception";
+								- _filename = "Uc2DataLoggingAndIntrusionDetectionPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc2DataLoggingAndIntrusionDetectionPkg";
+								- _class = "Uc_Uc2DataLoggingAndIntrusionDetection";
+								- _name = "evIntTimerExpired()";
+								- _id = GUID dc09d7cd-7fba-4334-b173-a18a16e4f6c8;
+							}
+						}
+					}
+					- _lastID = 1;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _filename = "Uc2DataLoggingAndIntrusionDetectionPkg.sbs";
+						- _subsystem = "FunctionalAnalysisPkg::Uc2DataLoggingAndIntrusionDetectionPkg";
+						- _class = "";
+						- _name = "evIntTimerExpired()";
+						- _id = GUID aaca28c7-8b9d-4fe4-bf56-419b575fbb10;
+					}
+				}
+				{ IReception 
+					- _id = GUID adf991bc-357e-4c3f-9d0d-6c3fabc41b53;
+					- _myState = 8192;
+					- Dependencies = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IDependency 
+							- _id = GUID c55478e8-f6ec-4bdf-80ca-566435793dc2;
+							- _myState = 2048;
+							- _name = "evSynced";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IReception";
+								- _filename = "Uc2DataLoggingAndIntrusionDetectionPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc2DataLoggingAndIntrusionDetectionPkg";
+								- _class = "Uc_Uc2DataLoggingAndIntrusionDetection";
+								- _name = "evSynced()";
+								- _id = GUID 063a557f-fb6e-4f09-b3fa-626493414c6c;
+							}
+						}
+					}
+					- _lastID = 1;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _filename = "Uc2DataLoggingAndIntrusionDetectionPkg.sbs";
+						- _subsystem = "FunctionalAnalysisPkg::Uc2DataLoggingAndIntrusionDetectionPkg";
+						- _class = "";
+						- _name = "evSynced()";
+						- _id = GUID a855a7eb-e590-4663-9241-23a157f1febd;
+					}
+				}
+			}
+			- Attrs = { IRPYRawContainer 
+				- size = 23;
+				- value = 
+				{ IAttribute 
+					- _id = GUID 06be277b-9541-47d2-aea1-d619770e2aaa;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "C_CG";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Attribute";
+										- Properties = { IRPYRawContainer 
+											- size = 2;
+											- value = 
+											{ IProperty 
+												- _Name = "AccessorGenerate";
+												- _Value = "True";
+												- _Type = Bool;
+											}
+											{ IProperty 
+												- _Name = "MutatorGenerate";
+												- _Value = "Smart";
+												- _Type = Enum;
+												- _ExtraTypeInfo = "Smart, Always, Never";
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- _name = "t_WakeUp";
+					- Dependencies = { IRPYRawContainer 
+						- size = 3;
+						- value = 
+						{ IDependency 
+							- _id = GUID 082a8666-909b-4dfc-ba1b-79e05196f525;
+							- _myState = 2048;
+							- _name = "Low Power Modes";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+									- _subsystem = "SysML::Requirements";
+									- _class = "";
+									- _name = "satisfy";
+									- _id = GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IConstraint";
+								- _filename = "SystemRequirementsPkg.sbs";
+								- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirementsPkg";
+								- _class = "";
+								- _name = "Low Power Modes";
+								- _id = GUID 8c660c74-b7a8-4196-ae99-dd8c5530498a;
+							}
+						}
+						{ IDependency 
+							- _id = GUID 444584c5-7427-4633-904e-06552df21ab0;
+							- _myState = 2048;
+							- _name = "Power Up Button";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+									- _subsystem = "SysML::Requirements";
+									- _class = "";
+									- _name = "satisfy";
+									- _id = GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IRequirement";
+								- _filename = "DerivedRequirementsPkg.sbs";
+								- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::DerivedRequirementsPkg";
+								- _class = "";
+								- _name = "Power Up Button";
+								- _id = GUID be40920d-ffa3-491d-9ae4-f6ab3e280d0c;
+							}
+						}
+						{ IDependency 
+							- _id = GUID ba3fc182-ed7d-473c-8cf2-9872a5d7c044;
+							- _myState = 2048;
+							- _name = "t_WakeUp";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IAttribute";
+								- _filename = "Uc1ArmingLoggerPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc1ArmingLoggerPkg";
+								- _class = "Uc_Uc1ArmingLogger";
+								- _name = "t_WakeUp";
+								- _id = GUID 6a42c69c-ee65-4a4c-ad32-fa832e602395;
+							}
+						}
+					}
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "PredefinedTypesC.sbs";
+							- _subsystem = "PredefinedTypesC";
+							- _class = "";
+							- _name = "Web Managed";
+							- _id = GUID 1c55420a-fee9-443f-96f8-ee8a9a147c47;
+						}
+					}
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 309e11bb-8b84-46aa-93f6-3520dbbc25a8;
+							- _value = "60000";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC.sbs";
+						- _subsystem = "PredefinedTypesC";
+						- _class = "";
+						- _name = "int";
+						- _id = GUID 1ae3fac5-89cb-11d2-b813-00104b3e6572;
+					}
+					- _isOrdered = 0;
+					- _protection = iPublic;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+				{ IAttribute 
+					- _id = GUID 49eee901-267c-479b-8897-491a062f5844;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "C_CG";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Attribute";
+										- Properties = { IRPYRawContainer 
+											- size = 2;
+											- value = 
+											{ IProperty 
+												- _Name = "AccessorGenerate";
+												- _Value = "True";
+												- _Type = Bool;
+											}
+											{ IProperty 
+												- _Name = "MutatorGenerate";
+												- _Value = "Smart";
+												- _Type = Enum;
+												- _ExtraTypeInfo = "Smart, Always, Never";
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- _name = "t_ExitTimeout";
+					- Dependencies = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IDependency 
+							- _id = GUID f26d1b04-0fbb-4921-bf33-38dea492364a;
+							- _myState = 2048;
+							- _name = "Exit Time";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+									- _subsystem = "SysML::Requirements";
+									- _class = "";
+									- _name = "satisfy";
+									- _id = GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IRequirement";
+								- _filename = "SystemRequirementsPkg.sbs";
+								- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirementsPkg";
+								- _class = "";
+								- _name = "Exit Time";
+								- _id = GUID 1814a4e3-0af0-49ee-9fe6-73883625345e;
+							}
+						}
+						{ IDependency 
+							- _id = GUID 1b51f46f-161e-4d63-a08c-5300ebbade3d;
+							- _myState = 2048;
+							- _name = "t_ExitTimeout";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IAttribute";
+								- _filename = "Uc1ArmingLoggerPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc1ArmingLoggerPkg";
+								- _class = "Uc_Uc1ArmingLogger";
+								- _name = "t_ExitTimeout";
+								- _id = GUID f1f344e0-3119-4ccc-9dc7-489d57d3e9f0;
+							}
+						}
+					}
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "PredefinedTypesC.sbs";
+							- _subsystem = "PredefinedTypesC";
+							- _class = "";
+							- _name = "Web Managed";
+							- _id = GUID 1c55420a-fee9-443f-96f8-ee8a9a147c47;
+						}
+					}
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID b4d1459f-6327-4a0e-a269-8f4ae2da0763;
+							- _value = "30000";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC.sbs";
+						- _subsystem = "PredefinedTypesC";
+						- _class = "";
+						- _name = "int";
+						- _id = GUID 1ae3fac5-89cb-11d2-b813-00104b3e6572;
+					}
+					- _isOrdered = 0;
+					- _protection = iPublic;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+				{ IAttribute 
+					- _id = GUID 80a9cbdf-ae55-4c2f-8ab5-ceac5c2c2c73;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "C_CG";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Attribute";
+										- Properties = { IRPYRawContainer 
+											- size = 2;
+											- value = 
+											{ IProperty 
+												- _Name = "AccessorGenerate";
+												- _Value = "True";
+												- _Type = Bool;
+											}
+											{ IProperty 
+												- _Name = "MutatorGenerate";
+												- _Value = "Smart";
+												- _Type = Enum;
+												- _ExtraTypeInfo = "Smart, Always, Never";
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- _name = "t_IdleLed";
+					- Dependencies = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IDependency 
+							- _id = GUID 32337d17-493e-4d54-b1c7-47875bbd1d27;
+							- _myState = 2048;
+							- _name = "Idle Indicator";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+									- _subsystem = "SysML::Requirements";
+									- _class = "";
+									- _name = "satisfy";
+									- _id = GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IRequirement";
+								- _filename = "DerivedRequirementsPkg.sbs";
+								- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::DerivedRequirementsPkg";
+								- _class = "";
+								- _name = "Idle Indicator";
+								- _id = GUID 4fc6ad71-63b1-4bcb-8d18-95b5a61da970;
+							}
+						}
+						{ IDependency 
+							- _id = GUID b1d68835-b5b9-4769-880f-b23312578735;
+							- _myState = 2048;
+							- _name = "t_IdleLed";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IAttribute";
+								- _filename = "Uc1ArmingLoggerPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc1ArmingLoggerPkg";
+								- _class = "Uc_Uc1ArmingLogger";
+								- _name = "t_IdleLed";
+								- _id = GUID 46754c72-8be7-4aad-a003-f7181d6898da;
+							}
+						}
+					}
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "PredefinedTypesC.sbs";
+							- _subsystem = "PredefinedTypesC";
+							- _class = "";
+							- _name = "Web Managed";
+							- _id = GUID 1c55420a-fee9-443f-96f8-ee8a9a147c47;
+						}
+					}
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID e9d6352e-6361-4125-ab34-7a3e80dcdbca;
+							- _value = "2000";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC.sbs";
+						- _subsystem = "PredefinedTypesC";
+						- _class = "";
+						- _name = "int";
+						- _id = GUID 1ae3fac5-89cb-11d2-b813-00104b3e6572;
+					}
+					- _isOrdered = 0;
+					- _protection = iPublic;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+				{ IAttribute 
+					- _id = GUID 5057c3aa-0b7a-4543-b4b4-22f2cb82e760;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "C_CG";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Attribute";
+										- Properties = { IRPYRawContainer 
+											- size = 2;
+											- value = 
+											{ IProperty 
+												- _Name = "AccessorGenerate";
+												- _Value = "True";
+												- _Type = Bool;
+											}
+											{ IProperty 
+												- _Name = "MutatorGenerate";
+												- _Value = "Smart";
+												- _Type = Enum;
+												- _ExtraTypeInfo = "Smart, Always, Never";
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- _name = "t_AlarmLed";
+					- Dependencies = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IDependency 
+							- _id = GUID e1c9e879-a4c7-4b32-9c58-f843698211d7;
+							- _myState = 2048;
+							- _name = "Alarm Check";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+									- _subsystem = "SysML::Requirements";
+									- _class = "";
+									- _name = "satisfy";
+									- _id = GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IRequirement";
+								- _filename = "SystemRequirementsPkg.sbs";
+								- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirementsPkg";
+								- _class = "";
+								- _name = "Alarm Check";
+								- _id = GUID ce7d8327-c1c9-4c7c-b391-c17f03aca961;
+							}
+						}
+						{ IDependency 
+							- _id = GUID 30859bea-cf0d-4a78-8965-7753a6740d4d;
+							- _myState = 2048;
+							- _name = "t_AlarmLed";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IAttribute";
+								- _filename = "Uc1ArmingLoggerPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc1ArmingLoggerPkg";
+								- _class = "Uc_Uc1ArmingLogger";
+								- _name = "t_AlarmLed";
+								- _id = GUID 3de9d1a3-cb14-4c36-a0b6-a450fbce354b;
+							}
+						}
+					}
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "PredefinedTypesC.sbs";
+							- _subsystem = "PredefinedTypesC";
+							- _class = "";
+							- _name = "Web Managed";
+							- _id = GUID 1c55420a-fee9-443f-96f8-ee8a9a147c47;
+						}
+					}
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID d81b8ab5-1274-47cc-b41f-2d2feb6c982b;
+							- _value = "5000";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC.sbs";
+						- _subsystem = "PredefinedTypesC";
+						- _class = "";
+						- _name = "int";
+						- _id = GUID 1ae3fac5-89cb-11d2-b813-00104b3e6572;
+					}
+					- _isOrdered = 0;
+					- _protection = iPublic;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+				{ IAttribute 
+					- _id = GUID c8aaa8a7-6a48-4dd0-a27c-07a1069346d5;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "C_CG";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Attribute";
+										- Properties = { IRPYRawContainer 
+											- size = 2;
+											- value = 
+											{ IProperty 
+												- _Name = "AccessorGenerate";
+												- _Value = "True";
+												- _Type = Bool;
+											}
+											{ IProperty 
+												- _Name = "MutatorGenerate";
+												- _Value = "Smart";
+												- _Type = Enum;
+												- _ExtraTypeInfo = "Smart, Always, Never";
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- _name = "t_BatteryLowLed";
+					- Dependencies = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IDependency 
+							- _id = GUID 977f5d6f-f827-45d6-b583-34a0ef7377cb;
+							- _myState = 2048;
+							- _name = "Low Battery Indicator";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+									- _subsystem = "SysML::Requirements";
+									- _class = "";
+									- _name = "satisfy";
+									- _id = GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IRequirement";
+								- _filename = "SystemRequirementsPkg.sbs";
+								- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirementsPkg";
+								- _class = "";
+								- _name = "Low Battery Indicator";
+								- _id = GUID 738f8d2e-eb7a-4662-99bc-bd90d3a32d57;
+							}
+						}
+						{ IDependency 
+							- _id = GUID 419ac7b0-593a-45ce-bd9e-e668fe8ba172;
+							- _myState = 2048;
+							- _name = "t_BatteryLowLed";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IAttribute";
+								- _filename = "Uc1ArmingLoggerPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc1ArmingLoggerPkg";
+								- _class = "Uc_Uc1ArmingLogger";
+								- _name = "t_BatteryLowLed";
+								- _id = GUID a93e61f1-61d7-402c-a81e-e72bf5886339;
+							}
+						}
+					}
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "PredefinedTypesC.sbs";
+							- _subsystem = "PredefinedTypesC";
+							- _class = "";
+							- _name = "Web Managed";
+							- _id = GUID 1c55420a-fee9-443f-96f8-ee8a9a147c47;
+						}
+					}
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID f0bbeb43-90f5-4a1c-bdc6-32d4522f2fd2;
+							- _value = "5000";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC.sbs";
+						- _subsystem = "PredefinedTypesC";
+						- _class = "";
+						- _name = "int";
+						- _id = GUID 1ae3fac5-89cb-11d2-b813-00104b3e6572;
+					}
+					- _isOrdered = 0;
+					- _protection = iPublic;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+				{ IAttribute 
+					- _id = GUID 0cca5e53-49dd-444f-ac8c-4bfedb4537f3;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "C_CG";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Attribute";
+										- Properties = { IRPYRawContainer 
+											- size = 2;
+											- value = 
+											{ IProperty 
+												- _Name = "AccessorGenerate";
+												- _Value = "True";
+												- _Type = Bool;
+											}
+											{ IProperty 
+												- _Name = "MutatorGenerate";
+												- _Value = "Smart";
+												- _Type = Enum;
+												- _ExtraTypeInfo = "Smart, Always, Never";
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- _name = "t_ExitTimeoutLed";
+					- Dependencies = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IDependency 
+							- _id = GUID 3d10f83e-a055-44c2-91d8-44b050f99743;
+							- _myState = 2048;
+							- _name = "Exit Timeout Indicator";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+									- _subsystem = "SysML::Requirements";
+									- _class = "";
+									- _name = "satisfy";
+									- _id = GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IRequirement";
+								- _filename = "DerivedRequirementsPkg.sbs";
+								- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::DerivedRequirementsPkg";
+								- _class = "";
+								- _name = "Exit Timeout Indicator";
+								- _id = GUID b999bd42-b9b8-4102-8562-e6bea3c9ce5b;
+							}
+						}
+						{ IDependency 
+							- _id = GUID 22d4fc56-0423-4808-9b23-f182ad81b6e8;
+							- _myState = 2048;
+							- _name = "t_ExitTimeoutLed";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IAttribute";
+								- _filename = "Uc1ArmingLoggerPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc1ArmingLoggerPkg";
+								- _class = "Uc_Uc1ArmingLogger";
+								- _name = "t_ExitTimeoutLed";
+								- _id = GUID c67ce563-fdb5-4316-aa2c-fac298b4640b;
+							}
+						}
+					}
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "PredefinedTypesC.sbs";
+							- _subsystem = "PredefinedTypesC";
+							- _class = "";
+							- _name = "Web Managed";
+							- _id = GUID 1c55420a-fee9-443f-96f8-ee8a9a147c47;
+						}
+					}
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 14766a6d-47fd-48d2-bbd2-a7375a2acb4e;
+							- _value = "300";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC.sbs";
+						- _subsystem = "PredefinedTypesC";
+						- _class = "";
+						- _name = "int";
+						- _id = GUID 1ae3fac5-89cb-11d2-b813-00104b3e6572;
+					}
+					- _isOrdered = 0;
+					- _protection = iPublic;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+				{ IAttribute 
+					- _id = GUID cad818c4-b080-4b81-808e-dcd5b1d1f896;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "C_CG";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Attribute";
+										- Properties = { IRPYRawContainer 
+											- size = 2;
+											- value = 
+											{ IProperty 
+												- _Name = "AccessorGenerate";
+												- _Value = "True";
+												- _Type = Bool;
+											}
+											{ IProperty 
+												- _Name = "MutatorGenerate";
+												- _Value = "Smart";
+												- _Type = Enum;
+												- _ExtraTypeInfo = "Smart, Always, Never";
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- _name = "t_FaultLed";
+					- Dependencies = { IRPYRawContainer 
+						- size = 3;
+						- value = 
+						{ IDependency 
+							- _id = GUID 4640df03-fbb9-48a5-a096-e02cfe532fa6;
+							- _myState = 2048;
+							- _name = "Memory Monitoring";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+									- _subsystem = "SysML::Requirements";
+									- _class = "";
+									- _name = "satisfy";
+									- _id = GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IRequirement";
+								- _filename = "SystemRequirementsPkg.sbs";
+								- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirementsPkg";
+								- _class = "";
+								- _name = "Memory Monitoring";
+								- _id = GUID bee18ce8-2495-4551-af4e-93e899340856;
+							}
+						}
+						{ IDependency 
+							- _id = GUID b56f6c4b-ab12-4506-99d9-33a54fdf3828;
+							- _myState = 2048;
+							- _name = "Sensor Fail Indicator";
+							- _displayName = "{\\rtf1\\fbidis\\ansi\\ansicpg1251\\deff0\\deflang1049{\\fonttbl{\\f0\\fnil\\fcharset204{\\*\\fname Arial;}Arial CYR;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\f0\\fs20 Sensor Fail \\'cc\\'f8\\'fb\\'e3\\'f4\\'e4\\'f8\\'ff\\'f4\\'e5\\'f8\\'f9\\'f2\\par
+}
+";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+									- _subsystem = "SysML::Requirements";
+									- _class = "";
+									- _name = "satisfy";
+									- _id = GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IRequirement";
+								- _filename = "SystemRequirementsPkg.sbs";
+								- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirementsPkg";
+								- _class = "";
+								- _name = "Sensor Fail Indicator";
+								- _id = GUID 39e91af4-529c-4d8a-b6c2-1615a4af7592;
+							}
+						}
+						{ IDependency 
+							- _id = GUID deca7f19-770c-4613-99ba-fcfc6bd77512;
+							- _myState = 2048;
+							- _name = "t_FaultLed";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IAttribute";
+								- _filename = "Uc1ArmingLoggerPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc1ArmingLoggerPkg";
+								- _class = "Uc_Uc1ArmingLogger";
+								- _name = "t_FaultLed";
+								- _id = GUID b4a26d51-cab4-44f6-b273-86843138fb03;
+							}
+						}
+					}
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "PredefinedTypesC.sbs";
+							- _subsystem = "PredefinedTypesC";
+							- _class = "";
+							- _name = "Web Managed";
+							- _id = GUID 1c55420a-fee9-443f-96f8-ee8a9a147c47;
+						}
+					}
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 733b0e48-9b4a-4b1d-a7e6-62947f2d5e04;
+							- _value = "200";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC.sbs";
+						- _subsystem = "PredefinedTypesC";
+						- _class = "";
+						- _name = "int";
+						- _id = GUID 1ae3fac5-89cb-11d2-b813-00104b3e6572;
+					}
+					- _isOrdered = 0;
+					- _protection = iPublic;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+				{ IAttribute 
+					- _id = GUID f766265e-f20a-4449-83d8-732770546734;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "C_CG";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Attribute";
+										- Properties = { IRPYRawContainer 
+											- size = 2;
+											- value = 
+											{ IProperty 
+												- _Name = "AccessorGenerate";
+												- _Value = "True";
+												- _Type = Bool;
+											}
+											{ IProperty 
+												- _Name = "MutatorGenerate";
+												- _Value = "Smart";
+												- _Type = Enum;
+												- _ExtraTypeInfo = "Smart, Always, Never";
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- _name = "Mode";
+					- Dependencies = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IDependency 
+							- _id = GUID e71dc9d2-a4c3-4bcc-8a9b-c7ac8f5070ee;
+							- _myState = 2048;
+							- _name = "Mode";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IAttribute";
+								- _filename = "Uc1ArmingLoggerPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc1ArmingLoggerPkg";
+								- _class = "Uc_Uc1ArmingLogger";
+								- _name = "Mode";
+								- _id = GUID 489b1fc8-7763-452c-9146-562ff67b7247;
+							}
+						}
+						{ IDependency 
+							- _id = GUID 9ecdde9e-35b7-486c-97f7-331a16f4251a;
+							- _myState = 2048;
+							- _name = "Mode";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IAttribute";
+								- _filename = "Uc2DataLoggingAndIntrusionDetectionPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc2DataLoggingAndIntrusionDetectionPkg";
+								- _class = "Uc_Uc2DataLoggingAndIntrusionDetection";
+								- _name = "Mode";
+								- _id = GUID ffff7a9c-847e-4323-9e8e-10b778cc19e8;
+							}
+						}
+					}
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "PredefinedTypesC.sbs";
+							- _subsystem = "PredefinedTypesC";
+							- _class = "";
+							- _name = "Web Managed";
+							- _id = GUID 1c55420a-fee9-443f-96f8-ee8a9a147c47;
+						}
+					}
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID dfc96e55-ed59-4224-8a9e-09d2a1828240;
+							- _value = "IDLE";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "TypesPkg.sbs";
+						- _subsystem = "TypesPkg";
+						- _class = "";
+						- _name = "_Mode";
+						- _id = GUID 34fb3395-dc91-44e6-b40c-b8c633270720;
+					}
+					- _isOrdered = 0;
+					- _protection = iPublic;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+				{ IAttribute 
+					- _id = GUID 205b730c-76d8-4dcd-a4e2-4f3962960a01;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "C_CG";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Attribute";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "AccessorGenerate";
+												- _Value = "True";
+												- _Type = Bool;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- _name = "Key";
+					- Dependencies = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IDependency 
+							- _id = GUID 00fea775-2b3d-483c-9437-f2927d358428;
+							- _myState = 2048;
+							- _name = "Key";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IAttribute";
+								- _filename = "Uc1ArmingLoggerPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc1ArmingLoggerPkg";
+								- _class = "Uc_Uc1ArmingLogger";
+								- _name = "Key";
+								- _id = GUID 6dc30b3d-e207-49ec-a6ef-c21da42b5a95;
+							}
+						}
+						{ IDependency 
+							- _id = GUID a652b474-fda1-4fda-a655-043caa82f697;
+							- _myState = 2048;
+							- _name = "Key";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IAttribute";
+								- _filename = "Uc2DataLoggingAndIntrusionDetectionPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc2DataLoggingAndIntrusionDetectionPkg";
+								- _class = "Uc_Uc2DataLoggingAndIntrusionDetection";
+								- _name = "Key";
+								- _id = GUID ccd7d0d0-87a3-4f2f-9e95-ddd15cc95cb8;
+							}
+						}
+					}
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "PredefinedTypesC.sbs";
+							- _subsystem = "PredefinedTypesC";
+							- _class = "";
+							- _name = "Web Managed";
+							- _id = GUID 1c55420a-fee9-443f-96f8-ee8a9a147c47;
+						}
+					}
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 0f44c9c3-20dd-435e-9570-ababf920240e;
+							- _value = "\"myKey\"";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC.sbs";
+						- _subsystem = "PredefinedTypesC";
+						- _class = "";
+						- _name = "char*";
+						- _id = GUID 1ae3facb-89cb-11d2-b813-00104b3e6572;
+					}
+					- _isOrdered = 0;
+					- _protection = iPublic;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+				{ IAttribute 
+					- _id = GUID 9aa7eae8-d001-47ef-ab3f-531a3fcb7d1a;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "C_CG";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Attribute";
+										- Properties = { IRPYRawContainer 
+											- size = 2;
+											- value = 
+											{ IProperty 
+												- _Name = "AccessorGenerate";
+												- _Value = "True";
+												- _Type = Bool;
+											}
+											{ IProperty 
+												- _Name = "MutatorGenerate";
+												- _Value = "Smart";
+												- _Type = Enum;
+												- _ExtraTypeInfo = "Smart, Always, Never";
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- _name = "keyStatus";
+					- Dependencies = { IRPYRawContainer 
+						- size = 4;
+						- value = 
+						{ IDependency 
+							- _id = GUID f2426750-3fb3-4cbf-9980-c49b005f60e8;
+							- _myState = 2048;
+							- _name = "Acquisition Mode Entry";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+									- _subsystem = "SysML::Requirements";
+									- _class = "";
+									- _name = "satisfy";
+									- _id = GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IRequirement";
+								- _filename = "SystemRequirementsPkg.sbs";
+								- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirementsPkg";
+								- _class = "";
+								- _name = "Acquisition Mode Entry";
+								- _id = GUID 1c46c82e-6f43-42ac-8d0f-d42a6c582952;
+							}
+						}
+						{ IDependency 
+							- _id = GUID d8adfafa-e302-4e5e-a471-4757f575c700;
+							- _myState = 2048;
+							- _name = "Acquisition Mode Exit";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+									- _subsystem = "SysML::Requirements";
+									- _class = "";
+									- _name = "satisfy";
+									- _id = GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IRequirement";
+								- _filename = "SystemRequirementsPkg.sbs";
+								- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirementsPkg";
+								- _class = "";
+								- _name = "Acquisition Mode Exit";
+								- _id = GUID ed8fc13c-7d50-4b43-93d3-be72403d24c8;
+							}
+						}
+						{ IDependency 
+							- _id = GUID e1198a90-f6bf-4f09-8879-a3b2935d57ce;
+							- _myState = 2048;
+							- _name = "keyStatus";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IAttribute";
+								- _filename = "Uc1ArmingLoggerPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc1ArmingLoggerPkg";
+								- _class = "Uc_Uc1ArmingLogger";
+								- _name = "keyStatus";
+								- _id = GUID 60b6bc85-cd3e-4759-be3e-6a1aa7ee8b48;
+							}
+						}
+						{ IDependency 
+							- _id = GUID e29c92fc-4c17-4a04-9803-1e2eb14b3611;
+							- _myState = 2048;
+							- _name = "keyStatus";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IAttribute";
+								- _filename = "Uc2DataLoggingAndIntrusionDetectionPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc2DataLoggingAndIntrusionDetectionPkg";
+								- _class = "Uc_Uc2DataLoggingAndIntrusionDetection";
+								- _name = "keyStatus";
+								- _id = GUID 9f6177d2-41b2-4837-909c-1d4d61dcf6ed;
+							}
+						}
+					}
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "PredefinedTypesC.sbs";
+							- _subsystem = "PredefinedTypesC";
+							- _class = "";
+							- _name = "Web Managed";
+							- _id = GUID 1c55420a-fee9-443f-96f8-ee8a9a147c47;
+						}
+					}
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID bdf57536-7fb1-47a8-b6fa-d4c12165fae9;
+							- _value = "0";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC.sbs";
+						- _subsystem = "PredefinedTypesC";
+						- _class = "";
+						- _name = "RiCBoolean";
+						- _id = GUID b8644cfd-526b-4b0e-b2f1-f3f168e7f7cd;
+					}
+					- _isOrdered = 0;
+					- _protection = iPublic;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+				{ IAttribute 
+					- _id = GUID 387d11f8-53c6-4777-90e6-5300e77b10c9;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 2;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "C_CG";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Attribute";
+										- Properties = { IRPYRawContainer 
+											- size = 2;
+											- value = 
+											{ IProperty 
+												- _Name = "AccessorGenerate";
+												- _Value = "True";
+												- _Type = Bool;
+											}
+											{ IProperty 
+												- _Name = "MutatorGenerate";
+												- _Value = "Smart";
+												- _Type = Enum;
+												- _ExtraTypeInfo = "Smart, Always, Never";
+											}
+										}
+									}
+								}
+							}
+							{ IPropertySubject 
+								- _Name = "WebComponents";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Attribute";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "WebManaged";
+												- _Value = "True";
+												- _Type = Bool;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- _name = "flagMemoryLow";
+					- Dependencies = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IDependency 
+							- _id = GUID 4cfb0011-5fb2-44ac-9108-e2df100f03a0;
+							- _myState = 2048;
+							- _name = "Memory Monitoring";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+									- _subsystem = "SysML::Requirements";
+									- _class = "";
+									- _name = "satisfy";
+									- _id = GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IRequirement";
+								- _filename = "SystemRequirementsPkg.sbs";
+								- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirementsPkg";
+								- _class = "";
+								- _name = "Memory Monitoring";
+								- _id = GUID bee18ce8-2495-4551-af4e-93e899340856;
+							}
+						}
+						{ IDependency 
+							- _id = GUID 674845e1-28f6-4749-9704-058350f1cea6;
+							- _myState = 2048;
+							- _name = "flagMemoryLow";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IAttribute";
+								- _filename = "Uc1ArmingLoggerPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc1ArmingLoggerPkg";
+								- _class = "Uc_Uc1ArmingLogger";
+								- _name = "flagMemoryLow";
+								- _id = GUID 04973b25-ee16-4b27-9edc-bbea63a8a232;
+							}
+						}
+					}
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "PredefinedTypesC.sbs";
+							- _subsystem = "PredefinedTypesC";
+							- _class = "";
+							- _name = "Web Managed";
+							- _id = GUID 1c55420a-fee9-443f-96f8-ee8a9a147c47;
+						}
+					}
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 79db3b2f-d56c-49af-a684-9a99f39318ca;
+							- _value = "0";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC.sbs";
+						- _subsystem = "PredefinedTypesC";
+						- _class = "";
+						- _name = "RiCBoolean";
+						- _id = GUID b8644cfd-526b-4b0e-b2f1-f3f168e7f7cd;
+					}
+					- _isOrdered = 0;
+					- _protection = iPublic;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+				{ IAttribute 
+					- _id = GUID 4740bb24-5271-4ad3-a2ab-1fba7066805c;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "C_CG";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Attribute";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "AccessorGenerate";
+												- _Value = "True";
+												- _Type = Bool;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- _name = "flagSensorsFailure";
+					- Dependencies = { IRPYRawContainer 
+						- size = 3;
+						- value = 
+						{ IDependency 
+							- _id = GUID 43484026-90c1-41ba-b4dc-c08bd2ed539a;
+							- _myState = 2048;
+							- _name = "Sensors Check";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+									- _subsystem = "SysML::Requirements";
+									- _class = "";
+									- _name = "satisfy";
+									- _id = GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IRequirement";
+								- _filename = "SystemRequirementsPkg.sbs";
+								- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirementsPkg";
+								- _class = "";
+								- _name = "Sensors Check";
+								- _id = GUID 64b0850c-45c4-44b6-9b83-096636df6407;
+							}
+						}
+						{ IDependency 
+							- _id = GUID 257d28cb-a58a-49ad-bc5c-f84d7388cce0;
+							- _myState = 2048;
+							- _name = "flagSensorsFailure";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IAttribute";
+								- _filename = "Uc1ArmingLoggerPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc1ArmingLoggerPkg";
+								- _class = "Uc_Uc1ArmingLogger";
+								- _name = "flagSensorsFailure";
+								- _id = GUID ba312115-a310-4d65-b9a8-ab265bd4d799;
+							}
+						}
+						{ IDependency 
+							- _id = GUID 4ab810b7-8449-4bda-8698-51c17528a51d;
+							- _myState = 2048;
+							- _name = "flagSensorsFailure";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IAttribute";
+								- _filename = "Uc2DataLoggingAndIntrusionDetectionPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc2DataLoggingAndIntrusionDetectionPkg";
+								- _class = "Uc_Uc2DataLoggingAndIntrusionDetection";
+								- _name = "flagSensorsFailure";
+								- _id = GUID 12c871d2-5f9b-42e7-9f0b-0a13e9cff88e;
+							}
+						}
+					}
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "PredefinedTypesC.sbs";
+							- _subsystem = "PredefinedTypesC";
+							- _class = "";
+							- _name = "Web Managed";
+							- _id = GUID 1c55420a-fee9-443f-96f8-ee8a9a147c47;
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC.sbs";
+						- _subsystem = "PredefinedTypesC";
+						- _class = "";
+						- _name = "RiCBoolean";
+						- _id = GUID b8644cfd-526b-4b0e-b2f1-f3f168e7f7cd;
+					}
+					- _isOrdered = 0;
+					- _protection = iPublic;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+				{ IAttribute 
+					- _id = GUID 4d0892c3-8d07-4abf-b81e-d23424e488e5;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 2;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "C_CG";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Attribute";
+										- Properties = { IRPYRawContainer 
+											- size = 2;
+											- value = 
+											{ IProperty 
+												- _Name = "AccessorGenerate";
+												- _Value = "True";
+												- _Type = Bool;
+											}
+											{ IProperty 
+												- _Name = "MutatorGenerate";
+												- _Value = "Smart";
+												- _Type = Enum;
+												- _ExtraTypeInfo = "Smart, Always, Never";
+											}
+										}
+									}
+								}
+							}
+							{ IPropertySubject 
+								- _Name = "WebComponents";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Attribute";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "WebManaged";
+												- _Value = "True";
+												- _Type = Bool;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- _name = "flagAlarm";
+					- Dependencies = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IDependency 
+							- _id = GUID 028ab3eb-f053-4f2b-8bae-a167112cc9be;
+							- _myState = 2048;
+							- _name = "Alarm Check";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+									- _subsystem = "SysML::Requirements";
+									- _class = "";
+									- _name = "satisfy";
+									- _id = GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IRequirement";
+								- _filename = "SystemRequirementsPkg.sbs";
+								- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirementsPkg";
+								- _class = "";
+								- _name = "Alarm Check";
+								- _id = GUID ce7d8327-c1c9-4c7c-b391-c17f03aca961;
+							}
+						}
+						{ IDependency 
+							- _id = GUID 05efef66-3eb5-438d-932e-544512312a69;
+							- _myState = 2048;
+							- _name = "flagAlarm";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IAttribute";
+								- _filename = "Uc1ArmingLoggerPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc1ArmingLoggerPkg";
+								- _class = "Uc_Uc1ArmingLogger";
+								- _name = "flagAlarm";
+								- _id = GUID 43314c90-d4cd-425b-8a17-d34fa522784e;
+							}
+						}
+					}
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "PredefinedTypesC.sbs";
+							- _subsystem = "PredefinedTypesC";
+							- _class = "";
+							- _name = "Web Managed";
+							- _id = GUID 1c55420a-fee9-443f-96f8-ee8a9a147c47;
+						}
+					}
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 5385e32c-e225-4a07-8308-b95b4eef7c88;
+							- _value = "0";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC.sbs";
+						- _subsystem = "PredefinedTypesC";
+						- _class = "";
+						- _name = "RiCBoolean";
+						- _id = GUID b8644cfd-526b-4b0e-b2f1-f3f168e7f7cd;
+					}
+					- _isOrdered = 0;
+					- _protection = iPublic;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+				{ IAttribute 
+					- _id = GUID 32177a3b-cc40-411b-8ba9-bf5c6e85a934;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "C_CG";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Attribute";
+										- Properties = { IRPYRawContainer 
+											- size = 2;
+											- value = 
+											{ IProperty 
+												- _Name = "AccessorGenerate";
+												- _Value = "True";
+												- _Type = Bool;
+											}
+											{ IProperty 
+												- _Name = "MutatorGenerate";
+												- _Value = "Smart";
+												- _Type = Enum;
+												- _ExtraTypeInfo = "Smart, Always, Never";
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- _name = "flagBatteryLow";
+					- Dependencies = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IDependency 
+							- _id = GUID 068ee41c-4512-436c-be3e-792319cdf852;
+							- _myState = 2048;
+							- _name = "Low Battery Indicator";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+									- _subsystem = "SysML::Requirements";
+									- _class = "";
+									- _name = "satisfy";
+									- _id = GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IRequirement";
+								- _filename = "SystemRequirementsPkg.sbs";
+								- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirementsPkg";
+								- _class = "";
+								- _name = "Low Battery Indicator";
+								- _id = GUID 738f8d2e-eb7a-4662-99bc-bd90d3a32d57;
+							}
+						}
+						{ IDependency 
+							- _id = GUID 8668b1dc-109f-47f6-a95c-7f785b65a1a7;
+							- _myState = 2048;
+							- _name = "flagBatteryLow";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IAttribute";
+								- _filename = "Uc1ArmingLoggerPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc1ArmingLoggerPkg";
+								- _class = "Uc_Uc1ArmingLogger";
+								- _name = "flagBatteryLow";
+								- _id = GUID 1a44fb51-6093-4148-ab10-ff7a5c2a6286;
+							}
+						}
+					}
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "PredefinedTypesC.sbs";
+							- _subsystem = "PredefinedTypesC";
+							- _class = "";
+							- _name = "Web Managed";
+							- _id = GUID 1c55420a-fee9-443f-96f8-ee8a9a147c47;
+						}
+					}
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID af542903-164b-4451-8e67-9d3a4977009e;
+							- _value = "0";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC.sbs";
+						- _subsystem = "PredefinedTypesC";
+						- _class = "";
+						- _name = "RiCBoolean";
+						- _id = GUID b8644cfd-526b-4b0e-b2f1-f3f168e7f7cd;
+					}
+					- _isOrdered = 0;
+					- _protection = iPublic;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+				{ IAttribute 
+					- _id = GUID 8c3804d2-1468-475d-9d27-5e649e69afe9;
+					- _name = "faultLedCount";
+					- Dependencies = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IDependency 
+							- _id = GUID 80c98f28-3369-47ce-853a-7902816b2044;
+							- _myState = 2048;
+							- _name = "faultLedCount";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IAttribute";
+								- _filename = "Uc1ArmingLoggerPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc1ArmingLoggerPkg";
+								- _class = "Uc_Uc1ArmingLogger";
+								- _name = "faultLedCount";
+								- _id = GUID 766eb2ca-0a69-4f8a-839e-b332c3fdf93b;
+							}
+						}
+					}
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 9de6a4db-8d3d-4085-ba6a-def9b9b522ae;
+							- _value = "10";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC.sbs";
+						- _subsystem = "PredefinedTypesC";
+						- _class = "";
+						- _name = "int";
+						- _id = GUID 1ae3fac5-89cb-11d2-b813-00104b3e6572;
+					}
+					- _isOrdered = 0;
+					- _protection = iPublic;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+				{ IAttribute 
+					- _id = GUID b0a1f835-a2de-4c28-9ccc-08dbf5b41f5d;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "CPP_CG";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Attribute";
+										- Properties = { IRPYRawContainer 
+											- size = 2;
+											- value = 
+											{ IProperty 
+												- _Name = "AccessorGenerate";
+												- _Value = "False";
+												- _Type = Bool;
+											}
+											{ IProperty 
+												- _Name = "MutatorGenerate";
+												- _Value = "Never";
+												- _Type = Enum;
+												- _ExtraTypeInfo = "Smart, Always, Never";
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- _name = "savedKeys";
+					- Dependencies = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IDependency 
+							- _id = GUID bfe4a3a5-c679-4f34-9d8a-75a6b5d9ce04;
+							- _myState = 2048;
+							- _name = "Electronic Key Number";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+									- _subsystem = "SysML::Requirements";
+									- _class = "";
+									- _name = "satisfy";
+									- _id = GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IConstraint";
+								- _filename = "SystemRequirementsPkg.sbs";
+								- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirementsPkg";
+								- _class = "";
+								- _name = "Electronic Key Number";
+								- _id = GUID cbc77dcf-254e-41cc-a255-9cb55ea98098;
+							}
+						}
+						{ IDependency 
+							- _id = GUID 61890401-1894-4f3a-9cb6-4f340d022b96;
+							- _myState = 2048;
+							- _name = "savedKeys";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IAttribute";
+								- _filename = "Uc1ArmingLoggerPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc1ArmingLoggerPkg";
+								- _class = "Uc_Uc1ArmingLogger";
+								- _name = "savedKeys";
+								- _id = GUID 03150c08-4953-40be-8511-ad989f976d44;
+							}
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC.sbs";
+						- _subsystem = "PredefinedTypesC";
+						- _class = "";
+						- _name = "char*";
+						- _id = GUID 1ae3facb-89cb-11d2-b813-00104b3e6572;
+					}
+					- _multiplicity = "8";
+					- _isOrdered = 0;
+					- _protection = iPublic;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+				{ IAttribute 
+					- _id = GUID 52b790da-6b95-4667-b2b8-e9fbe63950b5;
+					- _name = "counter";
+					- Dependencies = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IDependency 
+							- _id = GUID cb232ccf-0948-4c99-996a-bfd0b58e23fa;
+							- _myState = 2048;
+							- _name = "counter";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IAttribute";
+								- _filename = "Uc1ArmingLoggerPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc1ArmingLoggerPkg";
+								- _class = "Uc_Uc1ArmingLogger";
+								- _name = "counter";
+								- _id = GUID fac99eeb-5a47-45dc-a783-33c692d5f838;
+							}
+						}
+					}
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 76267333-7b54-47be-aa64-fc0e33f63f6e;
+							- _value = "0";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC.sbs";
+						- _subsystem = "PredefinedTypesC";
+						- _class = "";
+						- _name = "int";
+						- _id = GUID 1ae3fac5-89cb-11d2-b813-00104b3e6572;
+					}
+					- _isOrdered = 0;
+					- _protection = iPublic;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+				{ IAttribute 
+					- _id = GUID 32b8f9c0-f392-4455-ad4e-1b7b808b2d0f;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "C_CG";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Attribute";
+										- Properties = { IRPYRawContainer 
+											- size = 3;
+											- value = 
+											{ IProperty 
+												- _Name = "AccessorGenerate";
+												- _Value = "True";
+												- _Type = Bool;
+											}
+											{ IProperty 
+												- _Name = "AccessorVisibility";
+												- _Value = "Public";
+												- _Type = Enum;
+												- _ExtraTypeInfo = "Private, Public, fromAttribute";
+											}
+											{ IProperty 
+												- _Name = "MutatorVisibility";
+												- _Value = "Public";
+												- _Type = Enum;
+												- _ExtraTypeInfo = "Private, Public, fromAttribute";
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- _name = "flagPSensor";
+					- Dependencies = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IDependency 
+							- _id = GUID 208c6907-779f-4e0a-8db5-c846fbb20c84;
+							- _myState = 2048;
+							- _name = "Primary Sensor";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+									- _subsystem = "SysML::Requirements";
+									- _class = "";
+									- _name = "satisfy";
+									- _id = GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IRequirement";
+								- _filename = "SystemRequirementsPkg.sbs";
+								- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirementsPkg";
+								- _class = "";
+								- _name = "Primary Sensor";
+								- _id = GUID c4dc6022-ed26-4d42-911e-681a6f77d73d;
+							}
+						}
+						{ IDependency 
+							- _id = GUID 4dfb9d35-0b8e-4612-8b9e-451d4496e82d;
+							- _myState = 2048;
+							- _name = "flagPSensor";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IAttribute";
+								- _filename = "Uc2DataLoggingAndIntrusionDetectionPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc2DataLoggingAndIntrusionDetectionPkg";
+								- _class = "Uc_Uc2DataLoggingAndIntrusionDetection";
+								- _name = "flagPSensor";
+								- _id = GUID 2542702d-d42f-4eb6-bcb9-6e35d1b833cc;
+							}
+						}
+					}
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "PredefinedTypesC.sbs";
+							- _subsystem = "PredefinedTypesC";
+							- _class = "";
+							- _name = "Web Managed";
+							- _id = GUID 1c55420a-fee9-443f-96f8-ee8a9a147c47;
+						}
+					}
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID c0fddabd-8f0f-4655-8ed1-c9169039685a;
+							- _value = "0";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC.sbs";
+						- _subsystem = "PredefinedTypesC";
+						- _class = "";
+						- _name = "RiCBoolean";
+						- _id = GUID b8644cfd-526b-4b0e-b2f1-f3f168e7f7cd;
+					}
+					- _isOrdered = 0;
+					- _protection = iPublic;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+				{ IAttribute 
+					- _id = GUID 6dd6f02e-422b-4019-906c-8331b552e88b;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "C_CG";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Attribute";
+										- Properties = { IRPYRawContainer 
+											- size = 4;
+											- value = 
+											{ IProperty 
+												- _Name = "AccessorGenerate";
+												- _Value = "True";
+												- _Type = Bool;
+											}
+											{ IProperty 
+												- _Name = "AccessorVisibility";
+												- _Value = "Public";
+												- _Type = Enum;
+												- _ExtraTypeInfo = "Private, Public, fromAttribute";
+											}
+											{ IProperty 
+												- _Name = "MutatorGenerate";
+												- _Value = "Smart";
+												- _Type = Enum;
+												- _ExtraTypeInfo = "Smart, Always, Never";
+											}
+											{ IProperty 
+												- _Name = "MutatorVisibility";
+												- _Value = "Public";
+												- _Type = Enum;
+												- _ExtraTypeInfo = "Private, Public, fromAttribute";
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- _name = "flagWriteSensors";
+					- Dependencies = { IRPYRawContainer 
+						- size = 3;
+						- value = 
+						{ IDependency 
+							- _id = GUID 2257d65d-1a71-49fa-8b43-42c1b67f6fca;
+							- _myState = 2048;
+							- _name = "Secondary Sensors";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+									- _subsystem = "SysML::Requirements";
+									- _class = "";
+									- _name = "satisfy";
+									- _id = GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IRequirement";
+								- _filename = "SystemRequirementsPkg.sbs";
+								- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirementsPkg";
+								- _class = "";
+								- _name = "Secondary Sensors";
+								- _id = GUID cbbc9bf7-1571-459f-b66a-6bde326a64e5;
+							}
+						}
+						{ IDependency 
+							- _id = GUID 8b87f431-238e-4145-96bc-a0ff065c5f5d;
+							- _myState = 2048;
+							- _name = "Timestamp Recording";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+									- _subsystem = "SysML::Requirements";
+									- _class = "";
+									- _name = "satisfy";
+									- _id = GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IRequirement";
+								- _filename = "SystemRequirementsPkg.sbs";
+								- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirementsPkg";
+								- _class = "";
+								- _name = "Timestamp Recording";
+								- _id = GUID 834db0b2-a3f8-45d1-8226-cfcf121175bb;
+							}
+						}
+						{ IDependency 
+							- _id = GUID 5b36d5d9-303e-4f9a-876d-cd93d49f4909;
+							- _myState = 2048;
+							- _name = "flagWriteSensors";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IAttribute";
+								- _filename = "Uc2DataLoggingAndIntrusionDetectionPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc2DataLoggingAndIntrusionDetectionPkg";
+								- _class = "Uc_Uc2DataLoggingAndIntrusionDetection";
+								- _name = "flagWriteSensors";
+								- _id = GUID 3302f1c8-b7c2-4135-b64a-f889b29a8391;
+							}
+						}
+					}
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "PredefinedTypesC.sbs";
+							- _subsystem = "PredefinedTypesC";
+							- _class = "";
+							- _name = "Web Managed";
+							- _id = GUID 1c55420a-fee9-443f-96f8-ee8a9a147c47;
+						}
+					}
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 88ea870a-d3f1-408e-b2a9-f28edf9542bd;
+							- _value = "0";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC.sbs";
+						- _subsystem = "PredefinedTypesC";
+						- _class = "";
+						- _name = "RiCBoolean";
+						- _id = GUID b8644cfd-526b-4b0e-b2f1-f3f168e7f7cd;
+					}
+					- _isOrdered = 0;
+					- _protection = iPublic;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+				{ IAttribute 
+					- _id = GUID 3a27f8b2-a9b7-4bd3-9266-b6b854c454c9;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "C_CG";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Attribute";
+										- Properties = { IRPYRawContainer 
+											- size = 4;
+											- value = 
+											{ IProperty 
+												- _Name = "AccessorGenerate";
+												- _Value = "True";
+												- _Type = Bool;
+											}
+											{ IProperty 
+												- _Name = "AccessorVisibility";
+												- _Value = "Public";
+												- _Type = Enum;
+												- _ExtraTypeInfo = "Private, Public, fromAttribute";
+											}
+											{ IProperty 
+												- _Name = "MutatorGenerate";
+												- _Value = "Smart";
+												- _Type = Enum;
+												- _ExtraTypeInfo = "Smart, Always, Never";
+											}
+											{ IProperty 
+												- _Name = "MutatorVisibility";
+												- _Value = "Public";
+												- _Type = Enum;
+												- _ExtraTypeInfo = "Private, Public, fromAttribute";
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- _name = "t_SensorsPoll";
+					- Dependencies = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IDependency 
+							- _id = GUID 20aa6fe1-4a79-44e5-829c-25e365e534ca;
+							- _myState = 2048;
+							- _name = "Secondary Sensors";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+									- _subsystem = "SysML::Requirements";
+									- _class = "";
+									- _name = "satisfy";
+									- _id = GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IRequirement";
+								- _filename = "SystemRequirementsPkg.sbs";
+								- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirementsPkg";
+								- _class = "";
+								- _name = "Secondary Sensors";
+								- _id = GUID cbbc9bf7-1571-459f-b66a-6bde326a64e5;
+							}
+						}
+						{ IDependency 
+							- _id = GUID ab7b5ede-464e-4057-a425-ffa294207640;
+							- _myState = 2048;
+							- _name = "t_SensorsPoll";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IAttribute";
+								- _filename = "Uc2DataLoggingAndIntrusionDetectionPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc2DataLoggingAndIntrusionDetectionPkg";
+								- _class = "Uc_Uc2DataLoggingAndIntrusionDetection";
+								- _name = "t_SensorsPoll";
+								- _id = GUID 99850162-e29c-4d7a-9d4d-8a329eac3b05;
+							}
+						}
+					}
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "PredefinedTypesC.sbs";
+							- _subsystem = "PredefinedTypesC";
+							- _class = "";
+							- _name = "Web Managed";
+							- _id = GUID 1c55420a-fee9-443f-96f8-ee8a9a147c47;
+						}
+					}
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 1c98d0de-a63a-42ee-9047-17d1f9139400;
+							- _value = "5000";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC.sbs";
+						- _subsystem = "PredefinedTypesC";
+						- _class = "";
+						- _name = "int";
+						- _id = GUID 1ae3fac5-89cb-11d2-b813-00104b3e6572;
+					}
+					- _isOrdered = 0;
+					- _protection = iPublic;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+				{ IAttribute 
+					- _id = GUID 707df542-674e-4b97-95b6-670c3e1c7d83;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "C_CG";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Attribute";
+										- Properties = { IRPYRawContainer 
+											- size = 4;
+											- value = 
+											{ IProperty 
+												- _Name = "AccessorGenerate";
+												- _Value = "True";
+												- _Type = Bool;
+											}
+											{ IProperty 
+												- _Name = "AccessorVisibility";
+												- _Value = "Public";
+												- _Type = Enum;
+												- _ExtraTypeInfo = "Private, Public, fromAttribute";
+											}
+											{ IProperty 
+												- _Name = "MutatorGenerate";
+												- _Value = "Smart";
+												- _Type = Enum;
+												- _ExtraTypeInfo = "Smart, Always, Never";
+											}
+											{ IProperty 
+												- _Name = "MutatorVisibility";
+												- _Value = "Public";
+												- _Type = Enum;
+												- _ExtraTypeInfo = "Private, Public, fromAttribute";
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- _name = "t_IntrusionDelay";
+					- Dependencies = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IDependency 
+							- _id = GUID b666d9da-41e6-4629-9468-801c5a3925c9;
+							- _myState = 2048;
+							- _name = "Entry Time";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+									- _subsystem = "SysML::Requirements";
+									- _class = "";
+									- _name = "satisfy";
+									- _id = GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IRequirement";
+								- _filename = "SystemRequirementsPkg.sbs";
+								- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirementsPkg";
+								- _class = "";
+								- _name = "Entry Time";
+								- _id = GUID d73132b8-f437-435d-9f08-033f369f12ec;
+							}
+						}
+						{ IDependency 
+							- _id = GUID 812f5d43-f6af-444b-acb6-288e2673e904;
+							- _myState = 2048;
+							- _name = "t_IntrusionDelay";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IAttribute";
+								- _filename = "Uc2DataLoggingAndIntrusionDetectionPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc2DataLoggingAndIntrusionDetectionPkg";
+								- _class = "Uc_Uc2DataLoggingAndIntrusionDetection";
+								- _name = "t_IntrusionDelay";
+								- _id = GUID b9266bc7-585c-421c-bffa-cbdf32979bf8;
+							}
+						}
+					}
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "PredefinedTypesC.sbs";
+							- _subsystem = "PredefinedTypesC";
+							- _class = "";
+							- _name = "Web Managed";
+							- _id = GUID 1c55420a-fee9-443f-96f8-ee8a9a147c47;
+						}
+					}
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 5009e7f8-e606-4d42-9970-951d4c01e9d8;
+							- _value = "10000";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC.sbs";
+						- _subsystem = "PredefinedTypesC";
+						- _class = "";
+						- _name = "int";
+						- _id = GUID 1ae3fac5-89cb-11d2-b813-00104b3e6572;
+					}
+					- _isOrdered = 0;
+					- _protection = iPublic;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+				{ IAttribute 
+					- _id = GUID 7b0f49f7-190c-47d1-a47c-b9553813f87a;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "C_CG";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Attribute";
+										- Properties = { IRPYRawContainer 
+											- size = 3;
+											- value = 
+											{ IProperty 
+												- _Name = "AccessorGenerate";
+												- _Value = "True";
+												- _Type = Bool;
+											}
+											{ IProperty 
+												- _Name = "AccessorVisibility";
+												- _Value = "Public";
+												- _Type = Enum;
+												- _ExtraTypeInfo = "Private, Public, fromAttribute";
+											}
+											{ IProperty 
+												- _Name = "MutatorVisibility";
+												- _Value = "Public";
+												- _Type = Enum;
+												- _ExtraTypeInfo = "Private, Public, fromAttribute";
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- _name = "writesCnt";
+					- Dependencies = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IDependency 
+							- _id = GUID 5639d5c1-a08a-4097-9b1f-963ced9bad30;
+							- _myState = 2048;
+							- _name = "writesCnt";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IAttribute";
+								- _filename = "Uc2DataLoggingAndIntrusionDetectionPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc2DataLoggingAndIntrusionDetectionPkg";
+								- _class = "Uc_Uc2DataLoggingAndIntrusionDetection";
+								- _name = "writesCnt";
+								- _id = GUID 31cad4dc-1231-4adf-aef0-ef40aadf1810;
+							}
+						}
+					}
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "PredefinedTypesC.sbs";
+							- _subsystem = "PredefinedTypesC";
+							- _class = "";
+							- _name = "Web Managed";
+							- _id = GUID 1c55420a-fee9-443f-96f8-ee8a9a147c47;
+						}
+					}
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID ba1aeb3c-860a-40aa-a83f-62b66e6793e1;
+							- _value = "0";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC.sbs";
+						- _subsystem = "PredefinedTypesC";
+						- _class = "";
+						- _name = "int";
+						- _id = GUID 1ae3fac5-89cb-11d2-b813-00104b3e6572;
+					}
+					- _isOrdered = 0;
+					- _protection = iPublic;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+				{ IAttribute 
+					- _id = GUID 9d358347-6a4a-4e0a-97a8-3c50388f98bd;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "C_CG";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Attribute";
+										- Properties = { IRPYRawContainer 
+											- size = 3;
+											- value = 
+											{ IProperty 
+												- _Name = "AccessorGenerate";
+												- _Value = "True";
+												- _Type = Bool;
+											}
+											{ IProperty 
+												- _Name = "AccessorVisibility";
+												- _Value = "Public";
+												- _Type = Enum;
+												- _ExtraTypeInfo = "Private, Public, fromAttribute";
+											}
+											{ IProperty 
+												- _Name = "MutatorVisibility";
+												- _Value = "Public";
+												- _Type = Enum;
+												- _ExtraTypeInfo = "Private, Public, fromAttribute";
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- _name = "intrusionCnt";
+					- Dependencies = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IDependency 
+							- _id = GUID 1b317bdf-7050-4ab5-b89e-11bd0ebcbc7e;
+							- _myState = 2048;
+							- _name = "intrusionCnt";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IAttribute";
+								- _filename = "Uc2DataLoggingAndIntrusionDetectionPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::Uc2DataLoggingAndIntrusionDetectionPkg";
+								- _class = "Uc_Uc2DataLoggingAndIntrusionDetection";
+								- _name = "intrusionCnt";
+								- _id = GUID bde1faa4-df32-4877-a982-dfb29d8b8784;
+							}
+						}
+					}
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "PredefinedTypesC.sbs";
+							- _subsystem = "PredefinedTypesC";
+							- _class = "";
+							- _name = "Web Managed";
+							- _id = GUID 1c55420a-fee9-443f-96f8-ee8a9a147c47;
+						}
+					}
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 54de8031-fa3e-47fa-ba1d-9e2b293ebfe0;
+							- _value = "0";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC.sbs";
+						- _subsystem = "PredefinedTypesC";
+						- _class = "";
+						- _name = "int";
+						- _id = GUID 1ae3fac5-89cb-11d2-b813-00104b3e6572;
+					}
+					- _isOrdered = 0;
+					- _protection = iPublic;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 1.1.1970::4:0:0;
+}
+

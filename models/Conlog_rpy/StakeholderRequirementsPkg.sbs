@@ -1,0 +1,301 @@
+I-Logix-RPY-Archive version 8.6.0 C 4012249
+{ ISubsystem 
+	- _ownerHandle = { IHandle 
+		- _m2Class = "ISubsystem";
+		- _filename = "RequirementsPkg.sbs";
+		- _subsystem = "RequirementsAnalysisPkg";
+		- _class = "";
+		- _name = "RequirementsPkg";
+		- _id = GUID b5e9a598-24fa-44d6-95fc-b3d9cb80c4c5;
+	}
+	- _id = GUID ae31e5ed-874d-488f-9904-d1c0c344ce8a;
+	- _myState = 8192;
+	- _name = "StakeholderRequirementsPkg";
+	- Annotations = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IRequirement 
+			- _id = GUID 3983e046-dfce-4a6b-b699-f60be046c969;
+			- _name = "CL1 - Container Logger";
+			- Annotations = { IRPYRawContainer 
+				- size = 12;
+				- value = 
+				{ IRequirement 
+					- _id = GUID bb0bd348-2312-4166-a2ae-59be5ffafe75;
+					- _name = "CL11 - Data Logging";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _id = GUID 77e31b6b-e49c-4dd7-8794-27bfa93c2677;
+						}
+					}
+					- _body = "{\\rtf1\\ansi\\ansicpg1251\\deff0\\deflang1049{\\fonttbl{\\f0\\fswiss\\fprq2\\fcharset204 Calibri;}{\\f1\\froman\\fprq2\\fcharset2 Symbol;}}
+\\viewkind4\\uc1\\pard\\qj\\f0\\fs22\\'cf\\'f0\\'e8\\'e1\\'ee\\'f0 \\'e4\\'ee\\'eb\\'e6\\'e5\\'ed \\'ee\\'e1\\'e5\\'f1\\'ef\\'e5\\'f7\\'e8\\'e2\\'e0\\'f2\\'fc \\'f0\\'e5\\'e3\\'e8\\'f1\\'f2\\'f0\\'e0\\'f6\\'e8\\'fe \\'e8 \\'e7\\'e0\\'ef\\'e8\\'f1\\'fc \\'ef\\'ff\\'f2\\'e8 \\'ef\\'e0\\'f0\\'e0\\'ec\\'e5\\'f2\\'f0\\'ee\\'e2:\\par
+\\pard\\fi426\\qj\\f1\\'b7\\tab\\f0\\'ed\\'e0\\'eb\\'e8\\'f7\\'e8\\'e5 \\'e4\\'e2\\'e8\\'e6\\'e5\\'ed\\'e8\\'ff - \\'e5\\'f1\\'f2\\'fc / \\'ed\\'e5\\'f2;\\par
+\\f1\\'b7\\tab\\f0\\'ee\\'f1\\'e2\\'e5\\'f9\\'e5\\'ed\\'ed\\'ee\\'f1\\'f2\\'fc - \\'e2 \\'cb\\'fe\\'ea\\'f1\\'e0\\'f5;\\par
+\\f1\\'b7\\tab\\f0\\'f2\\'e5\\'ec\\'ef\\'e5\\'f0\\'e0\\'f2\\'f3\\'f0\\'e0 - \\'e2 \\'e3\\'f0\\'e0\\'e4\\'f3\\'f1\\'e0\\'f5 \\'d6\\'e5\\'eb\\'fc\\'f1\\'e8\\'ff;\\par
+\\f1\\'b7\\tab\\f0\\'ee\\'f2\\'ed\\'ee\\'f1\\'e8\\'f2\\'e5\\'eb\\'fc\\'ed\\'e0\\'ff \\'e2\\'eb\\'e0\\'e6\\'ed\\'ee\\'f1\\'f2\\'fc - \\'e2 \\'ef\\'f0\\'ee\\'f6\\'e5\\'ed\\'f2\\'e0\\'f5;\\par
+\\f1\\'b7\\tab\\f0\\'e0\\'f2\\'ec\\'ee\\'f1\\'f4\\'e5\\'f0\\'ed\\'ee\\'e5 \\'e4\\'e0\\'e2\\'eb\\'e5\\'ed\\'e8\\'e5 - \\'e2 \\'ec\\'ec.\\'f0\\'f2.\\'f1\\'f2;\\par
+\\pard\\qj\\'cd\\'e0\\'eb\\'e8\\'f7\\'e8\\'e5 \\'e4\\'e2\\'e8\\'e6\\'e5\\'ed\\'e8\\'ff (\\'ef\\'e5\\'f0\\'e2\\'e8\\'f7\\'ed\\'fb\\'e9 \\'e4\\'e0\\'f2\\'f7\\'e8\\'ea) \\'e4\\'ee\\'eb\\'e6\\'ed\\'ee \\'ee\\'f2\\'f1\\'eb\\'e5\\'e6\\'e8\\'e2\\'e0\\'f2\\'fc\\'f1\\'ff \\'ef\\'ee\\'f1\\'f2\\'ee\\'ff\\'ed\\'ed\\'ee, \\'e0 \\'ec\\'ee\\'ed\\'e8\\'f2\\'ee\\'f0\\'e8\\'ed\\'e3 \\'ef\\'ee\\'ea\\'e0\\'e7\\'e0\\'ed\\'e8\\'e9 \\'ee\\'f1\\'f2\\'e0\\'eb\\'fc\\'ed\\'fb\\'f5 \\'e4\\'e0\\'f2\\'f7\\'e8\\'ea\\'ee\\'e2 (\\'e2\\'f2\\'ee\\'f0\\'e8\\'f7\\'ed\\'fb\\'f5) \\'e4\\'ee\\'eb\\'e6\\'ed\\'e0 \\'e2\\'e5\\'f1\\'f2\\'e8\\'f1\\'fc \\'f1 \\'ea\\'ee\\'ed\\'f4\\'e8\\'e3\\'f3\\'f0\\'e8\\'f0\\'f3\\'e5\\'ec\\'fb\\'ec \\'e8\\'ed\\'f2\\'e5\\'f0\\'e2\\'e0\\'eb\\'ee\\'ec. \\'c7\\'e0\\'ef\\'e8\\'f1\\'fc \\'ef\\'ee\\'ea\\'e0\\'e7\\'e0\\'ed\\'e8\\'e9 \\'e2\\'f
+2\\'ee\\'f0\\'e8\\'f7\\'ed\\'fb\\'f5 \\'e4\\'e0\\'f2\\'f7\\'e8\\'ea\\'ee\\'e2 \\'e2 \\'ef\\'e0\\'ec\\'ff\\'f2\\'fc \\'e4\\'ee\\'eb\\'e6\\'ed\\'e0 \\'e2\\'fb\\'ef\\'ee\\'eb\\'ed\\'ff\\'f2\\'fc\\'f1\\'ff, \\'f2\\'ee\\'eb\\'fc\\'ea\\'ee \\'e5\\'f1\\'eb\\'e8 \\'ef\\'ee\\'ea\\'e0\\'e7\\'e0\\'ed\\'e8\\'ff \\'e2\\'fb\\'f8\\'eb\\'e8 \\'e7\\'e0 \\'ef\\'f0\\'e5\\'e4\\'e5\\'eb\\'fb \\'ef\\'ee\\'f0\\'ee\\'e3\\'e0 (+/- \\'e4\\'e5\\'eb\\'fc\\'f2\\'e0). \\'d0\\'e0\\'e7\\'ec\\'e5\\'f0 \\'e4\\'e0\\'ed\\'ed\\'ee\\'e3\\'ee \\'ef\\'ee\\'f0\\'ee\\'e3\\'e0 \\'e4\\'ee\\'eb\\'e6\\'e5\\'ed \\'ed\\'e0\\'f1\\'f2\\'f0\\'e0\\'e8\\'e2\\'e0\\'f2\\'fc\\'f1\\'ff \\'e4\\'eb\\'ff \\'ea\\'e0\\'e6\\'e4\\'ee\\'e3\\'ee \\'e4\\'e0\\'f2\\'f7\\'e8\\'ea\\'e0 \\'e2 \\'f1\\'ee\\'ee\\'f2\\'e2\\'e5\\'f2\\'f1\\'f2\\'e2\\'f3\\'fe\\'f9\\'e8\\'f5 \\'e5\\'e4\\'e8\\'ed\\'e8
+\\'f6\\'e0\\'f5. \\'cf\\'f0\\'e8 \\'e7\\'e0\\'ef\\'e8\\'f1\\'e8 \\'ef\\'ee\\'ea\\'e0\\'e7\\'e0\\'ed\\'e8\\'e9 \\'e4\\'e0\\'f2\\'f7\\'e8\\'ea\\'ee\\'e2 \\'e2 \\'ef\\'e0\\'ec\\'ff\\'f2\\'fc \\'f2\\'e0\\'ea\\'e6\\'e5 \\'e4\\'ee\\'eb\\'e6\\'ed\\'e0 \\'e7\\'e0\\'ef\\'e8\\'f1\\'fb\\'e2\\'e0\\'f2\\'fc\\'f1\\'ff \\'e2\\'f0\\'e5\\'ec\\'e5\\'ed\\'ed\\'e0\\'ff \\'ec\\'e5\\'f2\\'ea\\'e0 (\\'f2\\'e5\\'ea\\'f3\\'f9\\'e8\\'e5 \\'e4\\'e0\\'f2\\'e0 \\'e8 \\'e2\\'f0\\'e5\\'ec\\'ff).\\par
+\\par
+\\pard\\par
+}
+";
+					- reqID = "CL11";
+				}
+				{ IRequirement 
+					- _id = GUID 6030d472-51bc-48f7-8dd0-68670f1e86b5;
+					- _name = "CL13 - Memory Requirements";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _id = GUID 77e31b6b-e49c-4dd7-8794-27bfa93c2677;
+						}
+					}
+					- _body = "{\\rtf1\\fbidis\\ansi\\ansicpg1251\\deff0\\deflang1049{\\fonttbl{\\f0\\fswiss\\fprq2\\fcharset204 Calibri;}{\\f1\\fnil\\fcharset204{\\*\\fname Arial;}Arial CYR;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\f0\\fs22\\'c7\\'e0\\'ef\\'e8\\'f1\\'fc \\'e4\\'ee\\'eb\\'e6\\'ed\\'e0 \\'e2\\'e5\\'f1\\'f2\\'e8\\'f1\\'fc \\'e2 \\'fd\\'ed\\'e5\\'f0\\'e3\\'ee\\'ed\\'e5\\'e7\\'e0\\'e2\\'e8\\'f1\\'e8\\'ec\\'f3\\'fe \\'ef\\'e0\\'ec\\'ff\\'f2\\'fc \\'f3\\'f1\\'f2\\'f0\\'ee\\'e9\\'f1\\'f2\\'e2\\'e0. \\'ce\\'e1\\'fa\\'e5\\'ec \\'ef\\'e0\\'ec\\'ff\\'f2\\'e8 \\'e4\\'ee\\'eb\\'e6\\'e5\\'ed \\'e1\\'fb\\'f2\\'fc \\'f0\\'e0\\'f1\\'f1\\'f7\\'e8\\'f2\\'e0\\'ed \\'ed\\'e0 \\'ed\\'e5\\'ef\\'f0\\'e5\\'f0\\'fb\\'e2\\'ed\\'f3\\'fe \\'f0\\'e0\\'e1\\'ee\\'f2\\'f3 \\'f3\\'f1\\'f2\\'f0\\'ee\\'e9\\'f1\\'f2\\'e2\\'e0 \\'e2 \\'f2\\'e5\\'f7\\'e5\\'ed\\'e8\\'e5 14 \\'f1\\'f3\\'f2\\'ee\\'ea. \\'cf\\'f0\\'e8 \\'ef\\'e5\\'f0\\'e5\\'e2\\'ee\\'e4\\'e5 \\'ef\\'f0\\'e8\\'e1\\'ee\\'f0\\'e0 \\'e2 \\'f0\\'e5\\'e6\\'e8\\'ec \\'f1\\'e1\\'
+ee\\'f0\\'e0 \\'e4\\'e0\\'ed\\'ed\\'fb\\'f5 \\'e4\\'ee\\'eb\\'e6\\'ed\\'e0 \\'e1\\'fb\\'f2\\'fc \\'ef\\'f0\\'e5\\'e4\\'f3\\'f1\\'ec\\'ee\\'f2\\'f0\\'e5\\'ed\\'e0 \\'e2\\'e8\\'e7\\'f3\\'e0\\'eb\\'fc\\'ed\\'e0\\'ff \\'f1\\'e8\\'e3\\'ed\\'e0\\'eb\\'e8\\'e7\\'e0\\'f6\\'e8\\'ff, \\'e5\\'f1\\'eb\\'e8 \\'fd\\'ed\\'e5\\'f0\\'e3\\'ee\\'ed\\'e5\\'e7\\'e0\\'e2\\'e8\\'f1\\'e8\\'ec\\'e0\\'ff \\'ef\\'e0\\'ec\\'ff\\'f2\\'fc \\'f3\\'e6\\'e5 \\'e7\\'e0\\'ef\\'ee\\'eb\\'ed\\'e5\\'ed\\'e0 \\'e1\\'ee\\'eb\\'e5\\'e5 \\'f7\\'e5\\'ec \\'ed\\'e0 80%.\\f1\\fs20\\par
+}
+";
+					- reqID = "CL13";
+				}
+				{ IRequirement 
+					- _id = GUID c249b130-2015-452b-8d17-c73f117e77c7;
+					- _name = "CL14 - Arming Logger";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _id = GUID 77e31b6b-e49c-4dd7-8794-27bfa93c2677;
+						}
+					}
+					- _body = "{\\rtf1\\fbidis\\ansi\\ansicpg1251\\deff0\\deflang1049{\\fonttbl{\\f0\\fswiss\\fprq2\\fcharset204 Calibri;}{\\f1\\fnil\\fcharset204{\\*\\fname Arial;}Arial CYR;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\f0\\fs22\\'cf\\'ee\\'f1\\'f2\\'e0\\'ed\\'ee\\'e2\\'ea\\'e0 \\'e8 \\'f1\\'ed\\'ff\\'f2\\'e8\\'e5 \\'f1 \\'f0\\'e5\\'e6\\'e8\\'ec\\'e0 \\'f0\\'e5\\'e3\\'e8\\'f1\\'f2\\'f0\\'e0\\'f6\\'e8\\'e8 \\'e4\\'ee\\'eb\\'e6\\'ed\\'ee \\'ef\\'f0\\'ee\\'e8\\'e7\\'e2\\'ee\\'e4\\'e8\\'f2\\'fc\\'f1\\'ff \\'ef\\'ee\\'f1\\'f0\\'e5\\'e4\\'f1\\'f2\\'e2\\'ee\\'ec \\'fd\\'eb\\'e5\\'ea\\'f2\\'f0\\'ee\\'ed\\'ed\\'ee\\'e3\\'ee \\'ea\\'eb\\'fe\\'f7\\'e0. \\'c2 \\'f1\\'eb\\'f3\\'f7\\'e0\\'e5 \\'e5\\'f1\\'eb\\'e8 \\'ea\\'eb\\'fe\\'f7 \\'ef\\'f0\\'e8\\'ed\\'ff\\'f2, \\'e4\\'ee\\'eb\\'e6\\'e5\\'ed \\'f0\\'e0\\'e7\\'e4\\'e0\\'e2\\'e0\\'f2\\'fc\\'f1\\'ff \\'e7\\'e2\\'f3\\'ea\\'ee\\'e2\\'ee\\'e9 \\'f1\\'e8\\'e3\\'ed\\'e0\\'eb. \\'c4\\'e0\\'eb\\'e5\\'e5 \\'ef\\'f0\\'ee\\'e8\\'e7\\'e2\\'ee\\'e4\\'e8\\'f2\\'fc\\'f1\\'ff \\'e
+f\\'f0\\'ee\\'e2\\'e5\\'f0\\'ea\\'e0 \\'f0\\'e0\\'e1\\'ee\\'f2\\'ee\\'f1\\'ef\\'ee\\'f1\\'ee\\'e1\\'ed\\'ee\\'f1\\'f2\\'e8 \\'e2\\'f1\\'e5\\'f5 \\'e2\\'f2\\'ee\\'f0\\'e8\\'f7\\'ed\\'fb\\'f5 \\'e4\\'e0\\'f2\\'f7\\'e8\\'ea\\'ee\\'e2. \\'c2 \\'f1\\'eb\\'f3\\'f7\\'e0\\'e5 \\'ee\\'f2\\'ea\\'e0\\'e7\\'e0 \\'ee\\'e4\\'ed\\'ee\\'e3\\'ee \\'e8\\'eb\\'e8 \\'ed\\'e5\\'f1\\'ea\\'ee\\'eb\\'fc\\'ea\\'e8\\'f5 \\'e4\\'ee\\'eb\\'e6\\'ed\\'e0 \\'e1\\'fb\\'f2\\'fc \\'ef\\'f0\\'e5\\'e4\\'f3\\'f1\\'ec\\'ee\\'f2\\'f0\\'e5\\'ed\\'e0 \\'e2\\'e8\\'e7\\'f3\\'e0\\'eb\\'fc\\'ed\\'e0\\'ff \\'f1\\'e8\\'e3\\'ed\\'e0\\'eb\\'e8\\'e7\\'e0\\'f6\\'e8\\'ff, \\'e8 \\'e7\\'e0\\'ef\\'f0\\'e5\\'f2 \\'ed\\'e0 \\'ef\\'e5\\'f0\\'e5\\'f5\\'ee\\'e4 \\'e2 \\'f0\\'e5\\'e6\\'e8\\'ec \\'f0\\'e5\\'e3\\'e8\\'f1\\'f2\\'f0\\'e0\\'f6\\'e8\\'e8.\\f1\\fs20\\par
+}
+";
+					- reqID = "CL14";
+				}
+				{ IRequirement 
+					- _id = GUID 4394bdca-aa4e-4907-a910-a4ac551a0c15;
+					- _name = "CL16 - Exit Timeout";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _id = GUID 77e31b6b-e49c-4dd7-8794-27bfa93c2677;
+						}
+					}
+					- _body = "{\\rtf1\\fbidis\\ansi\\ansicpg1251\\deff0\\deflang1049{\\fonttbl{\\f0\\fswiss\\fprq2\\fcharset204 Calibri;}{\\f1\\fnil\\fcharset204{\\*\\fname Arial;}Arial CYR;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\f0\\fs22\\'c4\\'eb\\'ff \\'f1\\'f2\\'e0\\'e1\\'e8\\'eb\\'e8\\'e7\\'e0\\'f6\\'e8\\'e8 \\'f0\\'e5\\'e3\\'e8\\'f1\\'f2\\'f0\\'e8\\'f0\\'f3\\'e5\\'ec\\'fb\\'f5 \\'ef\\'e0\\'f0\\'e0\\'ec\\'e5\\'f2\\'f0\\'ee\\'e2 \\'e2\\'ed\\'f3\\'f2\\'f0\\'e8 \\'ea\\'ee\\'ed\\'f2\\'e5\\'e9\\'ed\\'e5\\'f0\\'e0 \\'e8\\'eb\\'e8 \\'ef\\'ee\\'ec\\'e5\\'f9\\'e5\\'ed\\'e8\\'ff, \\'ef\\'f0\\'e8\\'e1\\'ee\\'f0 \\'e4\\'ee\\'eb\\'e6\\'e5\\'ed \\'ed\\'e0\\'f7\\'e8\\'ed\\'e0\\'f2\\'fc \\'f0\\'e5\\'e3\\'e8\\'f1\\'f2\\'f0\\'e8\\'f0\\'ee\\'e2\\'e0\\'f2\\'fc \\'e4\\'e0\\'ed\\'ed\\'fb\\'e5 \\'f7\\'e5\\'f0\\'e5\\'e7 5 \\'ec\\'e8\\'ed\\'f3\\'f2 \\'ef\\'ee\\'f1\\'eb\\'e5 \\'ef\\'e5\\'f0\\'e5\\'e2\\'ee\\'e4\\'e0 \\'e2 \\'f0\\'e5\\'e6\\'e8\\'ec \\'f1\\'e1\\'ee\\'f0\\'e0 \\'e4\\'e0\\'ed\\'ed\\'fb\\'f5. \\'dd\\'f2\\'ee \\'e2\\'f0\\'
+e5\\'ec\\'ff \\'f2\\'e0\\'ea\\'e6\\'e5 \\'f2\\'f0\\'e5\\'e1\\'f3\\'e5\\'f2\\'f1\\'ff \\'e4\\'eb\\'ff \\'f2\\'ee\\'e3\\'ee, \\'f7\\'f2\\'ee\\'e1\\'fb \\'f3\\'f1\\'ef\\'e5\\'f2\\'fc \\'e7\\'e0\\'ea\\'f0\\'fb\\'f2\\'fc \\'e4\\'e2\\'e5\\'f0\\'fc \\'ea\\'ee\\'ed\\'f2\\'e5\\'e9\\'ed\\'e5\\'f0\\'e0 \\'e8\\'eb\\'e8 \\'ef\\'ee\\'ec\\'e5\\'f9\\'e5\\'ed\\'e8\\'ff.\\f1\\fs20\\par
+}
+";
+					- reqID = "CL16";
+				}
+				{ IRequirement 
+					- _id = GUID 6b1ca83b-6c29-4f3b-81f0-e4e6ffff5d59;
+					- _name = "CL17 - IFF Check";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _id = GUID 77e31b6b-e49c-4dd7-8794-27bfa93c2677;
+						}
+					}
+					- _body = "{\\rtf1\\ansi\\ansicpg1251\\deff0\\deflang1049{\\fonttbl{\\f0\\fswiss\\fprq2\\fcharset204 Calibri;}{\\f1\\fnil\\fcharset204{\\*\\fname Arial;}Arial CYR;}}
+\\viewkind4\\uc1\\pard\\f0\\fs22\\'c4\\'ee\\'eb\\'e6\\'ed\\'e0 \\'e1\\'fb\\'f2\\'fc \\'ef\\'f0\\'e5\\'e4\\'f3\\'f1\\'ec\\'ee\\'f2\\'f0\\'e5\\'ed\\'e0 \\'e2\\'ee\\'e7\\'ec\\'ee\\'e6\\'ed\\'ee\\'f1\\'f2\\'fc \\'e8\\'e4\\'e5\\'ed\\'f2\\'e8\\'f4\\'e8\\'ea\\'e0\\'f6\\'e8\\'e8 \\'f1\\'e0\\'ed\\'ea\\'f6\\'e8\\'ee\\'ed\\'e8\\'f0\\'ee\\'e2\\'e0\\'ed\\'ed\\'ee\\'e3\\'ee \\'e4\\'ee\\'f1\\'f2\\'f3\\'ef\\'e0 \\'e2 \\'ef\\'ee\\'ec\\'e5\\'f9\\'e5\\'ed\\'e8\\'e5 \\'e8\\'eb\\'e8 \\'ea\\'ee\\'ed\\'f2\\'e5\\'e9\\'ed\\'e5\\'f0 \\'ef\\'ee\\'f1\\'f0\\'e5\\'e4\\'f1\\'f2\\'e2\\'ee\\'ec \\'fd\\'eb\\'e5\\'ea\\'f2\\'f0\\'ee\\'ed\\'ed\\'ee\\'e3\\'ee \\'ea\\'eb\\'fe\\'f7\\'e0.\\f1\\fs20\\par
+}
+";
+					- reqID = "CL17";
+				}
+				{ IRequirement 
+					- _id = GUID d6050cb7-df8e-481e-bd65-cdc9892c7ec0;
+					- _name = "CL18 - Alarm Check";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _id = GUID 77e31b6b-e49c-4dd7-8794-27bfa93c2677;
+						}
+					}
+					- _body = "{\\rtf1\\fbidis\\ansi\\ansicpg1251\\deff0\\deflang1049{\\fonttbl{\\f0\\fswiss\\fprq2\\fcharset204 Calibri;}{\\f1\\fnil\\fcharset204{\\*\\fname Arial;}Arial CYR;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\f0\\fs22\\'d3\\'f1\\'f2\\'f0\\'ee\\'e9\\'f1\\'f2\\'e2\\'ee \\'e4\\'ee\\'eb\\'e6\\'ed\\'ee \\'ee\\'e1\\'e5\\'f1\\'ef\\'e5\\'f7\\'e8\\'e2\\'e0\\'f2\\'fc \\'e1\\'fb\\'f1\\'f2\\'f0\\'f3\\'fe \\'ef\\'f0\\'ee\\'e2\\'e5\\'f0\\'ea\\'f3 \\'f4\\'e0\\'ea\\'f2\\'e0 \\'ef\\'f0\\'ee\\'ed\\'e8\\'ea\\'ed\\'ee\\'e2\\'e5\\'ed\\'e8\\'ff. \\'cf\\'f0\\'e8 \\'ed\\'e0\\'e6\\'e0\\'f2\\'e8\\'e8 \\'ea\\'ed\\'ee\\'ef\\'ea\\'e8 \\'e4\\'ee\\'eb\\'e6\\'e5\\'ed \\'e7\\'e0\\'e3\\'ee\\'f0\\'e0\\'f2\\'fc\\'f1\\'ff \\'f1\\'e2\\'e5\\'f2\\'ee\\'e2\\'ee\\'e9 \\'e8\\'ed\\'e4\\'e8\\'ea\\'e0\\'f2\\'ee\\'f0, \\'ef\\'ee\\'ea\\'e0\\'e7\\'fb\\'e2\\'e0\\'fe\\'f9\\'e8\\'e9 \\'e1\\'fb\\'eb\\'ee \\'eb\\'e8 \\'ed\\'e5\\'f1\\'e0\\'ed\\'ea\\'f6\\'e8\\'ee\\'ed\\'e8\\'f0\\'ee\\'e2\\'e0\\'ed\\'ed\\'ee\\'e5 \\'ef\\'f0\\'ee\\'ed\\'e8\\'ea\\'ed\\'
+ee\\'e2\\'e5\\'ed\\'e8\\'e5. \\'d1\\'e1\\'f0\\'ee\\'f1 \\'e4\\'e0\\'ed\\'ed\\'ee\\'e3\\'ee \\'e8\\'ed\\'e4\\'e8\\'ea\\'e0\\'f2\\'ee\\'f0\\'e0 \\'e4\\'ee\\'eb\\'e6\\'e5\\'ed \\'ef\\'f0\\'ee\\'e8\\'e7\\'e2\\'ee\\'e4\\'e8\\'f2\\'fc\\'f1\\'ff \\'ef\\'f0\\'e8 \\'ef\\'ee\\'e4\\'ea\\'eb\\'fe\\'f7\\'e5\\'ed\\'e8\\'ff \\'f3\\'f1\\'f2\\'f0\\'ee\\'e9\\'f1\\'f2\\'e2\\'e0 \\'ea \\'cf\\'ca.\\f1\\fs20\\par
+}
+";
+					- reqID = "CL18";
+				}
+				{ IRequirement 
+					- _id = GUID 112ca658-df15-46f7-b243-ef00d3d02a58;
+					- _name = "PC1 - PC Connection";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _id = GUID 77e31b6b-e49c-4dd7-8794-27bfa93c2677;
+						}
+					}
+					- _body = "{\\rtf1\\ansi\\ansicpg1251\\deff0\\deflang1049{\\fonttbl{\\f0\\fswiss\\fprq2\\fcharset204 Calibri;}{\\f1\\fnil\\fcharset204{\\*\\fname Arial;}Arial CYR;}}
+\\viewkind4\\uc1\\pard\\f0\\fs22\\'d3\\'f1\\'f2\\'f0\\'ee\\'e9\\'f1\\'f2\\'e2\\'ee \\'e4\\'ee\\'eb\\'e6\\'ed\\'ee \\'ef\\'ee\\'e4\\'ea\\'eb\\'fe\\'f7\\'e0\\'f2\\'fc\\'f1\\'ff \\'ea \\'ef\\'e5\\'f0\\'f1\\'ee\\'ed\\'e0\\'eb\\'fc\\'ed\\'ee\\'ec\\'f3 \\'ea\\'ee\\'ec\\'ef\\'fc\\'fe\\'f2\\'e5\\'f0\\'f3 \\'ef\\'ee\\'f1\\'f0\\'e5\\'e4\\'f1\\'f2\\'e2\\'ee\\'ec \\lang1033 USB\\lang1049 -\\'ea\\'e0\\'e1\\'e5\\'eb\\'ff. \\'d1 \\'ef\\'ee\\'ec\\'ee\\'f9\\'fc\\'fe \\'ef\\'f0\\'ee\\'e3\\'f0\\'e0\\'ec\\'ec\\'ed\\'ee\\'e3\\'ee \\'ee\\'e1\\'e5\\'f1\\'ef\\'e5\\'f7\\'e5\\'ed\\'e8\\'ff \\'cf\\'ca, \\'ef\\'ee\\'f1\\'eb\\'e5 \\'e2\\'e2\\'ee\\'e4\\'e0 \\'ef\\'e0\\'f0\\'ee\\'eb\\'ff, \\'ed\\'f3\\'e6\\'ed\\'ee \\'ef\\'ee\\'eb\\'f3\\'f7\\'e0\\'f2\\'fc \\'e8 \\'f0\\'e0\\'f1\\'ef\\'e5\\'f7\\'e0\\'f2\\'fb\\'e2\\'e0\\'f2\\'fc \\'e2\\'f0\\'e5
+\\'ec\\'e5\\'ed\\'ed\\'fb\\'e5 \\'e4\\'e8\\'e0\\'e3\\'f0\\'e0\\'ec\\'ec\\'fb \\'f1\\'ee\\'e1\\'fb\\'f2\\'e8\\'e9, \\'ee\\'f7\\'e8\\'f9\\'e0\\'f2\\'fc \\'ef\\'e0\\'ec\\'ff\\'f2\\'fc \\'f3\\'f1\\'f2\\'f0\\'ee\\'e9\\'f1\\'f2\\'e2\\'e0 \\'e8 \\'f2.\\'e4. \\'c2 \\'ee\\'f2\\'f7\\'e5\\'f2\\'e0\\'f5 \\'e4\\'ee\\'eb\\'e6\\'ed\\'fb \\'ee\\'f2\\'ee\\'e1\\'f0\\'e0\\'e6\\'e0\\'f2\\'fc\\'f1\\'ff \\'e8\\'e7\\'ec\\'e5\\'f0\\'e5\\'ed\\'e8\\'ff \\'ef\\'f0\\'e8\\'e1\\'ee\\'f0\\'e0 \\'ef\\'ee \\'e2\\'f1\\'e5\\'ec \\'f0\\'e5\\'e3\\'e8\\'f1\\'f2\\'f0\\'e8\\'f0\\'f3\\'e5\\'ec\\'fb\\'ec \\'ef\\'e0\\'f0\\'e0\\'ec\\'e5\\'f2\\'f0\\'e0\\'ec.\\f1\\fs20\\par
+}
+";
+					- reqID = "PC1";
+				}
+				{ IRequirement 
+					- _id = GUID 36212ba3-8a30-4c87-9898-2fb0e891e661;
+					- _name = "PC2 - Configuration & Diagnostic";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _id = GUID 77e31b6b-e49c-4dd7-8794-27bfa93c2677;
+						}
+					}
+					- _body = "{\\rtf1\\fbidis\\ansi\\ansicpg1251\\deff0\\deflang1049{\\fonttbl{\\f0\\fswiss\\fprq2\\fcharset204 Calibri;}{\\f1\\fnil\\fcharset204{\\*\\fname Arial;}Arial CYR;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\f0\\fs22\\'c4\\'ee\\'eb\\'e6\\'ed\\'e0 \\'e1\\'fb\\'f2\\'fc \\'e2\\'ee\\'e7\\'ec\\'ee\\'e6\\'ed\\'ee\\'f1\\'f2\\'fc \\'ed\\'e0\\'f1\\'f2\\'f0\\'ee\\'e9\\'ea\\'e8 (\\'e7\\'e0\\'f9\\'e8\\'f9\\'e5\\'ed\\'ed\\'e0\\'ff \\'e4\\'ee\\'ef\\'ee\\'eb\\'ed\\'e8\\'f2\\'e5\\'eb\\'fc\\'ed\\'fb\\'ec \\'ef\\'e0\\'f0\\'ee\\'eb\\'e5\\'ec): \\'f7\\'e0\\'f1\\'ee\\'e2 \\'f0\\'e5\\'e0\\'eb\\'fc\\'ed\\'ee\\'e3\\'ee \\'e2\\'f0\\'e5\\'ec\\'e5\\'ed\\'e8, \\'e7\\'e0\\'e4\\'e5\\'f0\\'e6\\'ea\\'e8 \\'ed\\'e0 \\'e2\\'f5\\'ee\\'e4/\\'e2\\'fb\\'f5\\'ee\\'e4, \\'e7\\'e0\\'e4\\'e5\\'f0\\'e6\\'ea\\'e8 \\'ed\\'e0 \\'f1\\'f0\\'e0\\'e1\\'e0\\'f2\\'fb\\'e2\\'e0\\'ed\\'e8\\'e5 \\'e4\\'e0\\'f2\\'f7\\'e8\\'ea\\'e0 \\'e4\\'e2\\'e8\\'e6\\'e5\\'ed\\'e8\\'ff, \\'f0\\'e5\\'e3\\'e8\\'f1\\'f2\\'f0\\'e0\\'f6\\'e8\\'e8 \\'fd\\'eb\\'e5\\'
+ea\\'f2\\'f0\\'ee\\'ed\\'ed\\'fb\\'f5 \\'ea\\'eb\\'fe\\'f7\\'e5\\'e9, \\'f3\\'f1\\'f2\\'e0\\'ed\\'ee\\'e2\\'ea\\'e8 \\'ef\\'ee\\'f0\\'ee\\'e3\\'ee\\'e2 \\'e4\\'e0\\'f2\\'f7\\'e8\\'ea\\'ee\\'e2 \\'e8 \\'f2.\\'e4. \\'d2\\'e0\\'ea\\'e6\\'e5 \\'e4\\'ee\\'eb\\'e6\\'ed\\'e0 \\'e1\\'fb\\'f2\\'fc \\'ef\\'f0\\'e5\\'e4\\'f3\\'f1\\'ec\\'ee\\'f2\\'f0\\'e5\\'ed\\'e0 \\'e2\\'ee\\'e7\\'ec\\'ee\\'e6\\'ed\\'ee\\'f1\\'f2\\'fc \\'e4\\'e8\\'e0\\'e3\\'ed\\'ee\\'f1\\'f2\\'e8\\'ea\\'e8 \\'ef\\'f0\\'e8\\'e1\\'ee\\'f0\\'e0, \\'ef\\'f0\\'ee\\'e2\\'e5\\'f0\\'ea\\'e8 \\'f2\\'e5\\'ea\\'f3\\'f9\\'e8\\'f5 \\'ef\\'ee\\'ea\\'e0\\'e7\\'e0\\'ed\\'e8\\'e9 \\'e2\\'f2\\'ee\\'f0\\'e8\\'f7\\'ed\\'fb\\'f5 \\'e4\\'e0\\'f2\\'f7\\'e8\\'ea\\'ee\\'e2 \\'e8 \\'f2.\\'e4.\\f1\\fs20\\par
+}
+";
+					- reqID = "PC2";
+				}
+				{ IRequirement 
+					- _id = GUID 50cc89cd-3751-4beb-9219-ec6784da1c2a;
+					- _name = "PW11 - Battery";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _id = GUID 77e31b6b-e49c-4dd7-8794-27bfa93c2677;
+						}
+					}
+					- _body = "{\\rtf1\\ansi\\ansicpg1251\\deff0\\deflang1049{\\fonttbl{\\f0\\fswiss\\fprq2\\fcharset204 Calibri;}{\\f1\\fnil\\fcharset204{\\*\\fname Arial;}Arial CYR;}}
+\\viewkind4\\uc1\\pard\\f0\\fs22\\'cf\\'f0\\'e8\\'e1\\'ee\\'f0 \\'e4\\'ee\\'eb\\'e6\\'e5\\'ed \\'ef\\'e8\\'f2\\'e0\\'f2\\'fc\\'f1\\'ff \\'ee\\'f2 \\'e0\\'ea\\'ea\\'f3\\'ec\\'f3\\'eb\\'ff\\'f2\\'ee\\'f0\\'e0 \\'f0\\'e0\\'e7\\'ec\\'e5\\'f0\\'e0 \\'c0\\'c0 \\'f0\\'e0\\'e1\\'ee\\'f2\\'e0\\'fe\\'f9\\'e5\\'e3\\'ee \\'e2 \\'e4\\'e8\\'e0\\'ef\\'e0\\'e7\\'ee\\'ed\\'e5 \\'f2\\'e5\\'ec\\'ef\\'e5\\'f0\\'e0\\'f2\\'f3\\'f0 -25 \\'e4\\'ee +50 \\'d1 \\'e2 \\'f2\\'e5\\'f7\\'e5\\'ed\\'e8\\'e5 \\'ea\\'e0\\'ea \\'ec\\'e8\\'ed\\'e8\\'ec\\'f3\\'ec 14 \\'f1\\'f3\\'f2\\'ee\\'ea.\\f1\\fs20\\par
+}
+";
+					- reqID = "PW1";
+				}
+				{ IRequirement 
+					- _id = GUID 780bc98f-bd6b-4587-ab3e-eb5387733eaa;
+					- _name = "PW12 - Low Battery Indicator";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _id = GUID 77e31b6b-e49c-4dd7-8794-27bfa93c2677;
+						}
+					}
+					- _body = "{\\rtf1\\ansi\\ansicpg1251\\deff0\\deflang1049{\\fonttbl{\\f0\\fswiss\\fprq2\\fcharset204 Calibri;}{\\f1\\fnil\\fcharset204{\\*\\fname Arial;}Arial CYR;}}
+\\viewkind4\\uc1\\pard\\f0\\fs22\\'c4\\'ee\\'eb\\'e6\\'ed\\'e0 \\'e1\\'fb\\'f2\\'fc \\'ef\\'f0\\'e5\\'e4\\'f3\\'f1\\'ec\\'ee\\'f2\\'f0\\'e5\\'ed\\'e0 \\'f1\\'e2\\'e5\\'f2\\'ee\\'e4\\'e8\\'ee\\'e4\\'ed\\'e0\\'ff \\'f1\\'e8\\'e3\\'ed\\'e0\\'eb\\'e8\\'e7\\'e0\\'f6\\'e8\\'ff \\'ef\\'f0\\'e8 \\'f0\\'e0\\'e7\\'f0\\'ff\\'e4\\'ea\\'e5 \\'e0\\'ea\\'ea\\'f3\\'ec\\'f3\\'eb\\'ff\\'f2\\'ee\\'f0\\'e0 \\'e1\\'ee\\'eb\\'e5\\'e5 \\'f7\\'e5\\'ec \\'ed\\'e0 80%.\\f1\\fs20\\par
+}
+";
+					- reqID = "PW12";
+				}
+				{ IRequirement 
+					- _id = GUID 93efdc82-19db-404e-b453-2e6349bcb8d5;
+					- _name = "CL15 - Electronic Key";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _id = GUID 77e31b6b-e49c-4dd7-8794-27bfa93c2677;
+						}
+					}
+					- _body = "{\\rtf1\\fbidis\\ansi\\ansicpg1251\\deff0\\deflang1049{\\fonttbl{\\f0\\fswiss\\fprq2\\fcharset204 Calibri;}{\\f1\\fnil\\fcharset204{\\*\\fname Arial;}Arial CYR;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\f0\\fs22\\'c2\\'ee\\'e7\\'ec\\'ee\\'e6\\'ed\\'ee\\'f1\\'f2\\'fc \\'ef\\'f0\\'e8\\'e2\\'ff\\'e7\\'ea\\'e8 \\'e4\\'eb\\'ff \\'ee\\'e4\\'ed\\'ee\\'e3\\'ee \\'f3\\'f1\\'f2\\'f0\\'ee\\'e9\\'f1\\'f2\\'e2\\'e0 \\'e4\\'ee 8 \\'fd\\'eb\\'e5\\'ea\\'f2\\'f0\\'ee\\'ed\\'ed\\'fb\\'f5 \\'ea\\'eb\\'fe\\'f7\\'e5\\'e9.\\f1\\fs20\\par
+}
+";
+					- reqID = "CL15";
+				}
+				{ IRequirement 
+					- _id = GUID 30f61633-af02-476b-811e-526a4475d264;
+					- _name = "CL12 - Intrusion Detect";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _id = GUID 77e31b6b-e49c-4dd7-8794-27bfa93c2677;
+						}
+					}
+					- _body = "{\\rtf1\\ansi\\ansicpg1251\\deff0\\deflang1049{\\fonttbl{\\f0\\fswiss\\fprq2\\fcharset204 Calibri;}{\\f1\\fnil\\fcharset204{\\*\\fname Arial;}Arial CYR;}}
+\\viewkind4\\uc1\\pard\\f0\\fs22\\'d3\\'f1\\'f2\\'e0\\'ed\\'ee\\'e2\\'eb\\'e5\\'ed\\'e8\\'e5 \\'f4\\'e0\\'ea\\'f2\\'e0 \\'ed\\'e5\\'f1\\'e0\\'ed\\'ea\\'f6\\'e8\\'ee\\'ed\\'e8\\'f0\\'ee\\'e2\\'e0\\'ed\\'ed\\'ee\\'e3\\'ee \\'ef\\'f0\\'ee\\'ed\\'e8\\'ea\\'ed\\'ee\\'e2\\'e5\\'ed\\'e8\\'ff \\'e4\\'ee\\'eb\\'e6\\'ed\\'ee \\'e2\\'fb\\'ef\\'ee\\'eb\\'ed\\'ff\\'f2\\'fc\\'f1\\'ff \\'f1 \\'ef\\'ee\\'ec\\'ee\\'f9\\'fc\\'fe \\'ef\\'f0\\'ee\\'e3\\'f0\\'e0\\'ec\\'ec\\'ed\\'ee\\'e3\\'ee \\'e0\\'eb\\'e3\\'ee\\'f0\\'e8\\'f2\\'ec\\'e0 \\'e0\\'ed\\'e0\\'eb\\'e8\\'e7\\'e8\\'f0\\'f3\\'fe\\'f9\\'e5\\'e3\\'ee \\'ef\\'ee\\'ea\\'e0\\'e7\\'e0\\'ed\\'e8\\'ff \\'e4\\'e0\\'f2\\'f7\\'e8\\'ea\\'ee\\'e2.\\f1\\fs20\\par
+}
+";
+					- reqID = "CL12";
+				}
+			}
+			- _body = "{\\rtf1\\fbidis\\ansi\\ansicpg1251\\deff0\\deflang1049{\\fonttbl{\\f0\\fswiss\\fprq2\\fcharset204 Calibri;}{\\f1\\fnil\\fcharset204{\\*\\fname Arial;}Arial CYR;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\f0\\fs22\\'dd\\'eb\\'e5\\'ea\\'f2\\'f0\\'ee\\'ed\\'ed\\'ee\\'e5 \\'f3\\'f1\\'f2\\'f0\\'ee\\'e9\\'f1\\'f2\\'e2\\'ee \\'ef\\'f0\\'e5\\'e4\\'ed\\'e0\\'e7\\'ed\\'e0\\'f7\\'e5\\'ed\\'ee \\'e4\\'eb\\'ff \\'ee\\'ef\\'f0\\'e5\\'e4\\'e5\\'eb\\'e5\\'ed\\'e8\\'ff \\'e8 \\'f4\\'e8\\'ea\\'f1\\'e0\\'f6\\'e8\\'e8 \\'f4\\'e0\\'ea\\'f2\\'e0 \\'e8 \\'e2\\'f0\\'e5\\'ec\\'e5\\'ed\\'e8 \\'ed\\'e5\\'f1\\'e0\\'ed\\'ea\\'f6\\'e8\\'ee\\'ed\\'e8\\'f0\\'ee\\'e2\\'e0\\'ed\\'ed\\'ee\\'e3\\'ee \\'ef\\'f0\\'ee\\'ed\\'e8\\'ea\\'ed\\'ee\\'e2\\'e5\\'ed\\'e8\\'ff \\'e2 \\'f2\\'f0\\'e0\\'ed\\'f1\\'ef\\'ee\\'f0\\'f2\\'ed\\'ee\\'e5 \\'f1\\'f0\\'e5\\'e4\\'f1\\'f2\\'e2\\'ee \\'e8\\'eb\\'e8 \\'ef\\'ee\\'ec\\'e5\\'f9\\'e5\\'ed\\'e8\\'e5 (\\'ea\\'ee\\'ed\\'f2\\'e5\\'e9\\'ed\\'e5\\'f0, \\'e0\\'e2\\'f2\\'ee\\'f4\\'f3\\'f0\\'e3\\'ee\\'
+ed, \\'e2\\'e0\\'e3\\'ee\\'ed, \\'f1\\'ea\\'eb\\'e0\\'e4\\'f1\\'ea\\'e0\\'ff \\'ea\\'e0\\'ec\\'e5\\'f0\\'e0, \\'f1\\'f3\\'e4\\'ee\\'e2\\'ee\\'e9 \\'f2\\'f0\\'fe\\'ec), \\'e0 \\'f2\\'e0\\'ea\\'e6\\'e5 \\'f4\\'e8\\'ea\\'f1\\'e8\\'f0\\'ee\\'e2\\'e0\\'f2\\'fc \\'f3\\'f1\\'eb\\'ee\\'e2\\'e8\\'ff \\'f2\\'f0\\'e0\\'ed\\'f1\\'ef\\'ee\\'f0\\'f2\\'e8\\'f0\\'ee\\'e2\\'ea\\'e8 \\'e3\\'f0\\'f3\\'e7\\'e0 (\\'f2\\'e5\\'ec\\'ef\\'e5\\'f0\\'e0\\'f2\\'f3\\'f0\\'f3, \\'e2\\'eb\\'e0\\'e6\\'ed\\'ee\\'f1\\'f2\\'fc \\'e8 \\'f2.\\'e4.).\\f1\\fs20\\par
+}
+";
+			- reqID = "CL1";
+		}
+	}
+	- EmbededFiles = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IEmbededFile 
+			- _id = GUID d460ff83-89ac-4d7c-b8b4-54b91c7bf6ab;
+			- _name = "Container Logger.docx";
+			- _MayNeedToRelocate = 0;
+			- _LastKnownFullPath = "C:\\Users\\1\\Desktop\\Diplom\\Conlog\\Conlog_rpy\\Container Logger.docx";
+		}
+	}
+	- _lastID = 3;
+	- Declaratives = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IStereotype 
+			- _id = GUID 77e31b6b-e49c-4dd7-8794-27bfa93c2677;
+			- _myState = 8192;
+			- _name = "fromWord";
+			- _m2Classes = { IRPYRawContainer 
+				- size = 1;
+				- value = "Requirement"; 
+			}
+		}
+	}
+	- weakCGTime = 4.7.2012::18:26:52;
+	- strongCGTime = 4.7.2012::12:33:5;
+	- _defaultComposite = GUID cf45b47f-9b2e-4c34-bc5d-fe6813e9b385;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IClass 
+			- _id = GUID cf45b47f-9b2e-4c34-bc5d-fe6813e9b385;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- weakCGTime = 1.1.1970::4:0:0;
+			- strongCGTime = 1.1.1970::4:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- TableInstances = { IRPYRawContainer 
+		- size = 0;
+	}
+	- _configurationRelatedTime = 1.1.1970::4:0:0;
+}
+

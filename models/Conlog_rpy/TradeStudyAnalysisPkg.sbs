@@ -1,0 +1,49 @@
+I-Logix-RPY-Archive version 8.6.0 C 4012249
+{ ISubsystem 
+	- _ownerHandle = { IHandle 
+		- _m2Class = "ISubsystem";
+		- _filename = "ArchitecturalAnalysisPkg.sbs";
+		- _subsystem = "DesignSynthesisPkg";
+		- _class = "";
+		- _name = "ArchitecturalAnalysisPkg";
+		- _id = GUID eb39a9e3-8ba2-40c6-ace2-2b8f437ee0f9;
+	}
+	- _id = GUID 6ac5d4f3-16df-4e18-b2fe-508a6c083871;
+	- _myState = 8192;
+	- _name = "TradeStudyAnalysisPkg";
+	- _lastID = 2;
+	- Declaratives = { IRPYRawContainer 
+		- size = 2;
+		- value = 
+		{ ISubsystem 
+			- fileName = "MotionMonitoringTradeStudy";
+			- _id = GUID 83e7c751-ee51-48ca-8238-e4f8f540f40b;
+		}
+		{ ISubsystem 
+			- fileName = "AccessControlTradeStudy";
+			- _id = GUID 5c638adf-0b34-4f24-8274-a492a9d3fd82;
+		}
+	}
+	- weakCGTime = 5.12.2012::22:20:3;
+	- strongCGTime = 5.12.2012::2:9:40;
+	- _defaultComposite = GUID fe3c092d-d9a4-4be6-aba6-fe605e180753;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IClass 
+			- _id = GUID fe3c092d-d9a4-4be6-aba6-fe605e180753;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- weakCGTime = 1.1.1970::4:0:0;
+			- strongCGTime = 1.1.1970::4:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 1.1.1970::4:0:0;
+}
+

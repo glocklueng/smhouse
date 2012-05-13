@@ -1,0 +1,205 @@
+I-Logix-RPY-Archive version 8.6.0 C 4012249
+{ IComponent 
+	- _id = GUID cbb7a655-9c0d-4069-943b-f5bd390238f7;
+	- _myState = 8192;
+	- _name = "ModelExecutionUc1";
+	- m_buildType = Executable;
+	- m_libraries = "";
+	- m_additionalSources = "";
+	- m_standardHeaders = "";
+	- m_includePath = "";
+	- m_initializationCode = "";
+	- m_folder = { IFolder 
+		- _id = GUID 47c7ab70-9bba-4a1a-b79b-6e4c72b368e9;
+		- _myState = 73728;
+		- _name = "Files";
+		- m_path = "";
+		- Elements = { IRPYRawContainer 
+			- size = 4;
+			- value = 
+			{ IHandle 
+				- _m2Class = "ISubsystem";
+				- _filename = "ActorPkg.sbs";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "ActorPkg";
+				- _id = GUID 121fda32-adaa-4a8c-881a-2daff8161336;
+			}
+			{ IHandle 
+				- _m2Class = "ISubsystem";
+				- _filename = "TypesPkg.sbs";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "TypesPkg";
+				- _id = GUID b8ab0134-15fb-4969-84c8-9192784cf1f1;
+			}
+			{ IHandle 
+				- _m2Class = "ISubsystem";
+				- _filename = "Uc1ArmingLoggerPkg.sbs";
+				- _subsystem = "FunctionalAnalysisPkg";
+				- _class = "";
+				- _name = "Uc1ArmingLoggerPkg";
+				- _id = GUID 60be33a7-7a09-4597-9abc-caad2ae67578;
+			}
+			{ IHandle 
+				- _m2Class = "ISubsystem";
+				- _filename = "Uc1_InterfacesPkg.sbs";
+				- _subsystem = "InterfacesPkg";
+				- _class = "";
+				- _name = "Uc1_InterfacesPkg";
+				- _id = GUID e4697786-3bec-4173-a39b-d0f6d25e36d2;
+			}
+		}
+		- Files = { IRPYRawContainer 
+			- size = 0;
+		}
+	}
+	- m_configActive = { ICodeGenConfigInfoHandle 
+		- _m2Class = "ICodeGenConfigInfo";
+		- _id = GUID 32af0b78-f21c-4d4d-b480-5cf5055b428d;
+	}
+	- Configs = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ ICodeGenConfigInfo 
+			- _id = GUID 32af0b78-f21c-4d4d-b480-5cf5055b428d;
+			- _myState = 8192;
+			- _properties = { IPropertyContainer 
+				- Subjects = { IRPYRawContainer 
+					- size = 3;
+					- value = 
+					{ IPropertySubject 
+						- _Name = "CPP_CG";
+						- Metaclasses = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertyMetaclass 
+								- _Name = "Configuration";
+								- Properties = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IProperty 
+										- _Name = "Environment";
+										- _Value = "MSVC10";
+										- _Type = Enum;
+										- _ExtraTypeInfo = "Microsoft,MicrosoftDLL,MSVC9,MSVC10,MSVC9DLL,VxWorks,VxWorks6diab,VxWorks6gnu,VxWorks6diab_RTP,VxWorks6gnu_RTP,Solaris2,Cygwin,MSStandardLibrary,MSVC9StandardLibrary,MicrosoftWinCE600,OseSfk,Linux,Solaris2GNU,QNXNeutrinoGCC, QNXNeutrinoMomentics,INTEGRITY,INTEGRITY5,IntegrityESTL,Integrity5ESTL,NucleusPLUS-PPC,WorkbenchManaged,WorkbenchManaged653,WorkbenchManaged_RTP";
+									}
+								}
+							}
+						}
+					}
+					{ IPropertySubject 
+						- _Name = "C_CG";
+						- Metaclasses = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertyMetaclass 
+								- _Name = "Operation";
+								- Properties = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IProperty 
+										- _Name = "AnimAllowInvocation";
+										- _Value = "None";
+										- _Type = Enum;
+										- _ExtraTypeInfo = "None, Public, All";
+									}
+								}
+							}
+						}
+					}
+					{ IPropertySubject 
+						- _Name = "WebComponents";
+						- Metaclasses = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertyMetaclass 
+								- _Name = "WebFramework";
+								- Properties = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IProperty 
+										- _Name = "GenerateInstrumentationCode";
+										- _Value = "True";
+										- _Type = Bool;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			- _name = "Animate";
+			- HyperLinks = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IMHyperLink 
+					- _id = GUID 254c4164-dcd6-4fa4-84f5-c69ba838d8ee;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "";
+					}
+					- _linkDispName = "Edit Makefile";
+					- _linkType = "FREE";
+					- _linkTarget = "C:\\Users\\1\\Desktop\\Diplom\\Conlog\\ModelExecution\\Animate\\ModelExecution.mak";
+					- isConfigurationFileHyperLink = 1;
+				}
+				{ IMHyperLink 
+					- _id = GUID 94382a8d-d99f-4c6b-bab6-12e060a1868f;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "";
+					}
+					- _linkDispName = "Edit Main File";
+					- _linkType = "FREE";
+					- _linkTarget = "C:\\Users\\1\\Desktop\\Diplom\\Conlog\\ModelExecution\\Animate\\MainModelExecution";
+					- isConfigurationFileHyperLink = 1;
+				}
+			}
+			- _scopeType = Explicit;
+			- _libraries = "";
+			- _additionalSources = "";
+			- _standardHeaders = "";
+			- _includePath = "";
+			- _targetMain = "";
+			- _instrumentation = Animation;
+			- _timeModel = RealTime;
+			- m_generateActors = 1;
+			- _statechartImplementation = Flat;
+			- _initializationCode = "";
+			- _checksList = 265 "SC_04-07-2010_ 1241" "SCCOM002" "SCCOM022" "SCCOM005" "SCCOM015" "SC_05-30-2011_ 1283" "SC_10-24-2010_ 1270" "SC 1154" "SC_04-07-2010_ 1242" "SC_04-07-2010_ 1245" "SOTC005" "SC_10-18-2010_ 1269" "SC_03-08-2011_ 1272" "SC_09-04-2006_ 1199" "SC10159" "SC10158" "SC0100" "SC 1153" "SC0207" "SCEVID003" "SCCOM014" "SCCOM009" "SCCOM003" "SCCOM001" "SCCOM004" "SC0204" "SC0205" "SC0203" "SC0201" "SC_10-24-2010_ 1272" "SC_10-24-2010_ 1273" "SC_10-24-2010_ 1276" "SC_12-24-2006_ 1205" "UserID-Class Part with multiplicity > 1 owning Segmented Memory Attribute(s)" "SC_11-14-2005_ 1185" "SC_03-29-2009_ 1237" "SC0209" "SC_04-22-2010_ 1246" "SC_07-12-2010_ 1256" "SC_04-07-2010_ 1244" "SC_04-07-2010_ 1243" "SC000?" "SC_10-24-2010_ 1274" "SC0017" "SCAA199" "SC_10-17-2011_ 1285" "SCC001" "SC0199" "SC0108" "SC0106" "UserID-Executable part with multiplicity >1" "SC0111" "SC_12-28-2006_ 1207" "SC_10-24-2010_ 1275" "SC0008" "SC_03-15-2010_ 1240" "SC_08-17-2011_ 1284" "SC_08-24-2004_ 1164" "SCCOM016" "SCCOM008" "SCCOM007" "SCCOM017" "SC0301" "SCCOM011" "SC0112" "SC151518" "SOTC007" "SC_03-07-2011_ 1271" "SC151515" "SC_04-29-2010_ 1248" "SC0007" "SC0177" "UserID-MISRA98 profile exists" "SC151517" "SC1201" "SC_04-29-2010_ 1251" "SC_03-15-2010_ 1239" "SCUMI001" "SC0114" "SC_12-28-2006_ 1208" "SC5340159" "SC_01-31-2008_ 1227" "SC 1144" "SCEVID001" "UserID-Object with multiplicity > 1 owning Segmented Memory Attribute(s)" "SCCOM019" "SCCOM018" "SC_12-11-2006_ 1202" "SC0006" "SCEVID002" "SCEVID005" "SCCOM006" "SCCOM010" "SC0202" "SC1100" "SC_04-29-2010_ 1250" "SC_10-19-2010_ 1268" "SC_05-10-2007_ 1216" "SC 1148" "SC0107" "SC_09-04-2006_ 1200" "SC0115" "RIC002" "RIC001" "SC151516" "SC_12-19-2006_ 1203" "SCAA204" "SC0109" "SC0102" "SC0116" "SCAA099" "SC0104" "SC0120" "SC0206" "SC_10-19-2006_ 1201" "SC_10-24-2010_ 1277" "SC_07-03-2006_ 1197" "SC0113" "SC1000" "SC1003" "SC1002" "SC0004" "SC_04-29-2010_ 1247" "SC_12-24-2006_ 1204" "SC1532" "SC_10-24-2010_ 1278" "SCCOMPONENTVERSESBUILD" "SC_12-31-2003_ 1162" "SCEVID004" "SCAA021" "SC_08-15-2004_ 1163" "SC_01-09-2007_ 1209" "SC 1152" "SC 1137" "UserID-Unsupported Time Model: \"Simulated\"" "SC_12-28-2006_ 1206" "SC_03-06-2011_ 1270" "SCC0001" "SC_05-29-2007_ 1221" "SC_04-27-2006_ 1192" "SC_04-27-2006_ 1193" "SC0208" "SC_11-06-2005_ 1182" "SC0509" "SC_11-02-2011_ 1286" "SC 1139" "SC_05-02-2010_ 1252" "SC_09-09-2005_ 1178" "SC_11-06-2005_ 1181" "SC 1160" "SC9321" "SC_10-22-2009_ 1238" "SC 1141" "RIC003" "SC0010" "SC_10-18-2004_ 1164" "SC 1138" "SC_10-19-2004_ 1168" "SC_03-01-2007_ 1213" "SC_05-13-2007_ 1219" "SC0012" "UserID-Conflicts in planned scheduling (See Scheduling tab of Active Component)" "SC_11-16-2005_ 1186" "SC9324" "SC 1156" "SC_06-14-2006_ 1195" "SC0001" "SC_09-28-2004_ 1163" "SC 1143" "SC_04-29-2010_ 1249" "SC0011" "SC0014" "SC0016" "SC_06-21-2004_ 1163" "SC_02-23-2006_ 1191" "SC_02-23-2006_ 1190" "SCCOM013" "SC_04-06-2011_ 1275" "SC_04-06-2011_ 1276" "SC_04-06-2011_ 1277" "SC_04-06-2011_ 1278" "SC_04-06-2011_ 1274" "SC_04-07-2011_ 1279" "SC_05-04-2011_ 1281" "SC_11-06-2005_ 1183" "SC_05-13-2007_ 1220" "SC0105" "SC_09-06-2010_ 1257" "SC0018" "SC 1149" "SC 1142" "SC 1155" "SC 1157" "SCCOM020" "SC_02-28-2008_ 1228" "SC1500" "SC_02-01-2007_ 1210" "SC_04-11-2011_ 1275" "SC_04-11-2011_ 1274" "SC_09-06-2010_ 1258" "SC_05-03-2010_ 1255" "SC_03-06-2007_ 1214" "UserID-Non-Executable element contains an Executable element" "SC 1160_1" "E3700230-B324-11d4-B5E4-00D0B7BECC40" "SC_02-15-2007_ 1202" "SC 1140" "SC 1147" "SC 1161" "SC_10-19-2004_ 1167" "SC1001" "SC0013" "SC_12-01-2005_ 1189" "SC_03-12-2007_ 1215" "SC_07-02-2006_ 1196" "UserID-Service Port with operation(s) in interface requires dynamic memory allocation" "SC_08-02-2005_ 1176" "SC_07-31-2005_ 1177" "SC_07-28-2005_ 1171" "SC_11-20-2005_ 1187" "SC_07-28-2005_ 1174" "SC_07-14-2005_ 1170" "SC_10-31-2005_ 1180" "SC_07-14-2005_ 1169" "SC_07-28-2005_ 1175" "SC_07-28-2005_ 1176" "SOTC004" "SOTC001" "SOTC006" "SOTC003" "SC_11-22-2005_ 1187" "SC0003" "SC_08-28-2007_ 1225" "SC0503" "SC151520" "SC_02-14-2007_ 1211" "SC_06-20-2007_ 1222" "SC_11-18-2007_ 1226" "SC_08-24-2009_ 1237" "SC0504" "SC_05-09-2011_ 1282" "SC_12-28-2008_ 1232" "SC_03-08-2009_ 1235" "SC_12-28-2008_ 1231" "SC_02-22-2009_ 1234" "SC_10-24-2010_ 1271" "SC_08-22-2005_ 1177" "SC_06-01-2005_ 1168" "SC_11-13-2005_ 1184" "SC 1151" "SCAssocRole1" "SCClassiferRole1" "SCMessage1" "SC9323" "SC9322" "SC9326" "SC9327" "SC_09-08-2005_ 1178" "SC_12-28-2008_ 1230" "SC0015" "SC_02-05-2009_ 1233" "SC 1146" "SC 1145" "RIC004" "SC_03-14-2006_ 1190" ;
+			- ScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- InitialInstances = { IRPYRawContainer 
+				- size = 0;
+			}
+			- _root = { IFolder 
+				- _id = GUID d14836be-7fcf-4295-b536-9200b24ae26c;
+				- _myState = 8192;
+				- _name = "Animate";
+				- m_path = "";
+				- Elements = { IRPYRawContainer 
+					- size = 0;
+				}
+				- Files = { IRPYRawContainer 
+					- size = 0;
+				}
+			}
+			- weakCGTime = 5.10.2012::19:0:1;
+			- strongCGTime = 5.6.2012::0:10:47;
+			- AnimScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- m_allInAnimScope = 1;
+			- m_generateUsecases = 0;
+		}
+	}
+	- VariationPoints = { IRPYRawContainer 
+		- size = 0;
+	}
+	- SelectedVariants = { IRPYRawContainer 
+		- size = 0;
+	}
+	- weakCGTime = 5.10.2012::19:11:8;
+	- strongCGTime = 5.10.2012::19:11:8;
+}
+

@@ -1,0 +1,45 @@
+I-Logix-RPY-Archive version 8.6.0 C 4012249
+{ ISubsystem 
+	- _ownerHandle = { IHandle 
+		- _m2Class = "ISubsystem";
+		- _filename = "DesignSynthesisPkg.sbs";
+		- _subsystem = "";
+		- _class = "";
+		- _name = "DesignSynthesisPkg";
+		- _id = GUID 1e033ad7-3220-469b-9334-1f56eae8d2f6;
+	}
+	- _id = GUID eb39a9e3-8ba2-40c6-ace2-2b8f437ee0f9;
+	- _myState = 8192;
+	- _name = "ArchitecturalAnalysisPkg";
+	- _lastID = 1;
+	- Declaratives = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ ISubsystem 
+			- fileName = "TradeStudyAnalysisPkg";
+			- _id = GUID 6ac5d4f3-16df-4e18-b2fe-508a6c083871;
+		}
+	}
+	- weakCGTime = 5.12.2012::2:9:27;
+	- strongCGTime = 5.12.2012::1:40:51;
+	- _defaultComposite = GUID 0863d1f7-a504-43d1-9a35-a1505b147e03;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IClass 
+			- _id = GUID 0863d1f7-a504-43d1-9a35-a1505b147e03;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- weakCGTime = 1.1.1970::4:0:0;
+			- strongCGTime = 1.1.1970::4:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 1.1.1970::4:0:0;
+}
+

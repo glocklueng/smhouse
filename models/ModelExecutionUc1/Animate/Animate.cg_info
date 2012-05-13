@@ -1,0 +1,373 @@
+I-Logix-RPY-Archive version 8.6.0 * 4012249
+
+- m_fileModifyTime = { IRPYRawContainer 
+	- size = 113;
+	- value = "ModelExecutionUc1\\Animate\\ActorPkg.c" 5.11.2012::17:33:59
+	"ModelExecutionUc1\\Animate\\ActorPkg.h" 5.11.2012::17:33:58
+	"ModelExecutionUc1\\Animate\\Admin.c" 5.10.2012::19:6:12
+	"ModelExecutionUc1\\Animate\\Admin.h" 5.10.2012::19:6:11
+	"ModelExecutionUc1\\Animate\\Driver.c" 5.10.2012::22:39:48
+	"ModelExecutionUc1\\Animate\\Driver.h" 5.10.2012::22:39:47
+	"ModelExecutionUc1\\Animate\\InterfacesPkg.c" 5.11.2012::17:33:59
+	"ModelExecutionUc1\\Animate\\InterfacesPkg.h" 5.11.2012::17:33:59
+	"ModelExecutionUc1\\Animate\\Scanner.c" 5.11.2012::17:33:59
+	"ModelExecutionUc1\\Animate\\Scanner.h" 5.11.2012::17:33:59
+	"ModelExecutionUc1\\Animate\\Sensors.c" 5.11.2012::17:53:28
+	"ModelExecutionUc1\\Animate\\Sensors.h" 5.11.2012::17:33:59
+	"ModelExecutionUc1\\Animate\\TypesPkg.c" 5.12.2012::0:41:31
+	"ModelExecutionUc1\\Animate\\TypesPkg.h" 5.12.2012::0:41:30
+	"ModelExecutionUc1\\Animate\\Uc1ArmingLoggerExecutionScopePkg.c" 5.11.2012::17:33:59
+	"ModelExecutionUc1\\Animate\\Uc1ArmingLoggerExecutionScopePkg.h" 5.11.2012::17:33:59
+	"ModelExecutionUc1\\Animate\\Uc1ArmingLoggerPkg.c" 5.11.2012::19:14:16
+	"ModelExecutionUc1\\Animate\\Uc1ArmingLoggerPkg.h" 5.11.2012::19:14:16
+	"ModelExecutionUc1\\Animate\\Uc1_InterfacesPkg.c" 5.10.2012::19:6:12
+	"ModelExecutionUc1\\Animate\\Uc1_InterfacesPkg.h" 5.11.2012::17:33:59
+	"ModelExecutionUc1\\Animate\\Uc2DataLoggingAndIntrusionDetectionExecutionScopePkg.c" 5.10.2012::19:6:12
+	"ModelExecutionUc1\\Animate\\Uc2DataLoggingAndIntrusionDetectionExecutionScopePkg.h" 5.10.2012::19:6:11
+	"ModelExecutionUc1\\Animate\\Uc2DataLoggingAndIntrusionDetectionPkg.c" 5.10.2012::19:6:12
+	"ModelExecutionUc1\\Animate\\Uc2DataLoggingAndIntrusionDetectionPkg.h" 5.10.2012::19:6:12
+	"ModelExecutionUc1\\Animate\\Uc2_InterfacesPkg.c" 5.10.2012::19:6:12
+	"ModelExecutionUc1\\Animate\\Uc2_InterfacesPkg.h" 5.10.2012::19:6:11
+	"ModelExecutionUc1\\Animate\\Uc_Uc1ArmingLogger.c" 5.12.2012::1:35:34
+	"ModelExecutionUc1\\Animate\\Uc_Uc1ArmingLogger.h" 5.12.2012::0:41:31
+	"ModelExecutionUc1\\Animate\\Uc_Uc2DataLoggingAndIntrusionDetection.c" 5.10.2012::19:6:13
+	"ModelExecutionUc1\\Animate\\Uc_Uc2DataLoggingAndIntrusionDetection.h" 5.10.2012::19:6:12
+	"ModelExecutionUc1\\Animate\\iAdmin_Uc_Uc1ArmingLogger.c" 5.10.2012::19:6:12
+	"ModelExecutionUc1\\Animate\\iAdmin_Uc_Uc1ArmingLogger.h" 5.10.2012::19:6:11
+	"ModelExecutionUc1\\Animate\\iDriver_Uc_Uc1ArmingLogger.c" 5.10.2012::19:6:12
+	"ModelExecutionUc1\\Animate\\iDriver_Uc_Uc1ArmingLogger.h" 5.10.2012::19:6:11
+	"ModelExecutionUc1\\Animate\\iDriver_Uc_Uc2DataLoggingAndIntrusionDetection.c" 5.10.2012::19:6:12
+	"ModelExecutionUc1\\Animate\\iDriver_Uc_Uc2DataLoggingAndIntrusionDetection.h" 5.10.2012::19:6:11
+	"ModelExecutionUc1\\Animate\\iScanner_Uc_Uc1ArmingLogger.c" 5.10.2012::19:6:12
+	"ModelExecutionUc1\\Animate\\iScanner_Uc_Uc1ArmingLogger.h" 5.10.2012::19:6:11
+	"ModelExecutionUc1\\Animate\\iScanner_Uc_Uc2DataLoggingAndIntrusionDetection.c" 5.10.2012::19:6:12
+	"ModelExecutionUc1\\Animate\\iScanner_Uc_Uc2DataLoggingAndIntrusionDetection.h" 5.10.2012::19:6:11
+	"ModelExecutionUc1\\Animate\\iSensors_Uc_Uc1ArmingLogger.c" 5.10.2012::19:6:12
+	"ModelExecutionUc1\\Animate\\iSensors_Uc_Uc1ArmingLogger.h" 5.10.2012::19:6:11
+	"ModelExecutionUc1\\Animate\\iSensors_Uc_Uc2DataLoggingAndIntrusionDetection.c" 5.10.2012::19:6:12
+	"ModelExecutionUc1\\Animate\\iSensors_Uc_Uc2DataLoggingAndIntrusionDetection.h" 5.10.2012::19:6:11
+	"ModelExecutionUc1\\Animate\\iUc_Uc1ArmingLogger_Scanner.c" 5.10.2012::19:6:12
+	"ModelExecutionUc1\\Animate\\iUc_Uc1ArmingLogger_Scanner.h" 5.10.2012::19:6:11
+	"ModelExecutionUc1\\Animate\\iUc_Uc1ArmingLogger_Sensors.c" 5.10.2012::19:6:12
+	"ModelExecutionUc1\\Animate\\iUc_Uc1ArmingLogger_Sensors.h" 5.10.2012::19:6:11
+	"ModelExecutionUc1\\Animate\\iUc_Uc2DataLoggingAndIntrusionDetection_Scanner.c" 5.10.2012::19:6:12
+	"ModelExecutionUc1\\Animate\\iUc_Uc2DataLoggingAndIntrusionDetection_Scanner.h" 5.10.2012::19:6:11
+	"ModelExecutionUc1\\Animate\\iUc_Uc2DataLoggingAndIntrusionDetection_Sensors.c" 5.10.2012::19:6:12
+	"ModelExecutionUc1\\Animate\\iUc_Uc2DataLoggingAndIntrusionDetection_Sensors.h" 5.10.2012::19:6:11
+	"ModelExecution\\Animate\\ActorPkg.c" 5.10.2012::16:3:11
+	"ModelExecution\\Animate\\ActorPkg.h" 5.10.2012::16:3:10
+	"ModelExecution\\Animate\\Admin.c" 5.10.2012::16:3:11
+	"ModelExecution\\Animate\\Admin.h" 5.10.2012::16:3:10
+	"ModelExecution\\Animate\\Driver.c" 5.10.2012::16:3:11
+	"ModelExecution\\Animate\\Driver.h" 5.10.2012::16:3:10
+	"ModelExecution\\Animate\\Freight Forwarder.c" 5.5.2012::11:17:55
+	"ModelExecution\\Animate\\Freight Forwarder.h" 5.5.2012::11:17:55
+	"ModelExecution\\Animate\\InterfacesPkg.c" 5.10.2012::17:51:36
+	"ModelExecution\\Animate\\InterfacesPkg.h" 5.10.2012::17:51:35
+	"ModelExecution\\Animate\\Scanner.c" 5.10.2012::16:3:11
+	"ModelExecution\\Animate\\Scanner.h" 5.10.2012::16:3:10
+	"ModelExecution\\Animate\\Sensors.c" 5.10.2012::17:45:6
+	"ModelExecution\\Animate\\Sensors.h" 5.10.2012::17:45:6
+	"ModelExecution\\Animate\\Uc1ArmingLoggerExecutionScopePkg.c" 5.10.2012::16:3:11
+	"ModelExecution\\Animate\\Uc1ArmingLoggerExecutionScopePkg.h" 5.10.2012::16:3:10
+	"ModelExecution\\Animate\\Uc1ArmingLoggerPkg.c" 5.10.2012::18:22:36
+	"ModelExecution\\Animate\\Uc1ArmingLoggerPkg.h" 5.10.2012::18:22:35
+	"ModelExecution\\Animate\\Uc1_InterfacesPkg.c" 5.7.2012::11:52:23
+	"ModelExecution\\Animate\\Uc1_InterfacesPkg.h" 5.7.2012::11:52:22
+	"ModelExecution\\Animate\\Uc2DataLoggingAndIntrusionDetectionExecutionScopePkg.c" 5.10.2012::16:3:11
+	"ModelExecution\\Animate\\Uc2DataLoggingAndIntrusionDetectionExecutionScopePkg.h" 5.10.2012::16:3:10
+	"ModelExecution\\Animate\\Uc2DataLoggingAndIntrusionDetectionPkg.c" 5.10.2012::18:56:46
+	"ModelExecution\\Animate\\Uc2DataLoggingAndIntrusionDetectionPkg.h" 5.10.2012::18:56:46
+	"ModelExecution\\Animate\\Uc2_InterfacesPkg.c" 5.10.2012::17:51:36
+	"ModelExecution\\Animate\\Uc2_InterfacesPkg.h" 5.10.2012::17:51:35
+	"ModelExecution\\Animate\\Uc_Uc1ArmingLogger.c" 5.10.2012::18:22:17
+	"ModelExecution\\Animate\\Uc_Uc1ArmingLogger.h" 5.10.2012::18:20:33
+	"ModelExecution\\Animate\\Uc_Uc2DataLoggingAndIntrusionDetection.c" 5.10.2012::18:44:34
+	"ModelExecution\\Animate\\Uc_Uc2DataLoggingAndIntrusionDetection.h" 5.10.2012::18:40:3
+	"ModelExecution\\Animate\\UseCaseDiagramsPkg.c" 5.5.2012::11:17:55
+	"ModelExecution\\Animate\\UseCaseDiagramsPkg.h" 5.5.2012::11:17:55
+	"ModelExecution\\Animate\\iAdmin_Uc_Uc1ArmingLogger.c" 5.10.2012::16:3:11
+	"ModelExecution\\Animate\\iAdmin_Uc_Uc1ArmingLogger.h" 5.10.2012::16:3:10
+	"ModelExecution\\Animate\\iDriver_Uc_Uc1ArmingLogger.c" 5.10.2012::16:3:11
+	"ModelExecution\\Animate\\iDriver_Uc_Uc1ArmingLogger.h" 5.10.2012::16:3:10
+	"ModelExecution\\Animate\\iDriver_Uc_Uc2DataLoggingAndIntrusionDetection.c" 5.10.2012::17:51:36
+	"ModelExecution\\Animate\\iDriver_Uc_Uc2DataLoggingAndIntrusionDetection.h" 5.10.2012::17:51:35
+	"ModelExecution\\Animate\\iFreight Forwarder_Uc_Uc1ArmingLogger.c" 5.5.2012::11:17:55
+	"ModelExecution\\Animate\\iFreight Forwarder_Uc_Uc1ArmingLogger.h" 5.5.2012::11:17:55
+	"ModelExecution\\Animate\\iScanner_Uc_Uc1ArmingLogger.c" 5.10.2012::16:3:11
+	"ModelExecution\\Animate\\iScanner_Uc_Uc1ArmingLogger.h" 5.10.2012::16:3:10
+	"ModelExecution\\Animate\\iScanner_Uc_Uc2DataLoggingAndIntrusionDetection.c" 5.10.2012::17:51:36
+	"ModelExecution\\Animate\\iScanner_Uc_Uc2DataLoggingAndIntrusionDetection.h" 5.10.2012::17:51:35
+	"ModelExecution\\Animate\\iSensors_Uc_Uc1ArmingLogger.c" 5.10.2012::16:3:11
+	"ModelExecution\\Animate\\iSensors_Uc_Uc1ArmingLogger.h" 5.10.2012::16:3:10
+	"ModelExecution\\Animate\\iSensors_Uc_Uc2DataLoggingAndIntrusionDetection.c" 5.10.2012::17:51:36
+	"ModelExecution\\Animate\\iSensors_Uc_Uc2DataLoggingAndIntrusionDetection.h" 5.10.2012::17:51:35
+	"ModelExecution\\Animate\\iUc_Uc1ArmingLogger_Scanner.c" 5.10.2012::16:3:11
+	"ModelExecution\\Animate\\iUc_Uc1ArmingLogger_Scanner.h" 5.10.2012::16:3:10
+	"ModelExecution\\Animate\\iUc_Uc1ArmingLogger_Sensors.c" 5.10.2012::16:3:11
+	"ModelExecution\\Animate\\iUc_Uc1ArmingLogger_Sensors.h" 5.10.2012::16:3:10
+	"ModelExecution\\Animate\\iUc_Uc2DataLoggingAndIntrusionDetection_Scanner.c" 5.10.2012::17:51:36
+	"ModelExecution\\Animate\\iUc_Uc2DataLoggingAndIntrusionDetection_Scanner.h" 5.10.2012::17:51:35
+	"ModelExecution\\Animate\\iUc_Uc2DataLoggingAndIntrusionDetection_Sensors.c" 5.10.2012::17:51:36
+	"ModelExecution\\Animate\\iUc_Uc2DataLoggingAndIntrusionDetection_Sensors.h" 5.10.2012::17:51:35
+	"ModelExecution\\Animate\\itsDriver.c" 5.9.2012::19:3:56
+	"ModelExecution\\Animate\\itsDriver.h" 5.9.2012::19:3:56
+	"ModelExecution\\Animate\\part_0.c" 5.9.2012::19:3:0
+	"ModelExecution\\Animate\\part_0.h" 5.9.2012::19:3:0
+	"c:\\users\\1\\desktop\\diplom\\conlog\\modelexecution\\animate\\Uc_Uc1ArmingLogger.h" 5.5.2012::18:5:36
+	
+}
+- size = 28;
+- hElement = { IHandle 
+	- _m2Class = "ICodeGenConfigInfo";
+	- _filename = "ModelExecutionUc1.cmp";
+	- _subsystem = "";
+	- _class = "";
+	- _name = "ModelExecutionUc1\\Animate";
+	- _id = GUID 32af0b78-f21c-4d4d-b480-5cf5055b428d;
+}
+- genTime = 5.12.2012::1:35:34;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "Uc2DataLoggingAndIntrusionDetectionPkg.sbs";
+	- _subsystem = "FunctionalAnalysisPkg::Uc2DataLoggingAndIntrusionDetectionPkg";
+	- _class = "";
+	- _name = "Uc_Uc2DataLoggingAndIntrusionDetection";
+	- _id = GUID 1f1cbda9-b63f-4e7e-98f7-45f5bf50c6f9;
+}
+- genTime = 5.10.2012::19:6:13;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "Uc1_InterfacesPkg.sbs";
+	- _subsystem = "InterfacesPkg::Uc1_InterfacesPkg";
+	- _class = "";
+	- _name = "iSensors_Uc_Uc1ArmingLogger";
+	- _id = GUID faf7406b-3833-44ad-977d-3d7506165366;
+}
+- genTime = 5.12.2012::1:35:34;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "Uc1_InterfacesPkg.sbs";
+	- _subsystem = "InterfacesPkg::Uc1_InterfacesPkg";
+	- _class = "";
+	- _name = "iScanner_Uc_Uc1ArmingLogger";
+	- _id = GUID af8d76c3-405d-4104-a91c-71a0b330aec8;
+}
+- genTime = 5.12.2012::1:35:34;
+- hElement = { IHandle 
+	- _m2Class = "ISubsystem";
+	- _filename = "ActorPkg.sbs";
+	- _subsystem = "";
+	- _class = "";
+	- _name = "ActorPkg";
+	- _id = GUID 121fda32-adaa-4a8c-881a-2daff8161336;
+}
+- genTime = 5.12.2012::1:35:34;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "Uc2_InterfacesPkg.sbs";
+	- _subsystem = "InterfacesPkg::Uc2_InterfacesPkg";
+	- _class = "";
+	- _name = "iScanner_Uc_Uc2DataLoggingAndIntrusionDetection";
+	- _id = GUID 67e90d20-308f-444c-93e7-a5efaf42a323;
+}
+- genTime = 5.10.2012::19:9:41;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "Uc1_InterfacesPkg.sbs";
+	- _subsystem = "InterfacesPkg::Uc1_InterfacesPkg";
+	- _class = "";
+	- _name = "iDriver_Uc_Uc1ArmingLogger";
+	- _id = GUID 2009c11d-35f3-46a7-9c29-94cf5dc38f8b;
+}
+- genTime = 5.12.2012::1:35:34;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "Uc2_InterfacesPkg.sbs";
+	- _subsystem = "InterfacesPkg::Uc2_InterfacesPkg";
+	- _class = "";
+	- _name = "iUc_Uc2DataLoggingAndIntrusionDetection_Sensors";
+	- _id = GUID 874bdfbc-ec93-4291-af48-3f5e609a3353;
+}
+- genTime = 5.10.2012::19:9:41;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "Uc2_InterfacesPkg.sbs";
+	- _subsystem = "InterfacesPkg::Uc2_InterfacesPkg";
+	- _class = "";
+	- _name = "iDriver_Uc_Uc2DataLoggingAndIntrusionDetection";
+	- _id = GUID 06a3b322-40f1-4bd5-af5d-b99ec001ee7b;
+}
+- genTime = 5.10.2012::19:9:41;
+- hElement = { IHandle 
+	- _m2Class = "ISubsystem";
+	- _filename = "InterfacesPkg.sbs";
+	- _subsystem = "";
+	- _class = "";
+	- _name = "InterfacesPkg";
+	- _id = GUID 9e985f4f-d319-4919-bdac-f32ea101a61d;
+}
+- genTime = 5.12.2012::1:35:34;
+- hElement = { IHandle 
+	- _m2Class = "ISubsystem";
+	- _filename = "Uc1_InterfacesPkg.sbs";
+	- _subsystem = "InterfacesPkg";
+	- _class = "";
+	- _name = "Uc1_InterfacesPkg";
+	- _id = GUID e4697786-3bec-4173-a39b-d0f6d25e36d2;
+}
+- genTime = 5.12.2012::1:35:34;
+- hElement = { IHandle 
+	- _m2Class = "IActor";
+	- _filename = "ActorPkg.sbs";
+	- _subsystem = "ActorPkg";
+	- _class = "";
+	- _name = "Driver";
+	- _id = GUID ce5b228c-7f4d-4934-9d5a-1210ca3c83b6;
+}
+- genTime = 5.12.2012::1:35:34;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "Uc1_InterfacesPkg.sbs";
+	- _subsystem = "InterfacesPkg::Uc1_InterfacesPkg";
+	- _class = "";
+	- _name = "iUc_Uc1ArmingLogger_Scanner";
+	- _id = GUID a9f1f697-9eb6-43a5-86ae-93110853a944;
+}
+- genTime = 5.12.2012::1:35:34;
+- hElement = { IHandle 
+	- _m2Class = "IActor";
+	- _filename = "ActorPkg.sbs";
+	- _subsystem = "ActorPkg";
+	- _class = "";
+	- _name = "Admin";
+	- _id = GUID 43280ac1-d86e-4ec9-af96-d93074934dd9;
+}
+- genTime = 5.12.2012::1:35:34;
+- hElement = { IHandle 
+	- _m2Class = "ISubsystem";
+	- _filename = "Uc2DataLoggingAndIntrusionDetectionExecutionScopePkg.sbs";
+	- _subsystem = "FunctionalAnalysisPkg::Uc2DataLoggingAndIntrusionDetectionPkg";
+	- _class = "";
+	- _name = "Uc2DataLoggingAndIntrusionDetectionExecutionScopePkg";
+	- _id = GUID a02319eb-c9de-4781-b8f8-904060be8b72;
+}
+- genTime = 5.10.2012::19:6:13;
+- hElement = { IHandle 
+	- _m2Class = "ISubsystem";
+	- _filename = "Uc1ArmingLoggerPkg.sbs";
+	- _subsystem = "FunctionalAnalysisPkg";
+	- _class = "";
+	- _name = "Uc1ArmingLoggerPkg";
+	- _id = GUID 60be33a7-7a09-4597-9abc-caad2ae67578;
+}
+- genTime = 5.12.2012::1:35:34;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "Uc1ArmingLoggerPkg.sbs";
+	- _subsystem = "FunctionalAnalysisPkg::Uc1ArmingLoggerPkg";
+	- _class = "";
+	- _name = "Uc_Uc1ArmingLogger";
+	- _id = GUID 118f3f1b-a6fb-4c78-a835-41119179e200;
+}
+- genTime = 5.12.2012::1:35:34;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "Uc1_InterfacesPkg.sbs";
+	- _subsystem = "InterfacesPkg::Uc1_InterfacesPkg";
+	- _class = "";
+	- _name = "iUc_Uc1ArmingLogger_Sensors";
+	- _id = GUID 92397cbe-baac-4350-b51c-b763d2352eb4;
+}
+- genTime = 5.12.2012::1:35:34;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "Uc2_InterfacesPkg.sbs";
+	- _subsystem = "InterfacesPkg::Uc2_InterfacesPkg";
+	- _class = "";
+	- _name = "iSensors_Uc_Uc2DataLoggingAndIntrusionDetection";
+	- _id = GUID 23f038ed-05f0-4f74-8f41-a7c95c9cd24b;
+}
+- genTime = 5.10.2012::19:9:41;
+- hElement = { IHandle 
+	- _m2Class = "ISubsystem";
+	- _filename = "Uc1ArmingLoggerExecutionScopePkg.sbs";
+	- _subsystem = "FunctionalAnalysisPkg::Uc1ArmingLoggerPkg";
+	- _class = "";
+	- _name = "Uc1ArmingLoggerExecutionScopePkg";
+	- _id = GUID 6395ce02-412f-44d2-ab58-c12352fe92f2;
+}
+- genTime = 5.12.2012::1:35:34;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "Uc1_InterfacesPkg.sbs";
+	- _subsystem = "InterfacesPkg::Uc1_InterfacesPkg";
+	- _class = "";
+	- _name = "iAdmin_Uc_Uc1ArmingLogger";
+	- _id = GUID a4b100f0-ee0a-4cb0-8c6e-5f5b82a7a92a;
+}
+- genTime = 5.12.2012::1:35:34;
+- hElement = { IHandle 
+	- _m2Class = "ISubsystem";
+	- _filename = "Uc2DataLoggingAndIntrusionDetectionPkg.sbs";
+	- _subsystem = "FunctionalAnalysisPkg";
+	- _class = "";
+	- _name = "Uc2DataLoggingAndIntrusionDetectionPkg";
+	- _id = GUID fdd03621-2b39-41ad-991c-32806549d712;
+}
+- genTime = 5.10.2012::19:6:13;
+- hElement = { IHandle 
+	- _m2Class = "ISubsystem";
+	- _filename = "Uc2_InterfacesPkg.sbs";
+	- _subsystem = "InterfacesPkg";
+	- _class = "";
+	- _name = "Uc2_InterfacesPkg";
+	- _id = GUID d3b53ff1-cb0d-437c-b560-3a0d9d8be107;
+}
+- genTime = 5.10.2012::19:9:41;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "Uc2_InterfacesPkg.sbs";
+	- _subsystem = "InterfacesPkg::Uc2_InterfacesPkg";
+	- _class = "";
+	- _name = "iUc_Uc2DataLoggingAndIntrusionDetection_Scanner";
+	- _id = GUID ae7f339b-626c-46cb-b588-753b7ef6150c;
+}
+- genTime = 5.10.2012::19:9:41;
+- hElement = { IHandle 
+	- _m2Class = "IActor";
+	- _filename = "ActorPkg.sbs";
+	- _subsystem = "ActorPkg";
+	- _class = "";
+	- _name = "Sensors";
+	- _id = GUID 891e500b-1774-4295-a6c6-99e1286322d7;
+}
+- genTime = 5.12.2012::1:35:34;
+- hElement = { IHandle 
+	- _m2Class = "ISubsystem";
+	- _filename = "TypesPkg.sbs";
+	- _subsystem = "";
+	- _class = "";
+	- _name = "TypesPkg";
+	- _id = GUID b8ab0134-15fb-4969-84c8-9192784cf1f1;
+}
+- genTime = 5.12.2012::1:35:34;
+- hElement = { IHandle 
+	- _m2Class = "IActor";
+	- _filename = "ActorPkg.sbs";
+	- _subsystem = "ActorPkg";
+	- _class = "";
+	- _name = "Scanner";
+	- _id = GUID 7f8b8668-0495-4bf6-b7a2-2fcad6535dde;
+}
+- genTime = 5.12.2012::1:35:34;
+- hElement = { IHandle 
+	- _m2Class = "ISubsystem";
+	- _filename = "UseCaseDiagramsPkg.sbs";
+	- _subsystem = "RequirementsAnalysisPkg";
+	- _class = "";
+	- _name = "UseCaseDiagramsPkg";
+	- _id = GUID 06223405-08b5-4a88-a8cb-353696ed3fd1;
+}
+- genTime = 5.10.2012::18:56:47;
+

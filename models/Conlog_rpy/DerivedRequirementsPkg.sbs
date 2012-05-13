@@ -1,0 +1,161 @@
+I-Logix-RPY-Archive version 8.6.0 C 4012249
+{ ISubsystem 
+	- _ownerHandle = { IHandle 
+		- _m2Class = "ISubsystem";
+		- _filename = "RequirementsPkg.sbs";
+		- _subsystem = "RequirementsAnalysisPkg";
+		- _class = "";
+		- _name = "RequirementsPkg";
+		- _id = GUID b5e9a598-24fa-44d6-95fc-b3d9cb80c4c5;
+	}
+	- _id = GUID 62d244da-83a5-44c4-9c77-873997d3fdb9;
+	- _myState = 8192;
+	- _name = "DerivedRequirementsPkg";
+	- Annotations = { IRPYRawContainer 
+		- size = 3;
+		- value = 
+		{ IRequirement 
+			- _id = GUID be40920d-ffa3-491d-9ae4-f6ab3e280d0c;
+			- _name = "Power Up Button";
+			- Dependencies = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IDependency 
+					- _id = GUID dcf7dd5c-0e3a-43ba-8295-e8281fcf3051;
+					- _myState = 2048;
+					- _name = "Low Power Modes";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+							- _subsystem = "SysML::Requirements";
+							- _class = "";
+							- _name = "satisfy";
+							- _id = GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18;
+						}
+					}
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IRequirement";
+						- _filename = "SystemRequirementsPkg.sbs";
+						- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirementsPkg";
+						- _class = "";
+						- _name = "Low Power Modes";
+						- _id = GUID eb204624-92b3-4b73-896b-94a2694b88f8;
+					}
+				}
+			}
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID ab1df926-eb1d-407f-952e-af9c183c7d21;
+				}
+			}
+			- _body = "{\\rtf1\\ansi\\ansicpg1251\\deff0\\deflang1049{\\fonttbl{\\f0\\fnil\\fcharset204{\\*\\fname Arial;}Arial CYR;}}
+\\viewkind4\\uc1\\pard\\f0\\fs20\\'c4\\'ee\\'eb\\'e6\\'ed\\'e0 \\'e1\\'fb\\'f2\\'fc \\'ef\\'f0\\'e5\\'e4\\'f3\\'f1\\'ec\\'ee\\'f2\\'f0\\'e5\\'ed\\'e0 \\'ee\\'f2\\'e4\\'e5\\'eb\\'fc\\'ed\\'e0\\'ff \\'ea\\'ed\\'ee\\'ef\\'ea\\'e0 \\'e4\\'eb\\'ff \\'e2\\'fb\\'e2\\'ee\\'e4\\'e0 \\'f3\\'f1\\'f2\\'f0\\'ee\\'e9\\'f1\\'f2\\'e2\\'e0 \\'e8\\'e7 \\'f1\\'ef\\'ff\\'f9\\'e5\\'e3\\'ee \\'f0\\'e5\\'e6\\'e8\\'ec\\'e0.\\par
+}
+";
+			- reqID = "PW1-2-1";
+		}
+		{ IRequirement 
+			- _id = GUID b999bd42-b9b8-4102-8562-e6bea3c9ce5b;
+			- _name = "Exit Timeout Indicator";
+			- Dependencies = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IDependency 
+					- _id = GUID 64f2df98-6102-43b5-8502-6e97d8076f15;
+					- _myState = 2048;
+					- _name = "Exit Time";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+							- _subsystem = "SysML::Requirements";
+							- _class = "";
+							- _name = "satisfy";
+							- _id = GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18;
+						}
+					}
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IRequirement";
+						- _filename = "SystemRequirementsPkg.sbs";
+						- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirementsPkg";
+						- _class = "";
+						- _name = "Exit Time";
+						- _id = GUID 1814a4e3-0af0-49ee-9fe6-73883625345e;
+					}
+				}
+			}
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID ab1df926-eb1d-407f-952e-af9c183c7d21;
+				}
+			}
+			- _body = "{\\rtf1\\ansi\\ansicpg1251\\deff0\\deflang1049{\\fonttbl{\\f0\\fnil\\fcharset204{\\*\\fname Arial;}Arial CYR;}}
+\\viewkind4\\uc1\\pard\\f0\\fs20\\'c4\\'ee\\'eb\\'e6\\'ed\\'e0 \\'e1\\'fb\\'f2\\'fc \\'ef\\'f0\\'e5\\'e4\\'f3\\'f1\\'ec\\'ee\\'f2\\'f0\\'e5\\'ed\\'e0 \\'e2\\'e8\\'e7\\'f3\\'e0\\'eb\\'fc\\'ed\\'e0\\'ff \\'e8\\'ed\\'e4\\'e8\\'ea\\'e0\\'f6\\'e8\\'ff \\'ee \\'f2\\'ee\\'ec, \\'f7\\'f2\\'ee \\'f3\\'f1\\'f2\\'f0\\'ee\\'e9\\'f1\\'f2\\'e2\\'ee \\'ed\\'e0\\'f5\\'ee\\'e4\\'e8\\'f2\\'f1\\'ff \\'e2 \\'f0\\'e5\\'e6\\'e8\\'ec\\'e5 \\'f2\\'e0\\'e9\\'ec\\'e0\\'f3\\'f2\\'e0.\\par
+}
+";
+		}
+		{ IRequirement 
+			- _id = GUID 4fc6ad71-63b1-4bcb-8d18-95b5a61da970;
+			- _name = "Idle Indicator";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID ab1df926-eb1d-407f-952e-af9c183c7d21;
+				}
+			}
+			- _body = "{\\rtf1\\ansi\\ansicpg1251\\deff0\\deflang1049{\\fonttbl{\\f0\\fnil\\fcharset204{\\*\\fname Arial;}Arial CYR;}}
+\\viewkind4\\uc1\\pard\\f0\\fs20\\'c4\\'ee\\'eb\\'e6\\'ed\\'e0 \\'e1\\'fb\\'f2\\'fc \\'ef\\'f0\\'e5\\'e4\\'f3\\'f1\\'ec\\'ee\\'f2\\'f0\\'e5\\'ed\\'e0 \\'e2\\'e8\\'e7\\'f3\\'e0\\'eb\\'fc\\'ed\\'e0\\'ff \\'e8\\'ed\\'e4\\'e8\\'ea\\'e0\\'f6\\'e8\\'ff \\'ee \\'f2\\'e0\\'ec, \\'f7\\'f2\\'ee \\'f3\\'f1\\'f2\\'f0\\'ee\\'e9\\'f1\\'f2\\'e2\\'ee \\'ed\\'e0\\'f5\\'ee\\'e4\\'e8\\'f2\\'f1\\'ff \\'e2 \\'f0\\'e5\\'e6\\'e8\\'ec\\'e5 \\'ee\\'e6\\'e8\\'e4\\'e0\\'ed\\'e8\\'ff.\\par
+}
+";
+		}
+	}
+	- _lastID = 6;
+	- Declaratives = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IStereotype 
+			- _id = GUID ab1df926-eb1d-407f-952e-af9c183c7d21;
+			- _myState = 8192;
+			- _name = "DerivedRequirement";
+			- _m2Classes = { IRPYRawContainer 
+				- size = 1;
+				- value = "Requirement"; 
+			}
+		}
+	}
+	- weakCGTime = 5.7.2012::23:0:49;
+	- strongCGTime = 5.7.2012::22:58:50;
+	- _defaultComposite = GUID 011f7d61-8149-459e-bd1a-90dade3a5f54;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IClass 
+			- _id = GUID 011f7d61-8149-459e-bd1a-90dade3a5f54;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- weakCGTime = 1.1.1970::4:0:0;
+			- strongCGTime = 1.1.1970::4:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 1.1.1970::4:0:0;
+}
+

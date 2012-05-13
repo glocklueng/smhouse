@@ -1,0 +1,91 @@
+I-Logix-RPY-Archive version 8.6.0 C 4012249
+{ ISubsystem 
+	- _ownerHandle = { IHandle 
+		- _m2Class = "ISubsystem";
+		- _filename = "Uc1ArmingLoggerPkg.sbs";
+		- _subsystem = "FunctionalAnalysisPkg";
+		- _class = "";
+		- _name = "Uc1ArmingLoggerPkg";
+		- _id = GUID 60be33a7-7a09-4597-9abc-caad2ae67578;
+	}
+	- _id = GUID 6395ce02-412f-44d2-ab58-c12352fe92f2;
+	- _myState = 8192;
+	- _name = "Uc1ArmingDisarmingLoggerExecutionScopePkg";
+	- weakCGTime = 5.3.2012::21:26:18;
+	- strongCGTime = 5.3.2012::21:26:18;
+	- _defaultComposite = GUID cbe799df-2272-47ca-aeff-20f06f1a9738;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IClass 
+			- _id = GUID cbe799df-2272-47ca-aeff-20f06f1a9738;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- weakCGTime = 5.3.2012::21:26:18;
+			- strongCGTime = 1.1.1970::4:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 3;
+				- value = 
+				{ IPart 
+					- _id = GUID 8241a05e-08a4-4fd3-9558-076b5ef350cf;
+					- _myState = 8192;
+					- _name = "itsUc_Uc1ArmingLogger";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _filename = "Uc1ArmingLoggerPkg.sbs";
+						- _subsystem = "FunctionalAnalysisPkg::Uc1ArmingLoggerPkg";
+						- _class = "";
+						- _name = "Uc_Uc1ArmingLogger";
+						- _id = GUID 118f3f1b-a6fb-4c78-a835-41119179e200;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+				}
+				{ IPart 
+					- _id = GUID 8f110074-0504-4087-b3a5-8a0b0cae73b8;
+					- _myState = 8192;
+					- _name = "itsFreightForwarder";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _filename = "ActorPkg.sbs";
+						- _subsystem = "ActorPkg";
+						- _class = "";
+						- _name = "Freight Forwarder";
+						- _id = GUID ce5b228c-7f4d-4934-9d5a-1210ca3c83b6;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+				}
+				{ IPart 
+					- _id = GUID 6c5e73e9-87a7-444e-b16c-12837b6c3e1b;
+					- _myState = 8192;
+					- _name = "itsAdmin";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _filename = "ActorPkg.sbs";
+						- _subsystem = "ActorPkg";
+						- _class = "";
+						- _name = "Admin";
+						- _id = GUID 43280ac1-d86e-4ec9-af96-d93074934dd9;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 5.1.2012::20:28:52;
+}
+

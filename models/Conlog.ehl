@@ -1,0 +1,8 @@
+[Op Calls]
+[Events]
+itsSensors->GEN(reqTurnOnSensorsPower())`Sensors
+itsUc_Uc1ArmingLogger->GEN(evSensorsPoweredUp())`Uc_Uc1ArmingLogger
+itsDriver->GEN(ApplyElectronicKey())`Driver
+itsDriver->GEN(TurnOnDevice())`Driver
+itsAdmin->GEN(TurnOnDevice())`Admin
+[Breakpoints]

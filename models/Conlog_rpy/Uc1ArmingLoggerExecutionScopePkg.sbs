@@ -1,0 +1,314 @@
+I-Logix-RPY-Archive version 8.6.0 C 4012249
+{ ISubsystem 
+	- _ownerHandle = { IHandle 
+		- _m2Class = "ISubsystem";
+		- _filename = "Uc1ArmingLoggerPkg.sbs";
+		- _subsystem = "FunctionalAnalysisPkg";
+		- _class = "";
+		- _name = "Uc1ArmingLoggerPkg";
+		- _id = GUID 60be33a7-7a09-4597-9abc-caad2ae67578;
+	}
+	- _id = GUID 6395ce02-412f-44d2-ab58-c12352fe92f2;
+	- _myState = 8192;
+	- _name = "Uc1ArmingLoggerExecutionScopePkg";
+	- weakCGTime = 5.10.2012::19:36:25;
+	- strongCGTime = 5.10.2012::19:36:25;
+	- _defaultComposite = GUID cbe799df-2272-47ca-aeff-20f06f1a9738;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IClass 
+			- _id = GUID cbe799df-2272-47ca-aeff-20f06f1a9738;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _lastID = 12;
+			- weakCGTime = 5.10.2012::19:36:25;
+			- strongCGTime = 5.6.2012::19:31:40;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 5;
+				- value = 
+				{ IPart 
+					- _id = GUID 607a2f2d-6279-41e9-bacf-754d5dabce97;
+					- _myState = 8192;
+					- _name = "itsUc_Uc1ArmingLogger";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _filename = "Uc1ArmingLoggerPkg.sbs";
+						- _subsystem = "FunctionalAnalysisPkg::Uc1ArmingLoggerPkg";
+						- _class = "";
+						- _name = "Uc_Uc1ArmingLogger";
+						- _id = GUID 118f3f1b-a6fb-4c78-a835-41119179e200;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+				}
+				{ IPart 
+					- _id = GUID ff01410d-0260-44ff-85a2-6bac790d859d;
+					- _myState = 8192;
+					- _name = "itsDriver";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _filename = "ActorPkg.sbs";
+						- _subsystem = "ActorPkg";
+						- _class = "";
+						- _name = "Driver";
+						- _id = GUID ce5b228c-7f4d-4934-9d5a-1210ca3c83b6;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+				}
+				{ IPart 
+					- _id = GUID 5f3b06b2-3f12-4c74-aa2c-32c91fb8eae8;
+					- _myState = 8192;
+					- _name = "itsAdmin";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _filename = "ActorPkg.sbs";
+						- _subsystem = "ActorPkg";
+						- _class = "";
+						- _name = "Admin";
+						- _id = GUID 43280ac1-d86e-4ec9-af96-d93074934dd9;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+				}
+				{ IPart 
+					- _id = GUID e82c53bc-4e03-4fc7-b1fe-63690e87954e;
+					- _myState = 8192;
+					- _name = "itsSensors";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _filename = "ActorPkg.sbs";
+						- _subsystem = "ActorPkg";
+						- _class = "";
+						- _name = "Sensors";
+						- _id = GUID 891e500b-1774-4295-a6c6-99e1286322d7;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+				}
+				{ IPart 
+					- _id = GUID e9ed6b3a-86c5-4e46-869b-1aa20d937dce;
+					- _myState = 8192;
+					- _name = "itsScanner";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _filename = "ActorPkg.sbs";
+						- _subsystem = "ActorPkg";
+						- _class = "";
+						- _name = "Scanner";
+						- _id = GUID 7f8b8668-0495-4bf6-b7a2-2fcad6535dde;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+				}
+			}
+			- ObjectLinks = { IRPYRawContainer 
+				- size = 4;
+				- value = 
+				{ IObjectLink 
+					- _id = GUID 55aa6116-e8c7-4762-8fed-85a30a110f1d;
+					- _myState = 2048;
+					- _name = "connector_6";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+							- _subsystem = "SysML::Blocks";
+							- _class = "";
+							- _name = "connector";
+							- _id = GUID af0f57c0-ca41-456e-87cc-be8bf10a1c55;
+						}
+					}
+					- _toLink = { IHandle 
+						- _m2Class = "IPart";
+						- _id = GUID 607a2f2d-6279-41e9-bacf-754d5dabce97;
+					}
+					- _fromLink = { IHandle 
+						- _m2Class = "IPart";
+						- _id = GUID 5f3b06b2-3f12-4c74-aa2c-32c91fb8eae8;
+					}
+					- _instantiates = { IMetaLinkHandle 
+						- _m2Class = "";
+					}
+					- _end1Multiplicity = "1";
+					- _end2Multiplicity = "1";
+					- _toPort = { IHandle 
+						- _m2Class = "IPort";
+						- _filename = "Uc1ArmingLoggerPkg.sbs";
+						- _subsystem = "FunctionalAnalysisPkg::Uc1ArmingLoggerPkg";
+						- _class = "Uc_Uc1ArmingLogger";
+						- _name = "pAdmin";
+						- _id = GUID 6494f6b6-e352-45b5-a15a-e918bfbdafbd;
+					}
+					- _fromPort = { IHandle 
+						- _m2Class = "IPort";
+						- _filename = "ActorPkg.sbs";
+						- _subsystem = "ActorPkg";
+						- _class = "Admin";
+						- _name = "pUc_Uc1ArmingLogger";
+						- _id = GUID 7d6c6dac-7dc2-4adc-afd5-b9dc1c17f82f;
+					}
+				}
+				{ IObjectLink 
+					- _id = GUID 85abb41d-690b-4b06-9242-43364e61928e;
+					- _myState = 2048;
+					- _name = "connector_9";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+							- _subsystem = "SysML::Blocks";
+							- _class = "";
+							- _name = "connector";
+							- _id = GUID af0f57c0-ca41-456e-87cc-be8bf10a1c55;
+						}
+					}
+					- _toLink = { IHandle 
+						- _m2Class = "IPart";
+						- _id = GUID 607a2f2d-6279-41e9-bacf-754d5dabce97;
+					}
+					- _fromLink = { IHandle 
+						- _m2Class = "IPart";
+						- _id = GUID ff01410d-0260-44ff-85a2-6bac790d859d;
+					}
+					- _instantiates = { IMetaLinkHandle 
+						- _m2Class = "";
+					}
+					- _end1Multiplicity = "1";
+					- _end2Multiplicity = "1";
+					- _toPort = { IHandle 
+						- _m2Class = "IPort";
+						- _filename = "Uc1ArmingLoggerPkg.sbs";
+						- _subsystem = "FunctionalAnalysisPkg::Uc1ArmingLoggerPkg";
+						- _class = "Uc_Uc1ArmingLogger";
+						- _name = "pDriver";
+						- _id = GUID 07f7445c-34a8-48f8-9405-3807305119eb;
+					}
+					- _fromPort = { IHandle 
+						- _m2Class = "IPort";
+						- _filename = "ActorPkg.sbs";
+						- _subsystem = "ActorPkg";
+						- _class = "Driver";
+						- _name = "pUc_Uc1ArmingLogger";
+						- _id = GUID df45c730-9020-4ce3-b953-96346851ce9c;
+					}
+				}
+				{ IObjectLink 
+					- _id = GUID cda079b8-5523-43b9-b60c-62fa9ddcb440;
+					- _myState = 2048;
+					- _name = "connector_10";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+							- _subsystem = "SysML::Blocks";
+							- _class = "";
+							- _name = "connector";
+							- _id = GUID af0f57c0-ca41-456e-87cc-be8bf10a1c55;
+						}
+					}
+					- _toLink = { IHandle 
+						- _m2Class = "IPart";
+						- _id = GUID e9ed6b3a-86c5-4e46-869b-1aa20d937dce;
+					}
+					- _fromLink = { IHandle 
+						- _m2Class = "IPart";
+						- _id = GUID 607a2f2d-6279-41e9-bacf-754d5dabce97;
+					}
+					- _instantiates = { IMetaLinkHandle 
+						- _m2Class = "";
+					}
+					- _end1Multiplicity = "1";
+					- _end2Multiplicity = "1";
+					- _toPort = { IHandle 
+						- _m2Class = "IPort";
+						- _filename = "ActorPkg.sbs";
+						- _subsystem = "ActorPkg";
+						- _class = "Scanner";
+						- _name = "pUc_Uc1ArmingLogger";
+						- _id = GUID 3529074c-6148-47be-8909-f86a8c852629;
+					}
+					- _fromPort = { IHandle 
+						- _m2Class = "IPort";
+						- _filename = "Uc1ArmingLoggerPkg.sbs";
+						- _subsystem = "FunctionalAnalysisPkg::Uc1ArmingLoggerPkg";
+						- _class = "Uc_Uc1ArmingLogger";
+						- _name = "pScanner";
+						- _id = GUID 72a20030-02bf-46c8-aab9-a765b60abc35;
+					}
+				}
+				{ IObjectLink 
+					- _id = GUID 36f11eff-eb6b-456e-9fe6-9540fc9950e6;
+					- _myState = 2048;
+					- _name = "connector_11";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+							- _subsystem = "SysML::Blocks";
+							- _class = "";
+							- _name = "connector";
+							- _id = GUID af0f57c0-ca41-456e-87cc-be8bf10a1c55;
+						}
+					}
+					- _toLink = { IHandle 
+						- _m2Class = "IPart";
+						- _id = GUID e82c53bc-4e03-4fc7-b1fe-63690e87954e;
+					}
+					- _fromLink = { IHandle 
+						- _m2Class = "IPart";
+						- _id = GUID 607a2f2d-6279-41e9-bacf-754d5dabce97;
+					}
+					- _instantiates = { IMetaLinkHandle 
+						- _m2Class = "";
+					}
+					- _end1Multiplicity = "1";
+					- _end2Multiplicity = "1";
+					- _toPort = { IHandle 
+						- _m2Class = "IPort";
+						- _filename = "ActorPkg.sbs";
+						- _subsystem = "ActorPkg";
+						- _class = "Sensors";
+						- _name = "pUc_Uc1ArmingLogger";
+						- _id = GUID f54525ec-c6ef-408f-a3ef-53eabeec9a1c;
+					}
+					- _fromPort = { IHandle 
+						- _m2Class = "IPort";
+						- _filename = "Uc1ArmingLoggerPkg.sbs";
+						- _subsystem = "FunctionalAnalysisPkg::Uc1ArmingLoggerPkg";
+						- _class = "Uc_Uc1ArmingLogger";
+						- _name = "pSensors";
+						- _id = GUID dfe4692d-9006-444b-aa6e-525cc100abf9;
+					}
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 5.6.2012::19:27:13;
+}
+

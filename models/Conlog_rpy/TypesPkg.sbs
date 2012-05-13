@@ -1,0 +1,89 @@
+I-Logix-RPY-Archive version 8.6.0 C 4012249
+{ ISubsystem 
+	- _id = GUID b8ab0134-15fb-4969-84c8-9192784cf1f1;
+	- _myState = 8192;
+	- _name = "TypesPkg";
+	- _lastID = 1;
+	- weakCGTime = 5.12.2012::0:40:57;
+	- strongCGTime = 1.2.1990::0:0:0;
+	- _defaultComposite = GUID b46c6bcd-f527-42d5-ab3c-d6fc78e85709;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IClass 
+			- _id = GUID b46c6bcd-f527-42d5-ab3c-d6fc78e85709;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- weakCGTime = 5.7.2012::20:25:19;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- Types = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IType 
+			- _id = GUID 34fb3395-dc91-44e6-b40c-b8c633270720;
+			- _myState = 8192;
+			- _properties = { IPropertyContainer 
+				- Subjects = { IRPYRawContainer 
+					- size = 1;
+					- value = 
+					{ IPropertySubject 
+						- _Name = "C_CG";
+						- Metaclasses = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertyMetaclass 
+								- _Name = "Type";
+								- Properties = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IProperty 
+										- _Name = "EnumerationAsTypedef";
+										- _Value = "True";
+										- _Type = Bool;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			- _name = "_Mode";
+			- _lastID = 1;
+			- Literals = { IRPYRawContainer 
+				- size = 4;
+				- value = 
+				{ IEnumerationLiteral 
+					- _id = GUID 8c298693-5af6-4902-aa5c-9028f13b1705;
+					- _name = "IDLE";
+					- _value = "";
+				}
+				{ IEnumerationLiteral 
+					- _id = GUID e621dad7-f7ac-4c0f-9c1a-eb88e88a48b7;
+					- _name = "ACQUISITION";
+					- _value = "";
+				}
+				{ IEnumerationLiteral 
+					- _id = GUID ade7a727-80dd-45a8-9364-ee4bc664a1e6;
+					- _name = "SLEEP";
+					- _value = "";
+				}
+				{ IEnumerationLiteral 
+					- _id = GUID 656bcc0b-7d2b-43a7-9083-5cf0e68f04c9;
+					- _name = "EXIT_TIMEOUT";
+					- _value = "";
+				}
+			}
+			- _kind = Enumeration;
+		}
+	}
+	- _configurationRelatedTime = 5.7.2012::20:25:19;
+}
+
